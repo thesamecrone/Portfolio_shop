@@ -766,7 +766,7 @@ h5 {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .dropdown-content a {
@@ -778,6 +778,7 @@ h5 {
 }
 
 .dropdown-content a:hover {
+    border-radius: 10px 10px 10px 10px;
     background-color: #f1f1f1;
 }
 
@@ -787,6 +788,7 @@ h5 {
 
 .dropdown:hover .sort-button {
     background-color: #ababab9d;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .visible {
