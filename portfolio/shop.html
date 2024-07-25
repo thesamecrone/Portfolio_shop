@@ -150,17 +150,17 @@
                 <div class="pagination">
                     Showing 1–9 of 9 results
                     <div class="dropdown">
-                        <button class="sort-button" id="sort-button">Sort Options
+                        <button class="sort-button" id="sort-button">Default sorting
                             <img src="shop/image.png" alt="pic">
                         </button>
                         <div class="dropdown-content" id="dropdown-content">
-                            <a href="#" id="sort-asc">Sort by Price Asc</a>
-                            <a href="#" id="sort-desc">Sort by Price Desc</a>
+                            <a href="#" id="sort-asc">Price: Low to High</a>
+                            <a href="#" id="sort-desc">Price: High to Low</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="cards-container">
+                <div class="cards-container" id="cards-container">
                     <div class="card1">
                         <img src="shop/9846d7967af7adf2bdbb2b63ab471238.jpg" alt="Product image" class="product">
                         <h5>Apples</h5>
@@ -430,11 +430,13 @@
         function sortProductsAsc() {
             const sortedProducts = products.slice().sort((a, b) => a.price - b.price);
             displayProducts(sortedProducts);
+            document.getElementById('sort-button').innerHTML = 'Sort by Price Asc <img src="shop/image.png" alt="pic">';
         }
 
         function sortProductsDesc() {
             const sortedProducts = products.slice().sort((a, b) => b.price - a.price);
             displayProducts(sortedProducts);
+            document.getElementById('sort-button').innerHTML = 'Sort by Price Desc <img src="shop/image.png" alt="pic">';
         }
 
         document.getElementById('sort-asc').addEventListener('click', (event) => {
@@ -446,7 +448,6 @@
             event.preventDefault();
             sortProductsDesc();
         });
-
 
 
     </script>
