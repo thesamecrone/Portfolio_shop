@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(9074fb425f18decfdb303b3da1e337f5.png);
+    background-image: url(../images/9074fb425f18decfdb303b3da1e337f5.png);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -739,7 +739,7 @@ span {
     width: 270px;
     height: 430px;
     border-radius: 10px;
-    background-image: url(4fa7c9b73acb6e290974af89a2e6ee02.png);
+    background-image: url(../images/4fa7c9b73acb6e290974af89a2e6ee02.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -752,7 +752,7 @@ span {
     width: 270px;
     height: 430px;
     border-radius: 10px;
-    background-image: url(cf457813a031831dedc2504e82343ee4.png);
+    background-image: url(../images/cf457813a031831dedc2504e82343ee4.png);
     background-position: center;
     background-size: cover;
     margin-left: 30px;
@@ -766,7 +766,7 @@ span {
     width: 270px;
     height: 430px;
     border-radius: 10px;
-    background-image: url(958b13fb0907f3eac38ba5ce4f172799.png);
+    background-image: url(../images/958b13fb0907f3eac38ba5ce4f172799.png);
     background-position: center;
     background-size: cover;
     margin-left: 30px;
@@ -780,7 +780,7 @@ span {
     width: 270px;
     height: 430px;
     border-radius: 10px;
-    background-image: url(ebf914f107f29f1bcbb5e4913b1734d4.png);
+    background-image: url(../images/ebf914f107f29f1bcbb5e4913b1734d4.png);
     background-position: center;
     background-size: cover;
     margin-left: 30px;
@@ -875,7 +875,7 @@ span {
 }
 
 .page4 {
-    background-image: url(1d480a43b8d523b9ec5a686d97d78cca.png);
+    background-image: url(../images/1d480a43b8d523b9ec5a686d97d78cca.png);
     height: 691px;
     width: 100%;
 }
@@ -928,7 +928,7 @@ span {
 }
 
 .bigcard {
-    background-image: url(ce66048f81681e9a2e4ad29544f43cca.png);
+    background-image: url(../images/ce66048f81681e9a2e4ad29544f43cca.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -952,7 +952,7 @@ span {
 }
 
 .bigcard2 {
-    background-image: url(e0ecad4d9a60640233239921f7a02f78.png);
+    background-image: url(../images/e0ecad4d9a60640233239921f7a02f78.png);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -965,7 +965,7 @@ span {
 }
 
 .bigcard3 {
-    background-image: url(5b295c847cf1eae34e65bed90726a827.png);
+    background-image: url(../images/5b295c847cf1eae34e65bed90726a827.png);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -978,7 +978,7 @@ span {
 }
 
 .bigcard4 {
-    background-image: url(3ea20939dec663e5654f07b9cd6cab93.png);
+    background-image: url(../images/3ea20939dec663e5654f07b9cd6cab93.png);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -1101,7 +1101,7 @@ span {
 }
 
 .backg {
-    background-image: url(3669521f4d19c62759724648d35d313c.png);
+    background-image: url(../images/3669521f4d19c62759724648d35d313c.png);
     background-size: cover;
     width: 620px;
     height: 670px;
@@ -1208,7 +1208,7 @@ span {
 }
 
 .back {
-    background-image: url(e8c92e8df267c9e4faa3897cbb33790b.png);
+    background-image: url(../images/e8c92e8df267c9e4faa3897cbb33790b.png);
     background-size: cover;
     width: 369.98px;
     height: 299px;
@@ -1217,7 +1217,7 @@ span {
 }
 
 .back1 {
-    background-image: url(fa2241c429fe25e4a5676a68e572c4a0.png);
+    background-image: url(../images/fa2241c429fe25e4a5676a68e572c4a0.png);
     background-size: cover;
     width: 369.98px;
     height: 299px;
@@ -1226,7 +1226,7 @@ span {
 }
 
 .back2 {
-    background-image: url(aef651440bc81e1fb157f15f8eb5507a.png);
+    background-image: url(../images/aef651440bc81e1fb157f15f8eb5507a.png);
     background-size: cover;
     width: 369.98px;
     height: 299px;

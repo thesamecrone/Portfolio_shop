@@ -275,36 +275,40 @@ nav {
     font-weight: 600;
     line-height: 36px;
     align-items: center;
-  }
-  
-  .menu-label {
-    cursor: pointer; /* change cursor to a hand pointer on hover */
-  }
-  
-  .menu1 .submenu {
+}
+
+.menu-label {
+    cursor: pointer;
+    /* change cursor to a hand pointer on hover */
+}
+
+.menu1 .submenu {
     position: absolute;
-    top: 100%; /* position the submenu below the menu label */
+    top: 100%;
+    /* position the submenu below the menu label */
     left: 0;
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     width: 255px;
     border-radius: 10px;
-    display: none; /* hide the submenu by default */
-  }
-  
-  .menu1:hover .submenu {
-    display: block; /* show the submenu when the menu label is hovered */
-  }
-  
-  .menu1 .submenu li {
+    display: none;
+    /* hide the submenu by default */
+}
+
+.menu1:hover .submenu {
+    display: block;
+    /* show the submenu when the menu label is hovered */
+}
+
+.menu1 .submenu li {
     list-style: none;
     margin-bottom: 10px;
-  }
-  
-  .menu1 .submenu a {
+}
+
+.menu1 .submenu a {
     text-decoration: none;
     color: #666;
-  }
+}
 
 
 .menu {
@@ -430,7 +434,7 @@ input[type="text"] {
 }
 
 .inner {
-    background-image: url(about/4839d72a50605c839cb58d5d2f3549ce.png);
+    background-image: url(../images/about/4839d72a50605c839cb58d5d2f3549ce.png);
     background-size: cover;
     height: 326.25px;
     display: flex;
@@ -461,457 +465,105 @@ h1 {
     line-height: 60px;
 }
 
-.contain {
-    display: flex;
-    justify-content: center;
+.grid {
     margin: 0 auto;
-    margin-top: 120px;
-    margin-bottom: 150px;
 }
 
-.rectangle1 {
-    width: 270px;
-    height: 320px;
-    border-radius: 10px;
-    background-image: url(services/6443c5a3c9d4198438b7ab2910dd3239.png);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.grid-container {
+    display: grid;
+    width: 1170px;
+    height: 1170px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-.rectangle2 {
-    width: 270px;
-    height: 320px;
+.grid-item1,
+.grid-item2,
+.grid-item3,
+.grid-item4,
+.grid-item5,
+.grid-item6 {
+    padding: 91px;
+    width: 370px;
+    height: 570px;
     border-radius: 10px;
-    background-image: url(services/2050ecf7274548616ca9244c087e583b.png);
-    background-position: center;
-    background-size: cover;
-    margin-left: 30px;
-    position: relative;
+    color: #FFF;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.rectangle3 {
-    width: 270px;
-    height: 320px;
-    border-radius: 10px;
-    background-image: url(services/1f93f3b08d0a19b7a8125118c27b5501.png);
-    background-position: center;
-    background-size: cover;
-    margin-left: 30px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.rectangle4 {
-    width: 270px;
-    height: 320px;
-    border-radius: 10px;
-    background-image: url(services/0c70e2bf5e5784407b7e83726dd7e7e1.png);
-    background-position: center;
-    background-size: cover;
-    margin-left: 30px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.square {
-    width: 220px;
-    height: 128px;
-    border-radius: 10px;
-    background: #FFF;
-    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.07);
-    bottom: 0;
-    margin-top: 270px;
-    position: relative;
-    display: flex;
-    justify-content: center;
     align-items: flex-end;
-}
-
-.iconn {
-    border-radius: 7px;
-    background: #C5CE38;
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    top: -50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 45px;
-    padding: 10px;
-}
-
-.headd {
-    color: #1F1E17;
-    font-family: "Manrope", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 28px;
-    width: 112.6px;
-    height: 56px;
-    text-align: center;
-    margin-bottom: 10px;
-    z-index: 1;
-    margin-left: 210px;
-}
-
-.button3 {
-    border-radius: 10px;
-    background: #4BAF47;
-    width: 109.31px;
-    height: 46px;
-    padding: 14px 22.952px 5px 24px;
-    font-family: "Manrope", sans-serif;
+    padding-bottom: 50px;
     color: #FFF;
-    text-decoration: none;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 700;
-    text-align: center;
-    white-space: nowrap;
-    z-index: 2;
-    margin-bottom: 58px;
-    margin-right: 107px;
-}
-
-.framing {
-    display: flex;
-    justify-content: space-evenly;
-    background: #F8F7F0;
-    height: 234.5px;
-    align-items: center;
-}
-
-.log {
-    width: 190px;
-    height: 74.5px;
-    opacity: 0.4;
-}
-
-.page4 {
-    background-image: url(1d480a43b8d523b9ec5a686d97d78cca.png);
-    height: 646px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-}
-
-.agricult {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1200px;
-}
-
-.headings {
-    color: #FFF;
-    font-family: "Manrope", sans-serif;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 84px;
-    width: 486.69px;
-    height: 336px;
-    margin-right: 60px;
-}
-
-.play {
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    background: #FFF;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.plays {
-    margin-left: 7px;
-}
-
-.package {
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-}
-
-.pack {
-    color: #EEC044;
-    font-family: "Covered By Your Grace";
+    font-family: Manrope;
     font-size: 30px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    align-self: flex-start;
-    margin-top: 50px;
-    margin-left: 80px;
-}
-
-.photos {
-    display: flex;
-    width: 1200px;
-    padding-right: 0.05px;
-    justify-content: center;
-    margin: 0 auto;
-    gap: 20px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-.page5 {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.photos2 {
-    display: flex;
-    width: 1200px;
-    justify-content: center;
-    gap: 20px;
-    margin: 0 auto;
-}
-
-.window {
-    background-color: #FFF;
-    border-radius: 10px 10px 0 0;
-}
-
-.photo1 {
-    background-image: url(services/a1be2789347e99bb18f390b088952ad8.png);
-    background-size: cover;
-    background-position: center;
-    width: 369.98px;
-    height: 288.98px;
-    border-radius: 0 0 10px 10px;
-}
-
-.photo2 {
-    background-image: url(services/51f25662e96c3ae7a7b91df1791e4da3.png);
-    background-size: cover;
-    background-position: center;
-    width: 369.98px;
-    height: 288.98px;
-    border-radius: 0 0 10px 10px;
-}
-
-.photo3 {
-    background-image: url(services/cb6af01ae5ff0a860d9bccca2d09f129.png);
-    background-size: cover;
-    background-position: center;
-    width: 369.98px;
-    height: 288.98px;
-    border-radius: 0 0 10px 10px;
-}
-
-.bold {
-    height: 70px;
-    width: 369.98px;
-    font-family: "Manrope", sans-serif;
-    font-size: 20px;
     font-weight: 800;
-    line-height: 28px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.food {
-    display: flex;
-    width: 1200px;
-    height: 629.38px;
-    justify-content: center;
-    margin-top: 120px;
-    margin-bottom: 50px;
-}
-
-.shape {
-    width: 430px;
-    height: 430px;
-    border-radius: 215px;
-    background: #F8F7F0;
-    z-index: 1;
-    position: absolute;
-    left: 40px;
-    bottom: 130px;
-}
-
-.old {
-    width: 500px;
-    height: 595px;
-    border-radius: 10px;
-    margin-right: 85px;
-    z-index: 2;
-}
-
-.elementor {
-    width: 600px;
-    height: 629.38px;
-}
-
-.yellow {
-    color: #EEC044;
-    font-family: "Covered By Your Grace";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 36px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    transition: transform 0.5s;
 }
 
-.healthy {
-    color: #1F1E17;
-    font-family: Manrope;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 57.6px;
-    margin-bottom: 31px;
+.grid-item1:hover {
+    transform: scale(1.1);
 }
 
-.random {
-    color: #878680;
-    font-family: Manrope;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-    margin-bottom: 32px;
+.grid-item2:hover {
+    transform: scale(1.1);
 }
 
-.sticks {
-    display: flex;
-    justify-content: center;
+.grid-item3:hover {
+    transform: scale(1.1);
 }
 
-.fuck {
-    width: 84px;
-    height: 85px;
+.grid-item4:hover {
+    transform: scale(1.1);
 }
 
-.thing {
-    color: #FFF;
-    text-align: center;
-    font-family: Manrope;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 25.2px;
-    margin-top: 30px;
+.grid-item5:hover {
+    transform: scale(1.1);
+}
+.grid-item6:hover {
+    transform: scale(1.1);
 }
 
-.green {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 170px;
-    height: 198.19px;
-    border-radius: 10px;
-    background: #4BAF47;
-    margin-right: 30px;
-    margin-bottom: 30px;
+.grid-item1 {
+    background-image: url(../images/services/d76033c14925222ba21b72e6c5d77821.png);
+    background-size: cover;
+    background-position: center;
 }
 
-.ochra {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 170px;
-    height: 198.19px;
-    border-radius: 10px;
-    background: #C5CE38;
-    margin-right: 30px;
-    margin-bottom: 30px;
+.grid-item2 {
+    background-image: url(../images/services/cf5405ca051c8b5504ef8e8e38683d87.png);
+    background-size: cover;
+    background-position: center;
 }
 
-.orange {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 170px;
-    height: 198.19px;
-    border-radius: 10px;
-    background: #EEC044;
-    margin-right: 30px;
-    margin-bottom: 30px;
+.grid-item3 {
+    background-image: url(../images/services/4e20c0fd46381dee647d6e6eda3498da.png);
+    background-size: cover;
+    background-position: center;
 }
 
-.frame {
-    height: 273px;
-    background: #4BAF47;
-    background-image: url(services/23139c9144b8afed0da6c93e16ec9c19.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.grid-item4 {
+    background-image: url(../images/services/15ae4894eb7f432fdc006bf5755d131c.png);
+    background-size: cover;
+    background-position: center;
 }
 
-.letters {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 810px;
-    height: 48px;
-    padding-right: 60.564px;
+.grid-item5 {
+    background-image: url(../images/services/ebecbcc9c987bc4b0450d15192e417e6.png);
+    background-size: cover;
+    background-position: center;
 }
 
-.agri {
-    color: #EEC044;
-    font-family: "Covered By Your Grace";
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 45px;
-}
-
-.white {
-    color: #FFF;
-    font-family: Manrope;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 48px;
-    letter-spacing: -3px;
-}
-
-.discover {
-    color: #FFF;
-    text-align: right;
-    font-family: Manrope;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    border-radius: 10px;
-    background: #EEC044;
-    display: flex;
-    width: 196.31px;
-    height: 60px;
-    padding: 15px 49.651px 15px 50px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 35px;
+.grid-item6 {
+    background-image: url(../images/services/dd52abc21926b95d26c2a09c3cee37f6.png);
+    background-size: cover;
+    background-position: center;
 }
 
 footer {

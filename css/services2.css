@@ -430,7 +430,7 @@ input[type="text"] {
 }
 
 .inner {
-    background-image: url(about/4839d72a50605c839cb58d5d2f3549ce.png);
+    background-image: url(../images/about/4839d72a50605c839cb58d5d2f3549ce.png);
     background-size: cover;
     height: 326.25px;
     display: flex;
@@ -504,7 +504,7 @@ h1 {
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    background-image: url(services/c89c7e6f0190ca2d58c9de3ce63de3b3.jpg);
+    background-image: url(../images/services/c89c7e6f0190ca2d58c9de3ce63de3b3.jpg);
 }
 
 .categ {
