@@ -468,6 +468,8 @@ h1 {
 .pages {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .first {
@@ -510,4 +512,34 @@ h1 {
     align-items: flex-start;
     border-radius: 10px;
     background: #EEC044;
+}
+
+.cursive {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: "Covered By Your Grace";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.descript {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.second {
+    width: 1170px;
+    height: 630px;
+    border-radius: 10px;
+}
+
+.mapp {
+    width: 500px;
+    height: 630px;
+    margin-top: 120px;
 }
