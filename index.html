@@ -1,62 +1,407 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hometasks</title>
-
+    <title>Our Shop</title>
+    <link rel="stylesheet" href="css/shop.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-
-    <link type="image/x-icon" href="images/above_over_pink_front_icon_261508.ico" rel="shortcut icon">
-    <link type="Image/x-icon" href="images/above_over_pink_front_icon_261508.ico" rel="icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-    <style>
-        body {
-            background-image: url(images/voda_pod_vodoj_glubina_197405_1920x1080.jpg);
-            background-size: cover;
-            }
-
-        h1 {
-            font-size: 40px;
-            font-family: 'Raleway';
-            color: #3a8982;
-            letter-spacing: 10px;
-            text-align: center;
-        }
-
-        .btn {
-            background-color: #00555e;
-        }
-
-        .track {
-            padding-top: 550px;
-            float: right;
-        }
-    </style>
-
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <div class="top">
+        <a class="head" href="#">
+            <img src="images/elements/logo.png" class="logo" alt="pic">
+        </a>
 
-    <h1>drowning station</h1>
-    
+        <div class="navbar">
+            <a class="nav" href="https://twitter.com/" target="_blank">
+                <img src="images/icons/Icon.png" class="icon" alt="pic">
+            </a>
+            <a class="nav" href="https://www.facebook.com/" target="_blank">
+                <img src="images/icons/Icon%20(1).png" class="icon" alt="pic">
+            </a>
+            <a class="nav" href="https://pinterest.com/" target="_blank">
+                <img src="images/icons/Icon%20(2).png" class="icon" alt="pic">
+            </a>
+            <a class="nav" href="https://www.instagram.com/" target="_blank">
+                <img src="images/icons/Icon%20(3).png" class="icon" alt="pic">
+            </a>
+        </div>
 
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Projects
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="portfolio/agriculture.html" target="_blank">Project Agriculture</a></li>
-        </ul>
-      </div>
+        <button id="scroll-to-top">&#9650;</button>
 
-    <div class="track">
-        <audio controls="controls" autoplay="autoplay">
-          <source src="https://cdn3.sefon.pro/prev/5Dj5bFL8Q-VyEOImEXEydw/1721880506/150/Drowning%20Pool%20-%20Told%20You%20So%20%28192kbps%29.mp3" type="audio/mp3"></a>»
-        </audio>
+        <div class="call" id="phone-icon" title="Please click to request a callback">
+            <img src="images/icons/Icon%20(4).png" class="phone" alt="pic">
+            <div class="callme">
+                <h3>Call anytime</h3>
+                <p class="number">+ 98 (000) - 9630</p>
+            </div>
+        </div>
+
+        <div id="callback-form" style="display: none;">
+            <h2>Get in touch with us!</h2>
+            <p class="callus">Please enter your name and phone number to schedule a callback.</p>
+            <form>
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="tel" id="phone-number" placeholder=" Your Phone Number">
+                <button type="submit" class="phoneme">Call me</button>
+                <button type="button" id="close-button">X</button>
+            </form>
+        </div>
+
+        <a href="mailto:ambed@agrios.com" class="mail">
+            <img src="images/icons/Icon%20(5).png" class="phone" alt="pic">
+            <div class="callme">
+                <h3>Send email</h3>
+                <p class="number">ambed@agrios.com</p>
+            </div>
+        </a>
+
+        <a class="location" href="https://maps.app.goo.gl/9ChPsKgcFPomBLhX7" target="_blank" title="Google Maps">
+            <img src="images/icons/Icon6.png" class="phone" alt="pic">
+            <div class="callme">
+                <h3>380 St Kilda Road</h3>
+                <p class="number">Melbourne, Australia</p>
+            </div>
+        </a>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <section class="page">
+        <nav>
+            <a href="html/agriculture.html" class="home" title="Main page">Home</a>
+
+            <a href="html/about.html" class="menuu" title="Learn more about us">About</a>
+
+            <div class="menu1">
+                <p class="menu-label">Services</p>
+                <img src="images/icons/Icon%20(6).png" class="arrow" alt="pic">
+                <ul class="submenu">
+                    <li><a href="html/services.html" class="menuu" title="Healthy Food for Good Growth">Services</a></li>
+                    <li><a href="html/services2.html" class="menuu" title="Categories">Agriculture Products</a></li>
+                </ul>
+            </div>
+
+            <a href="html/projects.html" class="menuu">Projects</a>
+
+            <a href="html/news.html" class="menuu">News</a>
+
+            <a href="index.html" class="menuu">Shop</a>
+
+            <a href="html/contact.html" class="menuu">Contact</a>
+        </nav>
+
+        <div class="find">
+            <img src="images/elements/Link%20-%20search.png" class="finder" id="search-icon">
+            <form id="search-form">
+                <input type="search" id="search-input" placeholder="Search...">
+            </form>
+            <img src="images/elements/header.png" id="cart-icon" class="basket">
+            <div id="cart-content" style="display: none;">
+                <p id="cart-message">Here is empty</p>
+            </div>
+            <div class="circle">0</div>
+        </div>
+    </section>
+
+    <div class="inner">
+        <div>
+            <a href="#" class="house">HOME / </a>
+            <a href="#" class="house">SHOP</a>
+        </div>
+        <h1>Our Shop</h1>
+    </div>
+
+    <section class="pages">
+        <div class="block1">
+            <form class="lookfor">
+                <input type="search" id="search-inputs" placeholder="Search products...">
+                <label for="search-inputs">
+                </label>
+            </form>
+
+            <div class="price-filter">
+                <p class="cost">Price</p>
+                <input type="range" id="price-range" min="20" max="100" value="20" oninput="updatePriceLabel()">
+                <label for="price-range"></label>
+                <div class="flexbox">
+                    <span id="price-label">20$</span>
+                    <button id="apply-button">Apply</button>
+                </div>
+            </div>
+
+            <div class="crisper2">
+                <p class="late2">Categories</p>
+                <a class="list" href="html/services2.html">Agriculture</a>
+                <a class="list" href="#">Farm</a>
+                <a class="list" href="#">Farming</a>
+                <a class="list" href="#">Fresh Vegetables</a>
+                <a class="list" href="#">Harvest</a>
+                <a class="list" href="#">Organic Food</a>
+            </div>
+        </div>
+
+        <div class="block2">
+            <div class="product-cards">
+                <img src="images/shop/image.png" alt="pic">
+                <div class="pagination">
+                    Showing 1–9 of 9 results
+                    <button class="sort-button" id="sort-button">Сортировка</button>
+                </div>
+
+                <div class="cards-container">
+                    <div class="card1">
+                        <img src="images/shop/9846d7967af7adf2bdbb2b63ab471238.jpg" alt="Product image" class="product">
+                        <h5>Apples</h5>
+                        <p class="dollar">$50.00</p>
+                    </div>
+
+                    <div class="card2">
+                        <img src="images/shop/1694e5132f9297a102f515bc5e5b74ec.jpg" alt="Product image" class="product">
+                        <h5>Bananas</h5>
+                        <p class="dollar">$20.00</p>
+                    </div>
+
+                    <div class="card3">
+                        <img src="images/shop/c66c04d407f153bebf6ee51520e309f9.jpg" alt="Product image" class="product">
+                        <h5>Carrot</h5>
+                        <p class="dollar">$50.00</p>
+                    </div>
+
+                    <div class="card4">
+                        <img src="images/shop/518232e6103dca3e15ea26ee403346b9.jpg" alt="Product image" class="product">
+                        <h5>Garlic</h5>
+                        <p class="dollar">$20.00</p>
+                    </div>
+
+                    <div class="card5">
+                        <img src="images/shop/145b0e8246f1f34fac6729e7fd52a07e.jpg" alt="Product image" class="product">
+                        <h5>Grapes</h5>
+                        <p class="dollar">$100.00</p>
+                    </div>
+
+                    <div class="card6">
+                        <img src="images/shop/55e89492860a4a6f89a0bd2b221630fe.jpg" alt="Product image" class="product">
+                        <h5>Lettuce</h5>
+                        <p class="dollar">$30.00</p>
+                    </div>
+
+                    <div class="card7">
+                        <img src="images/shop/bedd52a8d0504170b14939dd44a5f9e4.jpg" alt="Product image" class="product">
+                        <h5>Onions</h5>
+                        <p class="dollar">$20.00</p>
+                    </div>
+
+                    <div class="card8">
+                        <img src="images/shop/2bf68a89da7ff5d51056e1ae5dbbc7a6.jpg" alt="Product image" class="product">
+                        <h5>Potatos</h5>
+                        <p class="dollar">$30.00</p>
+                    </div>
+
+                    <div class="card9">
+                        <img src="images/shop/94c085d133bdc4eb40467681c7a0fca1.jpg" alt="Product image" class="product">
+                        <h5>Red Grapes</h5>
+                        <p class="dollar">$100.00</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="columns">
+            <div class="column1">
+                <a href="#"><img src="images/elements/Link%20-%20logo%20→%20logo@2x-white-1.webp.png" class="logo2" alt="pic"></a>
+                <p class="texting">There are many variations of passages
+                    of lorem ipsum available, but the
+                    majority suffered.</p>
+                <div class="navbar2">
+                    <a class="nav1" href="https://twitter.com/" target="_blank">
+                        <img src="images/icons/Icon%20(22).png" alt="pic">
+                    </a>
+                    <a class="nav1" href="https://www.facebook.com/" target="_blank">
+                        <img src="images/icons/Icon%20(23).png" alt="pic">
+                    </a>
+                    <a class="nav1" href="https://pinterest.com/" target="_blank">
+                        <img src="images/icons/Icon%20(24).png" alt="pic">
+                    </a>
+                    <a class="nav1" href="https://www.instagram.com/" target="_blank">
+                        <img src="images/icons/Icon%20(25).png" alt="pic">
+                    </a>
+                </div>
+            </div>
+            <div class="column2">
+                <p class="titles">Explore</p>
+                <img src="images/elements/span.elementor-divider-separator.png" alt="pic" class="line1">
+                <a href="html/about.html" class="combo">
+                    <img src="images/icons/Icon%20(26).png" alt="pic" class="mini">
+                    <p class="texting2">About</p>
+                </a>
+                <a href="html/services.html" class="combo">
+                    <img src="images/icons/Icon%20(26).png" alt="pic" class="mini">
+                    <p class="texting2">Services</p>
+                </a>
+                <a href="html/projects.html" class="combo">
+                    <img src="images/icons/Icon%20(26).png" alt="pic" class="mini">
+                    <p class="texting2">Our Projects</p>
+                </a>
+                <a href="html/about.html#they" class="combo">
+                    <img src="images/icons/Icon%20(26).png" alt="pic" class="mini">
+                    <p class="texting2">Meet the Farmers</p>
+                </a>
+                <a href="html/news.html" class="combo">
+                    <img src="images/icons/Icon%20(26).png" alt="pic" class="mini">
+                    <p class="texting2">Latest News</p>
+                </a>
+                <a href="html/contact.html" class="combo">
+                    <img src="images/icons/Icon%20(26).png" alt="pic" class="mini">
+                    <p class="texting2">Contact</p>
+                </a>
+            </div>
+            <div class="column3">
+                <p class="titles">News</p>
+                <img src="images/elements/span.elementor-divider-separator.png" alt="pic" class="line">
+                <div class="col">
+                    <p class="texty">Bringing Food Production
+                        Back To Cities</p>
+                    <p class="date2">July 5, 2022</p>
+                </div>
+                <div class="col">
+                    <p class="texty">The Future of Farming,
+                        Smart Irrigation Solutions</p>
+                    <p class="date2">July 5, 2022</p>
+                </div>
+            </div>
+            <div class="column4">
+                <p class="titles">Contact</p>
+                <img src="images/elements/span.elementor-divider-separator.png" alt="pic" class="line">
+                <div class="combo">
+                    <img src="images/icons/Icon%20(27).png" alt="pic" class="mini">
+                    <p class="texting2">666 888 0000</p>
+                </div>
+                <div class="combo">
+                    <img src="images/icons/Icon%20(28).png" alt="pic" class="mini">
+                    <p class="texting2">needhelp@company.com</p>
+                </div>
+                <div class="combo">
+                    <img src="images/icons/Icon%20(29).png" alt="pic" class="mini">
+                    <p class="texting2">80 broklyn golden street line
+                        New York, USA</p>
+                </div>
+
+                <div class="form-container">
+                    <form class="area">
+                        <input type="text" name="myInput" placeholder="Your Email Address" required>
+                        <button type="submit" class="areas">
+                            <img src="images/icons/Icon%20(15).png" alt="pic">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="foot">
+        <div class="footbox">
+            <div class="columnbox">
+                <p class="reserved">© All Copyright 2024 by shawonetc Themes</p>
+            </div>
+            <div class="columnbox2">
+                <p class="reserved">Terms of Use | Privacy Policy</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("search-icon").addEventListener("click", function () {
+            document.getElementById("search-input").focus();
+            document.getElementById("search-form").classList.toggle("show");
+        });
+
+        document.getElementById("cart-icon").addEventListener("click", function () {
+            var cartContent = document.getElementById("cart-content");
+            cartContent.style.display = (cartContent.style.display === "none") ? "block" : "none";
+        });
+
+        const phoneIcon = document.getElementById('phone-icon');
+        const callbackForm = document.getElementById('callback-form');
+        const closeButton = document.getElementById('close-button');
+
+        phoneIcon.addEventListener('click', () => {
+            callbackForm.style.display = 'block';
+        });
+
+        callbackForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const phoneNumber = document.getElementById('phone-number').value;
+        });
+
+        closeButton.addEventListener('click', () => {
+            callbackForm.style.display = 'none';
+        });
+
+        const scrollToTopButton = document.getElementById('scroll-to-top');
+
+        scrollToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+
+            scrollToTopButton.classList.add('animated');
+            setTimeout(() => {
+                scrollToTopButton.classList.remove('animated');
+            }, 500);
+        });
+
+        let priceLabel = document.getElementById('price-label');
+
+        function updatePriceLabel() {
+            const currentValue = document.getElementById('price-range').value;
+            document.getElementById('price-label').textContent = '$' + currentValue + ' - $100';
+        }
+
+        updatePriceLabel();
+
+        const productCards = document.querySelectorAll('.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9');
+        const applyButton = document.getElementById('apply-button');
+
+        productCards.forEach(card => {
+            card.classList.add('visible');
+        });
+
+        applyButton.addEventListener('click', () => {
+            const currentValue = parseInt(document.getElementById('price-range').value);
+            productCards.forEach(card => {
+                card.classList.remove('visible');
+                const price = parseFloat(card.querySelector('.dollar').textContent.replace('$', ''));
+                if (price >= currentValue && price <= 100) {
+                    card.classList.add('visible');
+                }
+            });
+        });
+
+        const products = [
+            { name: 'Apples', price: 50.00, image: 'https://i.ibb.co/LrLmpqB/9846d7967af7adf2bdbb2b63ab471238.jpg' },
+            { name: 'Bananas', price: 20.00, image: 'https://i.ibb.co/vY72Gr6/1694e5132f9297a102f515bc5e5b74ec.jpg' },
+            { name: 'Carrot', price: 50.00, image: 'https://i.ibb.co/xXfrJV1/c66c04d407f153bebf6ee51520e309f9.jpg' },
+            { name: 'Garlic', price: 20.00, image: 'https://i.ibb.co/qp9CZwZ/518232e6103dca3e15ea26ee403346b9.jpg' },
+            { name: 'Grapes', price: 100.00, image: 'https://i.ibb.co/N1vCNTN/145b0e8246f1f34fac6729e7fd52a07e.jpg' },
+            { name: 'Lettuce', price: 30.00, image: 'https://i.ibb.co/h9W12rM/55e89492860a4a6f89a0bd2b221630fe.jpg' },
+            { name: 'Onions', price: 20.00, image: 'https://i.ibb.co/CtQykXv/bedd52a8d0504170b14939dd44a5f9e4.jpg' },
+            { name: 'Potatos', price: 30.00, image: 'https://i.ibb.co/58HkY8n/2bf68a89da7ff5d51056e1ae5dbbc7a6.jpg' },
+            { name: 'Red Grapes', price: 100.00, image: 'https://i.ibb.co/Dt3H53G/94c085d133bdc4eb40467681c7a0fca1.jpg' }
+        ];
+
+        const cards = document.querySelectorAll('.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9');
+
+    </script>
 </body>
+
 </html>
