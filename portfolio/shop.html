@@ -430,13 +430,13 @@
         function sortProductsAsc() {
             const sortedProducts = products.slice().sort((a, b) => a.price - b.price);
             displayProducts(sortedProducts);
-            document.getElementById('sort-button').innerHTML = 'Sort by Price Asc <img src="shop/image.png" alt="pic">';
+            document.getElementById('sort-button').innerHTML = 'Price: Low to High <img src="shop/image.png" alt="pic">';
         }
 
         function sortProductsDesc() {
             const sortedProducts = products.slice().sort((a, b) => b.price - a.price);
             displayProducts(sortedProducts);
-            document.getElementById('sort-button').innerHTML = 'Sort by Price Desc <img src="shop/image.png" alt="pic">';
+            document.getElementById('sort-button').innerHTML = 'Price: High to Low <img src="shop/image.png" alt="pic">';
         }
 
         document.getElementById('sort-asc').addEventListener('click', (event) => {
