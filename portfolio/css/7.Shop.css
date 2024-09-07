@@ -204,7 +204,6 @@ h3 {
     font-style: normal;
     font-weight: 600;
     line-height: 20px;
-    /* 166.667% */
 }
 
 .number {
@@ -220,7 +219,6 @@ h3 {
     font-style: normal;
     font-weight: 700;
     line-height: 20px;
-    /* 142.857% */
 }
 
 .callme,
@@ -339,7 +337,7 @@ nav {
 
 input {
     color: #878680;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -442,7 +440,7 @@ input[type="text"] {
 }
 
 .inner {
-    background-image: url(about/4839d72a50605c839cb58d5d2f3549ce.png);
+    background-image: url(/portfolio/images/2.About/4839d72a50605c839cb58d5d2f3549ce.png);
     background-size: cover;
     height: 326.25px;
     display: flex;
@@ -454,7 +452,7 @@ input[type="text"] {
 .house {
     color: rgba(255, 255, 255, 0.70);
     text-align: center;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -466,7 +464,7 @@ input[type="text"] {
 h1 {
     color: #FFF;
     text-align: center;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 50px;
     font-style: normal;
     font-weight: 800;
@@ -496,7 +494,7 @@ h1 {
 
 #search-inputs {
     color: #FFF;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -508,7 +506,7 @@ h1 {
 
 .cost {
     color: #1F1E17;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
@@ -574,7 +572,7 @@ input[type="range"]::-moz-range-thumb {
 
 .price-filter span {
     color: #878680;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 12.3px;
     font-style: normal;
     font-weight: 500;
@@ -610,7 +608,7 @@ input[type="range"]::-moz-range-thumb {
 
 .list {
     color: #878680;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -619,7 +617,7 @@ input[type="range"]::-moz-range-thumb {
 
 .late2 {
     color: #1F1E17;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
@@ -643,7 +641,7 @@ input[type="range"]::-moz-range-thumb {
     align-items: center;
     margin-bottom: 20px;
     color: #878680;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -660,7 +658,7 @@ input[type="range"]::-moz-range-thumb {
     width: 270px;
     height: 76px;
     color: #878680;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -707,7 +705,7 @@ input[type="range"]::-moz-range-thumb {
 h5 {
     color: #1F1E17;
     text-align: center;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 800;
@@ -719,7 +717,7 @@ h5 {
 .dollar {
     color: #4BAF47;
     text-align: center;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -767,6 +765,23 @@ h5 {
     background-color: #63646375;
 }
 
+#sort-asc, #sort-desc {
+    border: none;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    color: #878680;
+    cursor: pointer;
+}
+
+#sort-asc:hover {
+    color: #1F1E17;
+}
+
+#sort-desc:hover {
+    color: #1F1E17;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -777,15 +792,14 @@ h5 {
     border-radius: 10px 10px 10px 10px;
 }
 
-.dropdown-content a {
-    font-family: Manrope;
+.dropdown-content {
+    font-family: "Manrope", sans-serif;
     color: #878680;
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
 }
 
-.dropdown-content a:hover {
+.dropdown-content:hover {
     border-radius: 10px 10px 10px 10px;
     background-color: #f1f1f1;
 }
@@ -834,7 +848,7 @@ footer {
 
 .titles {
     color: #FFF;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -873,7 +887,7 @@ footer {
 
 .texty {
     color: #FFF;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -883,7 +897,7 @@ footer {
 
 .date2 {
     color: #EEC044;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -900,7 +914,7 @@ footer {
 
 .texting {
     color: #A5A49A;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -911,7 +925,7 @@ footer {
 
 .texting2 {
     color: #A5A49A;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -985,7 +999,7 @@ button[type="submit"]:hover {
 
 input {
     color: #878680;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -1028,7 +1042,7 @@ input {
 
 .reserved {
     color: #A5A49A;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
