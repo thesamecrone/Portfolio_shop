@@ -512,7 +512,7 @@ h1 {
     left: 162px;
 }
 
-.columnTwo {
+.column02 {
     display: flex;
     width: 600px;
     flex-direction: column;
