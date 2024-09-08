@@ -124,13 +124,13 @@ document.getElementById('sort-desc').addEventListener('click', (event) => {
 function sortProductsAsc(productsToSort) {
     const sortedProducts = productsToSort.slice().sort((a, b) => a.price - b.price);
     displayProducts(sortedProducts);
-    document.getElementById('sort-button').innerHTML = 'Price: Low to High <img src="/portfolio/images/9.Shop/image.png" alt="pic">';
+    document.getElementById('sort-button').innerHTML = 'Price: Low to High <img src="https://thesamecrone.github.io/Portfolio_shop/portfolio/images/9.Shop/image.png" alt="pic">';
 }
 
 function sortProductsDesc(productsToSort) {
     const sortedProducts = productsToSort.slice().sort((a, b) => b.price - a.price);
     displayProducts(sortedProducts);
-    document.getElementById('sort-button').innerHTML = 'Price: High to Low <img src="/portfolio/images/9.Shop/image.png" alt="pic">';
+    document.getElementById('sort-button').innerHTML = 'Price: High to Low <img src="https://thesamecrone.github.io/Portfolio_shop/portfolio/images/9.Shop/image.png" alt="pic">';
 }
 
 displayProducts(products);
