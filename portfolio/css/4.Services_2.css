@@ -440,7 +440,7 @@ input[type="text"] {
 }
 
 .inner {
-    background-image: url(/portfolio/images/2.About/4839d72a50605c839cb58d5d2f3549ce.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/2.About/4839d72a50605c839cb58d5d2f3549ce.png);
     background-size: cover;
     height: 326.25px;
     display: flex;
@@ -514,7 +514,7 @@ h1 {
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    background-image: url(/portfolio/images/3.Services/c89c7e6f0190ca2d58c9de3ce63de3b3.jpg);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/3.Services/c89c7e6f0190ca2d58c9de3ce63de3b3.jpg);
 }
 
 .categ {
@@ -691,7 +691,7 @@ h1 {
     height: 60px;
     border-radius: 10px;
     background: #C5CE38;
-    background-image: url(/portfolio/images/3.Services/Icon\ \(3\).png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/3.Services/Icon\ \(3\).png);
 }
 
 footer {

@@ -337,7 +337,7 @@ nav {
 
 input {
     color: #878680;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -440,7 +440,7 @@ input[type="text"] {
 }
 
 .inner {
-    background-image: url(/portfolio/images/2.About/4839d72a50605c839cb58d5d2f3549ce.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/2.About/4839d72a50605c839cb58d5d2f3549ce.png);
     background-size: cover;
     height: 326.25px;
     display: flex;
@@ -537,37 +537,37 @@ h1 {
 }
 
 .grid-item1 {
-    background-image: url(/portfolio/images/3.Services/d76033c14925222ba21b72e6c5d77821.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/3.Services/d76033c14925222ba21b72e6c5d77821.png);
     background-size: cover;
     background-position: center;
 }
 
 .grid-item2 {
-    background-image: url(/portfolio/images/3.Services/cf5405ca051c8b5504ef8e8e38683d87.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/3.Services/cf5405ca051c8b5504ef8e8e38683d87.png);
     background-size: cover;
     background-position: center;
 }
 
 .grid-item3 {
-    background-image: url(/portfolio/images/3.Services/4e20c0fd46381dee647d6e6eda3498da.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/3.Services/4e20c0fd46381dee647d6e6eda3498da.png);
     background-size: cover;
     background-position: center;
 }
 
 .grid-item4 {
-    background-image: url(/portfolio/images/3.Services/15ae4894eb7f432fdc006bf5755d131c.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/3.Services/15ae4894eb7f432fdc006bf5755d131c.png);
     background-size: cover;
     background-position: center;
 }
 
 .grid-item5 {
-    background-image: url(/portfolio/images/3.Services/ebecbcc9c987bc4b0450d15192e417e6.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/3.Services/ebecbcc9c987bc4b0450d15192e417e6.png);
     background-size: cover;
     background-position: center;
 }
 
 .grid-item6 {
-    background-image: url(/portfolio/images/3.Services/dd52abc21926b95d26c2a09c3cee37f6.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/3.Services/dd52abc21926b95d26c2a09c3cee37f6.png);
     background-size: cover;
     background-position: center;
 }

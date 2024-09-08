@@ -337,7 +337,7 @@ nav {
 
 input {
     color: #878680;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -440,7 +440,7 @@ input[type="text"] {
 }
 
 .inner {
-    background-image: url(/portfolio/images/2.About/4839d72a50605c839cb58d5d2f3549ce.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/2.About/4839d72a50605c839cb58d5d2f3549ce.png);
     background-size: cover;
     height: 326.25px;
     display: flex;
@@ -452,7 +452,7 @@ input[type="text"] {
 .house {
     color: rgba(255, 255, 255, 0.70);
     text-align: center;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -464,7 +464,7 @@ input[type="text"] {
 h1 {
     color: #FFF;
     text-align: center;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 50px;
     font-style: normal;
     font-weight: 800;
@@ -600,7 +600,7 @@ h1 {
 
 .two {
     height: 616px;
-    background-image: url(/portfolio/images/2.About/794a3d9936c62ae5364acb3ade1936e4.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/2.About/794a3d9936c62ae5364acb3ade1936e4.png);
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -659,7 +659,7 @@ h1 {
 
 .three {
     height: 661.59px;
-    background-image: url(/portfolio/images/2.About/792ae4eb6b6e6b562c218afdeb57346c.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/2.About/792ae4eb6b6e6b562c218afdeb57346c.png);
     background-size: cover;
 }
 
@@ -782,7 +782,7 @@ h1 {
 .card1 {
     width: 369.98px;
     height: 439.97px;
-    background-image: url(/portfolio/images/2.About/cd4dc91da50dd58ed5e92ceb4c310e65.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/2.About/cd4dc91da50dd58ed5e92ceb4c310e65.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -791,7 +791,7 @@ h1 {
 .card2 {
     width: 369.98px;
     height: 439.97px;
-    background-image: url(/portfolio/images/2.About/7fe1e6efe516290bc73eec2788c6fac9.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/2.About/7fe1e6efe516290bc73eec2788c6fac9.png);
     background-size: cover;
     background-position: center;
     margin-left: 50px;
@@ -801,7 +801,7 @@ h1 {
 .card3 {
     width: 369.98px;
     height: 439.97px;
-    background-image: url(/portfolio/images/2.About/1c56ceb2e19a5ccd03573d1678f7e03b.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/2.About/1c56ceb2e19a5ccd03573d1678f7e03b.png);
     background-size: cover;
     background-position: center;
     margin-left: 50px;
