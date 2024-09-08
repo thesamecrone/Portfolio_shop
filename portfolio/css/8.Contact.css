@@ -344,6 +344,14 @@ input {
     line-height: normal;
 }
 
+input[type="text"] {
+    border: none;
+    outline: none;
+    padding-left: 28px;
+    padding-top: 17px;
+    background-color: transparent;
+}
+
 #name {
     border: none;
     outline: none;
