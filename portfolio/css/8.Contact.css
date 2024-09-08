@@ -440,7 +440,7 @@ input {
 }
 
 .inner {
-    background-image: url(/portfolio/images/2.About/4839d72a50605c839cb58d5d2f3549ce.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/2.About/4839d72a50605c839cb58d5d2f3549ce.png);
     background-size: cover;
     height: 326.25px;
     display: flex;
@@ -452,7 +452,7 @@ input {
 .house {
     color: rgba(255, 255, 255, 0.70);
     text-align: center;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -559,7 +559,7 @@ iframe {
 
 .sms {
     background: #e4e2d78d;
-    background-image: url(/portfolio/images/8.Сontact/5d119000ef156c10a9813df5c3dadf18.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/8.Сontact/5d119000ef156c10a9813df5c3dadf18.png);
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
