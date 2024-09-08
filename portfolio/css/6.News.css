@@ -440,7 +440,7 @@ input[type="text"] {
 }
 
 .inner {
-    background-image: url(/portfolio/images/2.About/4839d72a50605c839cb58d5d2f3549ce.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/2.About/4839d72a50605c839cb58d5d2f3549ce.png);
     background-size: cover;
     height: 326.25px;
     display: flex;
@@ -492,7 +492,7 @@ h1 {
 }
 
 .photo {
-    background-image: url(/portfolio/images/6.News/ec29d7bad1e10f718d1e9c3ba3f21c90.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/6.News/ec29d7bad1e10f718d1e9c3ba3f21c90.png);
     width: 770px;
     height: 421px;
     display: flex;
@@ -510,7 +510,7 @@ h1 {
     align-items: center;
     color: #FFF;
     text-align: center;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -519,7 +519,7 @@ h1 {
 }
 
 .photo2 {
-    background-image: url(/portfolio/images/6.News/3911062bf8bc4d57a6d7344d6cd08182.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/6.News/3911062bf8bc4d57a6d7344d6cd08182.png);
     width: 770px;
     height: 421px;
     display: flex;
@@ -527,7 +527,7 @@ h1 {
 }
 
 .photo3 {
-    background-image: url(/portfolio/images/6.News/20ba2170f95b9e7c25633c956f3fdce5.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/6.News/20ba2170f95b9e7c25633c956f3fdce5.png);
     width: 770px;
     height: 421px;
     display: flex;
