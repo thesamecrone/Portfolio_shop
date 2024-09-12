@@ -78,7 +78,7 @@ li {
 }
 
 .hero {
-    background-image: url(/bikeshop/images/982259a96f988a19c294dad5d4ce1148.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/bikeshop/images/982259a96f988a19c294dad5d4ce1148.png);
     background-size: cover;
     height: 828px;
     display: flex;
@@ -162,7 +162,7 @@ li {
 
 .service {
     height: 810.5px;
-    background-image: url(/bikeshop/images/aff8de14165da69c035537a9bbc2088a.png);
+    background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/bikeshop/images/aff8de14165da69c035537a9bbc2088a.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
