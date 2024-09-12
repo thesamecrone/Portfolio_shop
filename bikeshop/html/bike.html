@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veloretti - Electric Bike Shop</title>
+    <link rel="stylesheet" href="/bikeshop/styles/bike.css">
+    <link href="D:\Fonts\nuckle\stylesheet.css" rel ="stylesheet" type ="text/css"/>
+</head>
+<body>
+    <header>
+        <img class="logo" src="/bikeshop/images/Frame.png" alt="Veloretti">
+        <ul>
+            <li>Electric</li>
+            <li>City</li>
+            <li>Kids</li>
+            <li>Accessories</li>
+            <li>Stores</li>
+            <li>Leasing</li>
+        </ul>
+
+        <div class="lang">
+            <button class="en">
+                <p>EN</p>
+                <img src="/bikeshop/images/Mask group (1).png" alt="flag">
+            </button>
+        </div>
+
+        <div class="log">
+            <img src="/bikeshop/images/Vector.png" alt="login" class="dot">
+            <img src="/bikeshop/images/Vector (1).png" alt="login" class="dot2">
+        </div>
+
+        <img src="/bikeshop/images/shopping-cart-1901584_640.png" alt="cart" class="cart">
+    </header>
+
+    <section class="hero">
+        <p class="velo">VELORETTI BUSINESS</p>
+        <p class="bikelease">Bike lease plan for employees.</p>
+    </section>
+
+    <section class="about">
+        <img src="/bikeshop/images/e4be4b810154d2d5146a366a9f02d120.jpg" alt="photo" class="man">
+        <div class="textmedia">
+            <p class="heading">Bike plans for
+                employees.</p>
+            <p class="description">Veloretti Electrics benefit both the environment and the health of
+                your employees. Oh, and they look good too. Cost-free for the
+                employer and outside of the WKR.</p>
+            <a href="#" class="discover">Discover more</a>
+        </div>
+    </section>
+
+    <section class="service">
+        <p class="heading2">Service, maintenance and insurance</p>
+        <p class="description2">The lease includes an all-in service package.
+            Throughout the entire 36 months, you are
+            fully insured against damage, theft and
+            maintenance. In addition, you always have
+            access to roadside assistance.</p>
+    </section>
+
+    <section class="about">
+        <img src="/bikeshop/images/025d9fe07e01ce680521620d22b09326.jpg" alt="photo" class="man">
+        <div class="textmedia">
+            <p class="heading3">Free of charge for employers</p>
+            <p class="descr">The bike plan is totally independent of the WKR and is free for you as
+                an employer. The employee pays the lease costs and you, as the
+                employer, decide whether you want to contribute to the costs.</p>
+            <a href="#" class="discover">Cost example</a>
+        </div>
+    </section>
+
+    <section class="how">
+        <div class="media">
+            <p class="heading">How it works</p>
+
+            <div class="box">
+                <div class="circle"></div>
+                <p class="minihead">Register your company</p>
+            </div>
+
+            <p class="minidescr">Fill in our registration form with your company details. After
+                your registration, our leasing partner will do a credit check. You
+                will hear whether your application has been approved within 24
+                hours.
+            </p>
+            
+            <div class="box">
+                <div class="circle"></div>
+                <p class="minihead">Determine the requirements</p>
+            </div>
+
+            <p class="minidescr">You get acces to the digital platform. Set the requirements for
+                your employees and share the registration link.
+            </p>
+
+            <div class="box">
+                <div class="circle"></div>
+                <p class="minihead">Ride your bike!</p>
+            </div>
+
+            <p class="minidescr">Let's go! Your employees can choose their bikes and they'll be
+                delivered straight to their homes.
+            </p>
+
+            <div class="box">
+                <div class="circle"></div>
+                <p class="minihead">Administration</p>
+            </div>
+
+            <p class="minidescr">Everything in one place. The digital platform gives you an easy
+                overview of all the information for your payroll.
+            </p>
+        </div>
+        <img src="/bikeshop/images/29ce6a50296b9bdd0194e8fb9a5585ae.png" alt="photo" class="caption">
+    </section>
+
+    <section class="featured">
+        <div class="wrapper">
+            <div class="models">
+                <p class="model">Electric Ace<span>Two</span></p>
+                <p class="price">€69,07 NET/MONTH</p>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="/bikeshop/images/Ace_Two_Matte_Black_NEW.png" alt="Image 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="/bikeshop/images/Ace_Two_-_Graphite_-_NEW.png" alt="Image 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="/bikeshop/images/Ace_Two_-_Dune_-_NEW.png" alt="Image 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="/bikeshop/images/Ace_Two_-_Jet_Black_-_NEW.png" alt="Image 3">
+                </div>
+            </div>
+            <button class="carousel-control carousel-control-prev" onclick="prevSlide()">❮</button>
+            <button class="carousel-control carousel-control-next" onclick="nextSlide()">❯</button>
+        </div>
+        <div class="wrapper"></div>
+    </section>
+
+    <script>
+        let currentIndex = 0;
+    
+        function showSlide(index) {
+            const slides = document.querySelectorAll('.carousel-item');
+            const totalSlides = slides.length;
+            if (index >= totalSlides) {
+                currentIndex = 0;
+            } else if (index < 0) {
+                currentIndex = totalSlides - 1;
+            } else {
+                currentIndex = index;
+            }
+            const offset = -currentIndex * 100; // Сдвиг в процентах
+            document.querySelector('.carousel-inner').style.transform = `translateX(${offset}%)`;
+        }
+    
+        function nextSlide() {
+            showSlide(currentIndex + 1);
+        }
+    
+        function prevSlide() {
+            showSlide(currentIndex - 1);
+        }
+    </script>
+</body>
+</html>
