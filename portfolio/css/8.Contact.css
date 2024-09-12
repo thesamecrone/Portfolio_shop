@@ -337,14 +337,14 @@ nav {
 
 input {
     color: #878680;
-    font-family: Manrope;
+    font-family: "Manrope", sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
-input[type="text"] {
+.down {
     border: none;
     outline: none;
     padding-left: 28px;
