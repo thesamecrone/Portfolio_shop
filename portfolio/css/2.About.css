@@ -755,6 +755,11 @@ h1 {
     line-height: 26px;
 }
 
+.minis {
+    display: flex;
+    flex-direction: column;
+}
+
 .sign {
     border-radius: 10px;
     background: #4BAF47;
