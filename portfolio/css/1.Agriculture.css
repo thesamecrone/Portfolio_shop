@@ -47,6 +47,7 @@ a {
 .top {
     display: flex;
     height: 115.5px;
+    width: 100%;
     background-color: aliceblue;
     justify-content: center;
 }

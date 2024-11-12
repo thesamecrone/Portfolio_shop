@@ -159,4 +159,176 @@
     .area {
         width: 215px;
     }
+
+    .border {
+        height: 190px;
+    }
+
+    .columnbox2 {
+        width: 315px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+
+    .call, .mail, .location {
+        width: 177px;
+    }
+
+    .find {
+        padding: 0;
+    }
+
+    #search-input {
+        width: 95px;
+    }
+
+    .finder {
+        padding-right: 55px;
+    }
+
+    .card {
+        width: 250px;
+    }
+
+    .pictures {
+        margin-left: 83px;
+    }
+
+    .photos {
+        width: 240px;
+    }
+
+    .round2 {
+        width: 230px;
+        height: 230px;
+        margin-left: 55px;
+    }
+
+    .round1 {
+        margin-top: 160px;
+        margin-left: 52px;
+    }
+
+    .rectangle1 {
+        width: 160px;
+    }
+
+    .rectangle2 {
+        width: 160px;
+    }
+
+    .rectangle3 {
+        width: 160px;
+    }
+
+    .rectangle4 {
+        width: 160px;
+    }
+
+    .square {
+        width: 180px;
+    }
+
+    .button3 {
+        margin-right: 135px;
+        height: 80px;
+        width: 50px;
+        white-space: normal;
+        padding: 13px 9px 14px 10px;
+    }
+
+    .headd {
+        margin-left: 190px;
+    }
+
+    .bigcard {
+        width: 190px;
+    }
+
+    .bigcard2 {
+        width: 190px;
+    }
+
+    .bigcard3 {
+        width: 190px;
+    }
+
+    .bigcard4 {
+        width: 190px;
+    }
+
+    .container3 {
+        width: 370px;
+    }
+
+    .review {
+        height: 140px;
+        width: 320px;
+        padding-right: 40px;
+    }
+
+    .names {
+        margin-top: 20px;
+    }
+
+    .minibox {
+        width: 285px;
+    }
+
+    .parent {
+        margin-top: 27px;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .benefit {
+        width: 380px;
+    }
+
+    .backg {
+        width: 440px;
+    }
+
+    .boxes {
+        width: 350px;
+    }
+
+    .checkbox {
+        margin-top: 38px;
+    }
+
+    .paragraphs {
+        font-size: 13px;
+    }
+
+    .master-new {
+        width: 275px;
+    }
+
+    .back, .back1, .back2 {
+        width: 260px;
+    }
+
+    .column1 {
+        width: 210px;
+    }
+
+    .column2 {
+        width: 170px;
+    }
+
+    .column3 {
+        width: 205px;
+    }
+
+    .texty {
+        width: 196px;
+    }
+
+    .columnbox2 {
+        width: 220px;
+    }
 }
