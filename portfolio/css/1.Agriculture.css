@@ -5,6 +5,7 @@
 }
 
 body {
+    overflow-x: hidden;
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/1.Agriculture/9074fb425f18decfdb303b3da1e337f5.png);
     background-size: cover;
     background-attachment: fixed;
