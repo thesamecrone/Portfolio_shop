@@ -332,3 +332,353 @@
         width: 220px;
     }
 }
+
+@media screen and (max-width: 880px) {
+    .logo {
+        width: 60px;
+        height: 20px;
+    }
+
+    .phone {
+        width: 15px;
+        height: 15px;
+    }
+
+    .number {
+        font-size: 10px;
+    }
+
+    .nav {
+        width: 20px;
+        height: 20px;
+    }
+
+    .navbar {
+        justify-content: center;
+        width: 155px;
+    }
+
+    .call, .mail, .location {
+        margin-left: 0;
+    }
+
+    .heading {
+        font-size: 25px;
+    }
+
+    .heading2 {
+        font-size: 20px;
+    }
+
+    .paragraph {
+        font-size: 14px;
+        width: 422px;
+    }
+
+    .round2 {
+        width: 140px;
+        height: 140px;
+        margin-left: 125px;
+    }
+
+    .round1 {
+        width: 100px;
+        height: 100px;
+        margin-top: 90px;
+        margin-left: 125px;
+    }
+
+    .veg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .head1 {
+        font-size: 12px;
+        width: 105px;
+    }
+
+    .box {
+        width: 350px;
+    }
+
+    .sentence {
+        width: 400px;
+        font-size: 13px;
+    }
+
+    .sentence2 {
+        width: 430px;
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+
+    .button2 {
+        padding: 10px 20px 10px 20px;
+    }
+
+    .ban {
+        font-size: 14px;
+    }
+
+    .headings {
+        width: 386px;
+        font-size: 40px;
+        margin-left: 85px;
+    }
+
+    .agricult {
+        width: 750px;
+    }
+
+    .offer {
+        font-size: 33px;
+    }
+
+    .bigcard {
+        width: 150px;
+        height: 330px;
+    }
+
+    .bigcard2 {
+        width: 150px;
+        height: 330px;
+    }
+
+    .bigcard3 {
+        width: 150px;
+        height: 330px;
+    }
+
+    .bigcard4 {
+        width: 150px;
+        height: 330px;
+    }
+
+    .choice {
+        width: 740px;
+    }
+
+    .name {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .container2 {
+        width: 300px;
+    }
+
+    .intro {
+        margin-left: 37px;
+        font-size: 18px;
+    }
+
+    .heading {
+        margin-left: 37px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .paragraph1 {
+        font-size: 13px;
+        width: 266px;
+        padding-top: 0;
+        margin-left: 37px;
+    }
+
+    .button2 {
+        margin-left: 37px;
+    }
+
+    .container3 {
+        width: 250px;
+    }
+
+    .master {
+        width: 260px;
+        padding: 20px 40px 75px 35px;
+    }
+
+    .review {
+        font-size: 10px;
+        width: 230px;
+        line-height: 28px;
+    }
+
+    .minibox {
+        flex-direction: column;
+        width: 170px;
+    }
+
+    .names {
+        font-size: 16px;
+    }
+
+    .parent {
+        margin-top: 0;
+    }
+
+    .page6 {
+        height: 540px;
+    }
+
+    .container2 {
+        margin-top: 150px;
+    }
+
+    .container3 {
+        margin-top: 150px;
+    }
+
+    .backg {
+        width: 340px;
+        height: 580px;
+    }
+
+    .paragraph0 {
+        width: 300px;
+        font-size: 13px;
+        margin-left: 37px;
+    }
+
+    .checkbox {
+        width: 25px;
+        height: 25px;
+        margin-right: 12px;
+    }
+
+    .boxes {
+        margin-bottom: 15px;
+    }
+
+    .explore2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .master-news {
+        width: 815px;
+    }
+
+    .back, .back1, .back2 {
+        width: 210px;
+    }
+
+    .master-new {
+        width: 220px;
+    }
+
+    .sign {
+        width: 15px;
+        height: 20px;
+    }
+
+    .writing {
+        font-size: 10px;
+    }
+
+    .package {
+        justify-content: center;
+    }
+
+    .portrait {
+        width: 210px;
+        font-size: 15px;
+        white-space: pre-line;
+    }
+
+    .border {
+        height: 140px;
+    }
+
+    .logo2 {
+        width: 100px;
+    }
+
+    .column1 {
+        margin-top: 20px;
+        width: 150px;
+    }
+
+    .texting {
+        line-height: 25px;
+        width: 170px;
+        font-size: 11px;
+        margin-top: 40px;
+    }
+
+    .nav1 {
+        width: 25px;
+        height: 25px;
+    }
+
+    .navbar2 {
+        width: 140px;
+    }
+
+    .titles {
+        margin-top: 12px;
+        font-size: 15px;
+    }
+
+    .texting2 {
+        font-size: 12px;
+        width: 155px;
+    }
+
+    .texty {
+        font-size: 12px;
+        width: 140px;
+    }
+
+    .date2 {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    .column3 {
+        width: 145px;
+    }
+
+    .column2 {
+        margin-left: 15px;
+    }
+
+    .area {
+        width: 180px;
+        height: 40px;
+    }
+
+    .areas {
+        width: 35px;
+        height: 40px;
+    }
+
+    input[type="text"] {
+        padding-left: 18px;
+        padding-top: 13px;
+    }
+
+    .columnbox {
+        width: 540px;
+    }
+
+    .columns {
+        width: 750px;
+        height: 320px;
+    }
+
+    #scroll-to-top {
+        right: 80px;
+    }
+
+    .button3 {
+        margin-right: 0;
+    }
+
+    .headd {
+        margin-left: 45px;
+    }
+}
+
