@@ -8,7 +8,7 @@
     #scroll-to-top {
         right: 80px;
     }
-    
+
     .logo {
         width: 100px;
         height: 34.5px;
@@ -18,7 +18,9 @@
         width: 173px;
     }
 
-    .call, .mail, .location {
+    .call,
+    .mail,
+    .location {
         width: 202px;
     }
 
@@ -131,7 +133,9 @@
         gap: 0;
     }
 
-    .back, .back1, .back2 {
+    .back,
+    .back1,
+    .back2 {
         width: 300px;
     }
 
@@ -175,7 +179,9 @@
 
 @media screen and (max-width: 930px) {
 
-    .call, .mail, .location {
+    .call,
+    .mail,
+    .location {
         width: 177px;
     }
 
@@ -312,7 +318,9 @@
         width: 275px;
     }
 
-    .back, .back1, .back2 {
+    .back,
+    .back1,
+    .back2 {
         width: 260px;
     }
 
@@ -363,12 +371,16 @@
         width: 155px;
     }
 
-    .call, .mail, .location {
+    .call,
+    .mail,
+    .location {
         margin-left: 0;
         padding-top: 10px;
     }
 
-    .home, .menuu, .menu-label {
+    .home,
+    .menuu,
+    .menu-label {
         font-size: 13px;
     }
 
@@ -497,7 +509,10 @@
         font-size: 28px;
     }
 
-    .rectangle1, .rectangle2, .rectangle3, .rectangle4 {
+    .rectangle1,
+    .rectangle2,
+    .rectangle3,
+    .rectangle4 {
         width: 120px;
     }
 
@@ -640,7 +655,9 @@
         width: 815px;
     }
 
-    .back, .back1, .back2 {
+    .back,
+    .back1,
+    .back2 {
         width: 210px;
     }
 
@@ -773,12 +790,15 @@
         flex-wrap: wrap;
     }
 
-    .head, .navbar {
+    .head,
+    .navbar {
         flex: 0 0 50%;
         width: 100%;
     }
-    
-    .call, .mail, .location {
+
+    .call,
+    .mail,
+    .location {
         flex: 0 0 33.33%;
     }
 
@@ -787,7 +807,8 @@
         height: 40px;
     }
 
-    .callme, .textme {
+    .callme,
+    .textme {
         margin-right: 0;
     }
 
@@ -811,7 +832,8 @@
         margin-left: 0;
     }
 
-    .intro, .heading {
+    .intro,
+    .heading {
         margin-left: 0;
     }
 
@@ -838,7 +860,8 @@
         height: 30px;
     }
 
-    .sentence, .sentence2 {
+    .sentence,
+    .sentence2 {
         width: 200px;
     }
 
@@ -855,7 +878,10 @@
         font-size: 32px;
     }
 
-    .bigcard, .bigcard2, .bigcard3, .bigcard4 {
+    .bigcard,
+    .bigcard2,
+    .bigcard3,
+    .bigcard4 {
         width: 110px;
     }
 
@@ -911,7 +937,9 @@
         margin-right: 5px;
     }
 
-    .back, .back1, .back2 {
+    .back,
+    .back1,
+    .back2 {
         width: 170px;
     }
 
@@ -961,3 +989,172 @@
     }
 }
 
+@media screen and (max-width: 608px) {
+
+    h4,
+    .title,
+    .fish,
+    .button {
+        margin-left: 90px;
+    }
+
+    .card {
+        width: 125px;
+    }
+
+    .pictures {
+        height: 65px;
+        margin-left: 30px;
+    }
+
+    .description {
+        padding-top: 12px;
+        font-size: 12px;
+    }
+
+    .rectangle1,
+    .rectangle2,
+    .rectangle3,
+    .rectangle4 {
+        max-width: 85px;
+        height: 180px;
+        flex: 0 0 50%;
+    }
+
+    .square {
+        width: 100px;
+        margin-top: 100px;
+    }
+
+    .iconn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .button3 {
+        margin-right: 30px;
+    }
+
+    .headd {
+        font-size: 12px;
+    }
+
+    .contain {
+        flex-wrap: wrap;
+        width: 500px;
+    }
+
+    .page3 {
+        height: 580px;
+    }
+
+    .banner {
+        height: 140px;
+    }
+
+    .ban {
+        width: 100px;
+    }
+
+    .reserved {
+        font-size: 10px;
+    }
+
+    .columnbox {
+        width: 230px;
+    }
+
+    .bigcard, .bigcard2, .bigcard3, .bigcard4 {
+        width: 95px;
+    }
+
+    .name {
+        font-size: 13px;
+        margin-left: 9px;
+    }
+
+    .container2 {
+        width: 175px;
+    }
+
+    .paragraph1 {
+        width: 160px;
+        font-size: 12px;
+    }
+
+    .back, .back1, .back2 {
+        width: 130px;
+    }
+
+    .master-new {
+        width: 140px;
+    }
+
+    .date {
+        width: 115px;
+        font-size: 10px;
+    }
+
+    .sign {
+        margin-left: 0;
+    }
+
+    .writing {
+        margin-left: 0;
+        width: 40px;
+    }
+
+    .sign {
+        margin-left: 0;
+    }
+
+    .portrait {
+        width: 120px;
+    }
+
+    .area {
+        width: 140px;
+    }
+
+    input {
+        font-size: 8px;
+    }
+
+    input[type="text"] {
+        padding-top: 15px;
+    }
+
+    .texting2 {
+        font-size: 10px;
+    }
+
+    .column3 {
+        width: 95px;
+    }
+
+    .texty {
+        width: 90px;
+        font-size: 10px;
+    }
+
+    .mini {
+        margin-right: 3px;
+    }
+
+    .column2 {
+        width: 105px;
+        margin-left: -20px;
+    }
+
+    .texting {
+        width: 85px;
+    }
+
+    .logo2 {
+        width: 65px;
+    }
+
+    .column1 {
+        margin-left: 50px;
+    }
+}
