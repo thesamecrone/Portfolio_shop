@@ -21,7 +21,7 @@
     .call,
     .mail,
     .location {
-        width: 202px;
+        width: 100%;
     }
 
     .menuu {
@@ -182,7 +182,7 @@
     .call,
     .mail,
     .location {
-        width: 177px;
+        width: 100%;
     }
 
     .find {
@@ -652,7 +652,7 @@
     }
 
     .master-news {
-        width: 815px;
+        width: 100%;
     }
 
     .back,
