@@ -21,7 +21,7 @@
     .call,
     .mail,
     .location {
-        width: 100%;
+        width: 160px%;
     }
 
     .menuu {
@@ -182,7 +182,7 @@
     .call,
     .mail,
     .location {
-        width: 100%;
+        width: 160px;
     }
 
     .find {

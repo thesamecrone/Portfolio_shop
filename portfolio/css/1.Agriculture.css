@@ -96,7 +96,7 @@ a {
 .mail,
 .location {
     margin-left: 20px;
-    width: 100%;
+    width: 170px;
     height: 115.5px;
     flex-shrink: 0;
     display: flex;
