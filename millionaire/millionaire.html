@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кто хочет стать миллионером?</title>
+    <link rel="stylesheet" href="millionaire.css">
+</head>
+
+<body>
+    <h1>Игра Миллионер</h1>
+    <div class="block">
+        <div id="question"></div>
+        <div id="answers"></div>
+        <div id="score"></div>
+    </div>
+    <script>
+        const questions = [
+            {
+                question: "Какой язык используется для веб-разработки?",
+                answers: ["Java", "JavaScript", "Python", "C#"],
+                correct: 1
+            },
+
+            {
+                question: "Какой язык используется для работы с веб-сервером?",
+                answers: ["Java", "JavaScript", "Python", "Любой из перечисленных"],
+                correct: 3
+            },
+
+            {
+                question: "Как называется первая операционная система?",
+                answers: ["Windows", "Linux", "MacOS", "GM-NAA I/O"],
+                correct: 3
+            },
+            
+        ];
+
+        let currentQuestion = 0;
+        let score = 0;
+
+        function loadQuestion() {
+            const questionElement = document.getElementById('question');
+            const answersElement = document.getElementById('answers');
+
+            animateText(questions[currentQuestion].question);
+
+            questionElement.innerText = questions[currentQuestion].question;
+            answersElement.innerHTML = '';
+
+            questions[currentQuestion].answers.forEach((answer, index) => {
+                const button = document.createElement('button');
+                button.innerText = answer;
+                button.onclick = () => checkAnswer(index);
+                answersElement.appendChild(button);
+
+                button.style.backgroundColor = '#ffb3ff';
+                button.style.fontSize = '20px';
+                button.style.borderRadius = '10px';
+                button.style.fontFamily = 'Segoe, sans-serif';
+                button.style.cursor = 'pointer';
+                button.style.color = '#330033';
+                button.style.width = '330px';
+                button.style.height = '70px'
+
+                button.addEventListener('mouseenter', function () {
+                    button.style.backgroundColor = '#ffffcc';
+                    button.style.color = '#00004d';
+                });
+
+                button.addEventListener('mouseleave', function () {
+                    button.style.backgroundColor = '#ffb3ff';
+                    button.style.color = '#330033';
+                });
+            });
+        }
+
+        function animateText(text) {
+            const questionElement = document.getElementById('question');
+            questionElement.innerText = '';
+
+            let index = 0;
+            const duration = 100;
+
+            function type() {
+                if (index < text.length) {
+                    questionElement.innerText += text.charAt(index);
+                    index++;
+                    setTimeout(type, duration);
+                } else {
+                    shakeText();
+                }
+            }
+
+            type(); 
+        }
+
+        function shakeText() {
+            const questionElement = document.getElementById('question');
+            let shakeDuration = 500;
+            let startTime = null;
+            const amplitude = 5;
+
+            function shakeStep(timestamp) {
+                if (!startTime) startTime = timestamp;
+                const progress = timestamp - startTime;
+
+                const offsetX = amplitude * Math.sin((progress / 100) * Math.PI);
+
+                questionElement.style.transform = `translateX(${offsetX}px)`;
+
+                if (progress < shakeDuration) {
+                    requestAnimationFrame(shakeStep);
+                } else {
+                    questionElement.style.transform = 'translateX(0px)';
+                }
+            }
+
+            requestAnimationFrame(shakeStep); 
+        }
+
+
+        function checkAnswer(selected) {
+            if (selected === questions[currentQuestion].correct) {
+                score += 100; 
+                alert("Правильно!");
+            } else {
+                alert("Неправильно! Правильный ответ: " + questions[currentQuestion].answers[questions[currentQuestion].correct]);
+            }
+
+            currentQuestion++;
+            if (currentQuestion < questions.length) {
+                loadQuestion();
+            } else {
+                alert("Игра окончена! Ваш счет: " + score);
+            }
+        }
+
+        loadQuestion();
+    </script>
+</body>
+
+</html>

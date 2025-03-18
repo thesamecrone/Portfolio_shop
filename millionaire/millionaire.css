@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://wallpapers.com/images/featured/deep-space-hd-dt4vnn5p2qn8urx2.webp);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(41, 41, 84, 0.811);
+}
+
+.block {
+    width: 700px;
+    background-image: url(https://webneel.com/wallpaper/sites/default/files/images/07-2013/outer-space-hd-wallpaper.1280.jpg);
+    background-size: cover;
+    height: 500px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#question {
+    margin: 0 auto;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(140, 204, 244);
+    text-align: center;
+    padding-top: 45px;
+    background-color: rgba(58, 35, 80, 0.449);
+}
+
+#answers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
