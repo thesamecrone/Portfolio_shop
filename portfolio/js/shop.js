@@ -81,6 +81,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Отображаем отфильтрованные продукты
         renderSearchResults(searchResults);
+    } else {
+        // Если нет параметра поиска в URL, показываем все продукты
+        renderSearchResults(products);
     }
 });
 
@@ -105,6 +108,7 @@ function renderSearchResults(productsToDisplay) {
         });
     }
 }
+
 
 let filteredProducts = [];
 
