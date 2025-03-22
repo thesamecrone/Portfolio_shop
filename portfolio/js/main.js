@@ -5,10 +5,22 @@ document.getElementById("search-icon").addEventListener("click", function () {
 
 document.getElementById("search-input").addEventListener("input", function () {
     let searchTerm = this.value.trim().toLowerCase(); // Получаем строку поиска, убираем лишние пробелы и делаем строчными
-
     if (searchTerm) {
         // Перенаправляем на страницу shop с параметром поиска в URL
-        window.location.href = `Shop.html?search=${encodeURIComponent(searchTerm)}`;
+        window.location.href = `7.Shop.html?search=${encodeURIComponent(searchTerm)}`;
+    }
+});
+
+// Обработчик нажатия клавиши Enter
+document.getElementById("search-input").addEventListener("keydown", function (e) {
+    // Если нажали Enter (код клавиши 13)
+    if (e.key === 'Enter') {
+        let searchTerm = this.value.trim().toLowerCase(); // Получаем строку поиска
+
+        if (searchTerm) {
+            // Перенаправляем на страницу shop с параметром поиска в URL
+            window.location.href = `7.Shop.html?search=${encodeURIComponent(searchTerm)}`;
+        }
     }
 });
 
