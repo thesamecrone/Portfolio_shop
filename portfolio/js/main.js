@@ -3,6 +3,15 @@ document.getElementById("search-icon").addEventListener("click", function () {
     document.getElementById("search-form").classList.toggle("show");
 });
 
+document.getElementById("search-input").addEventListener("input", function () {
+    let searchTerm = this.value.trim().toLowerCase(); // Получаем строку поиска, убираем лишние пробелы и делаем строчными
+
+    if (searchTerm) {
+        // Перенаправляем на страницу shop с параметром поиска в URL
+        window.location.href = `Shop.html?search=${encodeURIComponent(searchTerm)}`;
+    }
+});
+
 document.getElementById("cart-icon").addEventListener("click", function () {
     var cartContent = document.getElementById("cart-content");
     cartContent.style.display = (cartContent.style.display === "none") ? "block" : "none";
