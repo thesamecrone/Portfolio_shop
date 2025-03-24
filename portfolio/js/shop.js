@@ -63,6 +63,40 @@ let products = [
     { name: 'Red Grapes', price: 100.00, image: 'https://i.ibb.co/Dt3H53G/94c085d133bdc4eb40467681c7a0fca1.jpg' }
 ];
 
+document.addEventListener("DOMContentLoaded", function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const searchTerm = urlParams.get('search');
+
+    if (searchTerm) {
+        let searchResults = products.filter(product => 
+            product.name.toLowerCase().includes(searchTerm.toLowerCase())
+        );
+
+        renderSearchResults(searchResults);
+    }
+});
+
+function renderSearchResults(productsToDisplay) {
+    const productsContainer = document.getElementById("cards-container");
+    productsContainer.innerHTML = ""; // Очищаем контейнер
+
+    if (productsToDisplay.length === 0) {
+        productsContainer.innerHTML = "<p>No products found.</p>";
+    } else {
+        productsToDisplay.forEach(product => {
+            const productElement = document.createElement("div");
+            productElement.classList.add("product");
+
+            productElement.innerHTML = `
+                <h3>${product.name}</h3>
+                <img src="${product.image}" alt="${product.name}" />
+                <p>Price: $${product.price}</p>
+            `;
+            productsContainer.appendChild(productElement);
+        });
+    }
+}
+
 let filteredProducts = [];
 
 function displayProducts(products) {

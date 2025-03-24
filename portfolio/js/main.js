@@ -3,6 +3,20 @@ document.getElementById("search-icon").addEventListener("click", function () {
     document.getElementById("search-form").classList.toggle("show");
 });
 
+//search input trial
+const searchInput = document.getElementById("search-input");
+document.getElementById("search-form").addEventListener("submit", function (event) {
+    event.preventDefault(); // Отменяем стандартное поведение формы
+
+    const query = searchInput.value.trim().toLowerCase();
+    if (query) {
+        // Перенаправляем на страницу shop с параметром в URL
+        window.location.href = `html/7.Shop.html?search=${encodeURIComponent(query)}`;
+    }
+});
+
+
+//end
 document.getElementById("cart-icon").addEventListener("click", function () {
     var cartContent = document.getElementById("cart-content");
     cartContent.style.display = (cartContent.style.display === "none") ? "block" : "none";
