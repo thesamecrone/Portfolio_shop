@@ -7,11 +7,12 @@ document.getElementById("search-icon").addEventListener("click", function () {
 const searchInput = document.getElementById("search-input");
 document.getElementById("search-form").addEventListener("submit", function (event) {
     event.preventDefault(); // Отменяем стандартное поведение формы
+    console.log("Форма отправлена!"); // Проверяем, срабатывает ли вообще обработчик
 
     const query = searchInput.value.trim().toLowerCase();
     if (query) {
         // Перенаправляем на страницу shop с параметром в URL
-        window.location.href = `html/7.Shop.html?search=${encodeURIComponent(query)}`;
+        window.location.href = `https://thesamecrone.github.io/Portfolio_shop/portfolio/html/7.Shop.html?search=${encodeURIComponent(query)}`;
     }
 });
 
