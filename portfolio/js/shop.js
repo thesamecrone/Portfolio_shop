@@ -63,31 +63,19 @@ let products = [
     { name: 'Red Grapes', price: 100.00, image: 'https://i.ibb.co/Dt3H53G/94c085d133bdc4eb40467681c7a0fca1.jpg' }
 ];
 
-// Функция для получения параметра из URL
-function getSearchParam() {
-    const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get('search');
-}
-
-// Когда страница загружена
 document.addEventListener("DOMContentLoaded", function () {
-    const searchTerm = getSearchParam(); // Получаем параметр search из URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const searchTerm = urlParams.get('search');
 
     if (searchTerm) {
-        // Фильтруем продукты по запросу
         let searchResults = products.filter(product => 
-            product.name.toLowerCase().includes(searchTerm.toLowerCase()) // Игнорируем регистр
+            product.name.toLowerCase().includes(searchTerm.toLowerCase())
         );
 
-        // Отображаем отфильтрованные продукты
         renderSearchResults(searchResults);
-    } else {
-        // Если нет параметра поиска в URL, показываем все продукты
-        renderSearchResults(products);
     }
 });
 
-// Функция для отображения отфильтрованных продуктов
 function renderSearchResults(productsToDisplay) {
     const productsContainer = document.getElementById("cards-container");
     productsContainer.innerHTML = ""; // Очищаем контейнер
@@ -108,7 +96,6 @@ function renderSearchResults(productsToDisplay) {
         });
     }
 }
-
 
 let filteredProducts = [];
 

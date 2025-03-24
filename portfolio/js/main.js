@@ -3,21 +3,19 @@ document.getElementById("search-icon").addEventListener("click", function () {
     document.getElementById("search-form").classList.toggle("show");
 });
 
-// Обработчик нажатия клавиши Enter
-document.getElementById("search-input").addEventListener("keydown", function (e) {
-    // Если нажали Enter (код клавиши 13)
-    if (e.key === 'Enter') {
-        let searchTerm = this.value.trim().toLowerCase(); // Получаем строку поиска
-        console.log("Поисковый запрос:", searchTerm); 
+//search input trial
+const searchInput = document.getElementById("search-input");
+document.getElementById("search-form").addEventListener("submit", function (event) {
+    event.preventDefault(); // Отменяем стандартное поведение формы
 
-        if (searchTerm) {
-            console.log("Перенаправление на:", searchURL);
-            // Перенаправляем на страницу shop с параметром поиска в URL
-            window.location.href = `7.Shop.html?search=${encodeURIComponent(searchTerm)}`;
-        }
+    const query = searchInput.value.trim().toLowerCase();
+    if (query) {
+        // Перенаправляем на страницу shop с параметром в URL
+        window.location.href = `https://thesamecrone.github.io/Portfolio_shop/portfolio/html/7.Shop.html?search=${encodeURIComponent(query)}`;
     }
 });
 
+//end
 document.getElementById("cart-icon").addEventListener("click", function () {
     var cartContent = document.getElementById("cart-content");
     cartContent.style.display = (cartContent.style.display === "none") ? "block" : "none";
