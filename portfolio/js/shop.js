@@ -37,9 +37,9 @@ function renderSearchResults(productsToDisplay) {
             productElement.classList.add("product");
 
             productElement.innerHTML = `
-                <h3>${product.name}</h3>
+                <h5>${product.name}</h5>
                 <img src="${product.image}" alt="${product.name}" />
-                <p>Price: $${product.price}</p>
+                <p class="dollar">Price: $${product.price}</p>
             `;
             productsContainer.appendChild(productElement);
         });
