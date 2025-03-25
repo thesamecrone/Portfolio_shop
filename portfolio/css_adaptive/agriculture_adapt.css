@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1020px) {
     #scroll-to-top {
         right: 80px;
     }
