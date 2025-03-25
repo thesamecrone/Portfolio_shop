@@ -96,7 +96,7 @@ a {
 .mail,
 .location {
     margin-left: 20px;
-    width: 170px;
+    width: 217.44px;
     height: 115.5px;
     flex-shrink: 0;
     display: flex;
@@ -221,7 +221,7 @@ h3 {
     flex-shrink: 0;
     color: #1F1E17;
     font-family: "Manrope", sans-serif;
-    font-size: 11px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: 20px;
