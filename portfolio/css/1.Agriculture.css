@@ -430,6 +430,17 @@ section {
     text-align: center;
 }
 
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%); /* Начальная позиция за пределами слева */
+        opacity: 0; /* Прозрачный в начале */
+    }
+    to {
+        transform: translateX(0); /* Конечная позиция на месте */
+        opacity: 1; /* Полностью видимый */
+    }
+}
+
 h4 {
     margin-left: 195px;
     margin-top: 100px;
@@ -440,6 +451,7 @@ h4 {
     line-height: 30px;
     text-transform: uppercase;
     height: 30px;
+    animation: slideInFromLeft 0.8s ease-out forwards;
 }
 
 .title {
@@ -453,6 +465,7 @@ h4 {
     line-height: 110px;
     margin-left: 195px;
     margin-top: 40px;
+    animation: slideInFromLeft 0.8s ease-out 0.2s forwards;
 }
 
 span {
@@ -473,6 +486,7 @@ span {
     width: 540px;
     margin-left: 195px;
     margin-top: 40px;
+    animation: slideInFromLeft 0.8s ease-out 0.4s forwards;
 }
 
 .more {
