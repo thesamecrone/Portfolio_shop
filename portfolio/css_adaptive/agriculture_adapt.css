@@ -5,10 +5,10 @@
 }
 
 @media screen and (max-width: 1000px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+
+    html,
+    body {
+        overflow-x: hidden;
     }
 
     #scroll-to-top {
@@ -124,7 +124,10 @@
     }
 
     .choice {
-        width: 975px;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+        padding: 0 15px;
     }
 
     .text-right {
@@ -150,7 +153,10 @@
     }
 
     .columns {
-        width: 990px;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+        padding: 0 15px;
     }
 
     .column2 {
@@ -557,7 +563,10 @@
     }
 
     .choice {
-        width: 740px;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+        padding: 0 15px;
     }
 
     .name {
@@ -768,7 +777,10 @@
     }
 
     .columns {
-        width: 750px;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+        padding: 0 15px;
         height: 320px;
     }
 
@@ -1071,7 +1083,10 @@
         width: 230px;
     }
 
-    .bigcard, .bigcard2, .bigcard3, .bigcard4 {
+    .bigcard,
+    .bigcard2,
+    .bigcard3,
+    .bigcard4 {
         width: 95px;
     }
 
@@ -1089,7 +1104,9 @@
         font-size: 12px;
     }
 
-    .back, .back1, .back2 {
+    .back,
+    .back1,
+    .back2 {
         width: 130px;
     }
 
