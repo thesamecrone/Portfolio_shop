@@ -1060,7 +1060,7 @@
 
     .contain {
         flex-wrap: wrap;
-        width: 500px;
+        width: 100%;
     }
 
     .page3 {
