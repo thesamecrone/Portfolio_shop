@@ -53,7 +53,7 @@ a {
 }
 
 .logo {
-    width: 170px;
+    width: 100%;
     height: 51.5px;
 }
 
@@ -68,15 +68,13 @@ a {
     height: 115.5px;
     justify-content: flex-end;
     align-items: center;
-    flex-shrink: 0;
-    width: 217.44px;
-    flex-shrink: 0;
+    width: 17%;
 }
 
 .nav {
     display: flex;
-    width: 40px;
-    height: 40px;
+    width: 15%;
+    height: 30%;
     padding: 13px;
     justify-content: center;
     align-items: center;
@@ -87,16 +85,14 @@ a {
 .icon {
     width: 14px;
     height: 14px;
-    flex-shrink: 0;
 }
 
 .call,
 .mail,
 .location {
     margin-left: 20px;
-    width: 217.44px;
+    width: 18%;
     height: 115.5px;
-    flex-shrink: 0;
     display: flex;
     justify-content: center;
     text-decoration: none;
