@@ -829,7 +829,7 @@ span {
 
 .square {
     width: 80%;
-    height: 128px;
+    height: 170px;
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.07);
@@ -851,7 +851,7 @@ span {
     top: -50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 45px;
+    margin-top: 70px;
     padding: 10px;
 }
 
@@ -870,7 +870,7 @@ span {
 .button3 {
     border-radius: 10px;
     background: #4BAF47;
-    width: 80%;
+    width: 50%;
     height: 46px;
     font-family: "Manrope", sans-serif;
     color: #FFF;
@@ -881,7 +881,7 @@ span {
     text-align: center;
     white-space: nowrap;
     z-index: 2;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 .banner {
