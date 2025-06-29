@@ -7,17 +7,15 @@ document.getElementById("search-icon").addEventListener("click", function () {
 document.addEventListener("DOMContentLoaded", function () {
     const searchInput = document.getElementById("search-input");
 
-    // Проверяем, существует ли поле ввода на странице
     if (!searchInput) {
         console.log("Поле ввода не найдено на этой странице");
         return;
     }
 
-    // Обработчик нажатия Enter
     searchInput.addEventListener("keydown", function (event) {
         if (event.key === "Enter") {
-            event.preventDefault(); // Предотвращаем отправку формы, если она активна
-            console.log("Enter нажат!"); // Для отладки
+            event.preventDefault(); 
+            console.log("Enter нажат!");
 
             const query = searchInput.value.trim().toLowerCase();
             if (query) {

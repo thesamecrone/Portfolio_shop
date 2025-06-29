@@ -432,13 +432,17 @@ section {
 
 @keyframes slideInFromLeft {
     from {
-        transform: translateX(-100%); /* Начальная позиция за пределами слева */
-        opacity: 0; /* Прозрачный в начале */
+        transform: translateX(-100%);
+        opacity: 0; 
     }
     to {
-        transform: translateX(0); /* Конечная позиция на месте */
-        opacity: 1; /* Полностью видимый */
+        transform: translateX(0); 
+        opacity: 1; 
     }
+}
+
+.agrobox {
+    width: 100%;
 }
 
 h4 {
@@ -455,8 +459,8 @@ h4 {
 }
 
 .title {
-    width: 720px;
     height: 220px;
+    width: 40%;
     color: #FFF;
     font-family: "Covered By Your Grace", cursive;
     font-size: 120px;
@@ -483,7 +487,7 @@ span {
     font-size: 16px;
     font-style: normal;
     line-height: 40px;
-    width: 540px;
+    width: 35%;
     margin-left: 195px;
     margin-top: 40px;
     animation: slideInFromLeft 0.8s ease-out 0.4s forwards;
@@ -528,7 +532,6 @@ span {
 
 .cards {
     display: flex;
-    width: 399.98px;
     height: 251px;
     justify-content: center;
     align-items: center;
@@ -540,7 +543,7 @@ span {
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 0px 60px 10px rgba(0, 0, 0, 0.10);
-    width: 370px;
+    width: 30%;
     height: 264px;
     flex-shrink: 0;
     margin-left: 20px;
@@ -649,7 +652,7 @@ span {
     line-height: 30px;
     padding-top: 33px;
     margin-bottom: 20px;
-    width: 526.62px;
+    width: 80%;
 }
 
 .box {
@@ -671,7 +674,7 @@ span {
     font-style: normal;
     font-weight: 800;
     line-height: 28px;
-    width: 159.89px;
+    width: 60%;
     margin-left: 10px;
 }
 
@@ -703,7 +706,7 @@ span {
     font-weight: 600;
     line-height: 30px;
     margin-left: 10px;
-    width: 600px;
+    width: 100%;
 }
 
 .sentence2 {
@@ -714,7 +717,7 @@ span {
     font-weight: 600;
     line-height: 30px;
     margin-left: 10px;
-    width: 600px;
+    width: 100%;
     margin-bottom: 40px;
 }
 
@@ -771,7 +774,7 @@ span {
 }
 
 .rectangle1 {
-    width: 270px;
+    width: 18%;
     height: 430px;
     border-radius: 10px;
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/1.Agriculture/4fa7c9b73acb6e290974af89a2e6ee02.png);
@@ -784,7 +787,7 @@ span {
 }
 
 .rectangle2 {
-    width: 270px;
+    width: 18%;
     height: 430px;
     border-radius: 10px;
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/1.Agriculture/cf457813a031831dedc2504e82343ee4.png);
@@ -798,7 +801,7 @@ span {
 }
 
 .rectangle3 {
-    width: 270px;
+    width: 18%;
     height: 430px;
     border-radius: 10px;
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/1.Agriculture/958b13fb0907f3eac38ba5ce4f172799.png);
@@ -812,7 +815,7 @@ span {
 }
 
 .rectangle4 {
-    width: 270px;
+    width: 18%;
     height: 430px;
     border-radius: 10px;
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/1.Agriculture/ebf914f107f29f1bcbb5e4913b1734d4.png);
@@ -826,7 +829,7 @@ span {
 }
 
 .square {
-    width: 220px;
+    width: 80%;
     height: 128px;
     border-radius: 10px;
     background: #FFF;
@@ -870,7 +873,7 @@ span {
 .button3 {
     border-radius: 10px;
     background: #4BAF47;
-    width: 109.31px;
+    width: 70%;
     height: 46px;
     padding: 14px 22.952px 5px 24px;
     font-family: "Manrope", sans-serif;
@@ -919,7 +922,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1200px;
+    width: 80%;
 }
 
 .headings {
@@ -929,7 +932,7 @@ span {
     font-style: normal;
     font-weight: 800;
     line-height: 84px;
-    width: 486.69px;
+    width: 50%;
     height: 336px;
 }
 
@@ -967,7 +970,7 @@ span {
     background-position: center;
     background-size: cover;
     border-radius: 10px;
-    width: 280px;
+    width: 30%;
     height: 450px;
     margin-left: 20px;
     display: flex;
@@ -977,7 +980,7 @@ span {
 
 .name {
     color: #FFF;
-    width: 170px;
+    width: 70%;
     font-family: "Manrope", sans-serif;
     font-size: 30px;
     font-style: normal;
@@ -1035,15 +1038,15 @@ span {
 
 .container2 {
     height: 470px;
-    width: 369px;
+    width: 30%;
 }
 
 .container3 {
-    width: 770px;
+    width: 50%;
     height: 254px;
     display: flex;
     justify-content: space-between;
-    margin-left: 170px;
+    margin-left: 70px;
     background-color: #FFF;
     border-radius: 10px;
     margin-bottom: 175px;
@@ -1062,7 +1065,7 @@ span {
 }
 
 .master {
-    width: 480px;
+    width: 100%;
     height: 254px;
     padding: 38px 50px 55px 50px;
 }
@@ -1071,7 +1074,7 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 500px;
+    width: 90%;
 }
 
 .review {
@@ -1081,7 +1084,7 @@ span {
     font-style: normal;
     font-weight: 500;
     line-height: 36px;
-    width: 480px;
+    width: 100%;
     height: 108px;
 }
 
@@ -1138,7 +1141,7 @@ span {
 .backg {
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/1.Agriculture/3669521f4d19c62759724648d35d313c.png);
     background-size: cover;
-    width: 620px;
+    width: 50%;
     height: 670px;
     display: flex;
     justify-content: center;
@@ -1148,7 +1151,7 @@ span {
 .quote {
     border-radius: 10px;
     background: #EEC044;
-    width: 220px;
+    width: 30%;
     height: 128px;
     display: flex;
     justify-content: flex-end;
@@ -1169,14 +1172,14 @@ span {
 }
 
 .benefit {
-    width: 470px;
+    width: 50%;
     margin-left: 20px;
 }
 
 .boxes {
     display: flex;
     justify-content: center;
-    width: 470px;
+    width: 100%;
     height: 105px;
     margin-bottom: 25px;
 }
@@ -1215,7 +1218,7 @@ span {
     border-radius: 10px;
     background: #4BAF47;
     text-decoration: none;
-    width: 196.31px;
+    width: 70%;
     height: 58px;
     text-align: center;
     padding: 14px 49.651px 14px 50px;
@@ -1235,7 +1238,7 @@ span {
 
 .master-new {
     display: flex;
-    width: 369.98px;
+    width: 35%;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
@@ -1245,7 +1248,7 @@ span {
 .back {
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/1.Agriculture/e8c92e8df267c9e4faa3897cbb33790b.png);
     background-size: cover;
-    width: 369.98px;
+    width: 100%;
     height: 299px;
     border-radius: 10px 10px 0 0;
     box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.05);
@@ -1278,7 +1281,7 @@ span {
     border-radius: 10px;
     background: #4BAF47;
     display: flex;
-    width: 134.77px;
+    width: 60%;
     height: 40px;
     padding: 0px 24.669px 0px 25px;
     justify-content: center;
@@ -1316,7 +1319,7 @@ span {
 }
 
 .portrait {
-    width: 250px;
+    width: 100%;
     height: 108px;
     color: #1F1E17;
     text-align: center;
@@ -1350,13 +1353,13 @@ footer {
 }
 
 .column1 {
-    width: 300px;
+    width: 30%;
     height: 273px;
 }
 
 .column2 {
     display: flex;
-    width: 200px;
+    width: 15%;
     height: 273px;
     flex-direction: column;
     align-items: flex-start;
@@ -1395,7 +1398,7 @@ footer {
 
 .column3 {
     display: flex;
-    width: 399.98px;
+    width: 25%;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
@@ -1409,7 +1412,7 @@ footer {
     font-style: normal;
     font-weight: 700;
     line-height: 26px;
-    width: 197px;
+    width: 70%;
 }
 
 .date2 {
@@ -1424,7 +1427,7 @@ footer {
 
 .column4 {
     display: flex;
-    width: 300px;
+    width: 30%;
     flex-direction: column;
     align-items: flex-start;
 }
@@ -1436,7 +1439,7 @@ footer {
     font-style: normal;
     font-weight: 500;
     line-height: 30px;
-    width: 269px;
+    width: 70%;
     margin-top: 24px;
 }
 
@@ -1533,14 +1536,14 @@ input {
 
 .footbox {
     display: flex;
-    width: 1200px;
+    width: 80%;
     height: 70px;
     justify-content: center;
 }
 
 .columnbox {
     display: flex;
-    width: 600px;
+    width: 40%;
     height: 70px;
     padding: 20px 0px 20px 15px;
     align-items: flex-start;
@@ -1549,7 +1552,7 @@ input {
 
 .columnbox2 {
     display: flex;
-    width: 600px;
+    width: 60%;
     height: 70px;
     padding: 20px 0px 20px 15px;
     justify-content: flex-end;
