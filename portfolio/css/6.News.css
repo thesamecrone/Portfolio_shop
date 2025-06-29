@@ -358,7 +358,6 @@ input[type="text"] {
     justify-content: flex-end;
     align-items: center;
     position: relative;
-    margin-left: 30px;
 }
 
 .finder {
