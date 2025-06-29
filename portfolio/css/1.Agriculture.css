@@ -517,6 +517,9 @@ span {
     background-color: #FFF;
     background-size: cover;
     height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .cards {
@@ -600,13 +603,12 @@ span {
     border-radius: 50%;
     width: 500px;
     height: 500px;
-    margin-top: 40px;
-    margin-left: 30px;
 }
 
 .article {
     margin-top: 40px;
     margin-left: 50px;
+    margin-bottom: 60px;
 }
 
 .intro {
@@ -909,6 +911,8 @@ span {
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/1.Agriculture/1d480a43b8d523b9ec5a686d97d78cca.png);
     height: 691px;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .agricult {
