@@ -81,7 +81,7 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background: #F8F7F0;
+    background: #e3e8f6e8;
 }
 
 .icon {
@@ -238,7 +238,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #F8F7F0 -19.808px 0px / 102.08% 100% no-repeat;
+    background: #e3e8f6e8 -19.808px 0px / 102.08% 100% no-repeat;
 }
 
 .home {
