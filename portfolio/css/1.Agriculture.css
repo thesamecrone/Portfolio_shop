@@ -83,13 +83,17 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background: #dddddd70;
+    background: #e3e8f6e8;
 }
 
 .icon {
     width: 14px;
     height: 14px;
     flex-shrink: 0;
+}
+
+nav {
+    display: flex;
 }
 
 .call,
@@ -241,7 +245,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #dddddde8 -19.808px 0px / 102.08% 100% no-repeat;
+    background: #e3e8f6e8 -19.808px 0px / 102.08% 100% no-repeat;
 }
 
 .home {
@@ -571,13 +575,14 @@ span {
 }
 
 .pictures {
-    height: 90px;
+    height: 40%;
+    width: 30%;
     border-radius: 10px;
 }
 
 .agro {
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 641.19px;
     justify-content: center;
     margin-top: 150px;
