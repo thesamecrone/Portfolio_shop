@@ -77,13 +77,13 @@ a {
 
 .nav {
     display: flex;
-    width: 50%;
-    height: 40px;
+    width: 20%;
+    height: 40%;
     padding: 13px;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background: #F8F7F0;
+    background: #dddddd70;
 }
 
 .icon {
@@ -236,17 +236,12 @@ h3 {
     margin-right: 20px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
 section {
     height: 79px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #F8F7F0 -19.808px 0px / 102.08% 100% no-repeat;
+    background: #dddddde8 -19.808px 0px / 102.08% 100% no-repeat;
 }
 
 .home {
