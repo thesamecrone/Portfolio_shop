@@ -661,7 +661,7 @@ span {
 
 .box1 {
     display: inline-flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .head1 {
@@ -836,7 +836,8 @@ span {
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    flex-direction: column;
 }
 
 .iconn {
@@ -848,7 +849,7 @@ span {
     top: -50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 65px;
+    margin-top: 45px;
     padding: 10px;
 }
 
@@ -859,30 +860,26 @@ span {
     font-style: normal;
     font-weight: 800;
     line-height: 28px;
-    width: 112.6px;
-    height: 56px;
+    width: 50%;
     text-align: center;
-    margin-bottom: 10px;
     z-index: 1;
-    margin-left: 210px;
 }
 
 .button3 {
     border-radius: 10px;
     background: #4BAF47;
-    width: 70%;
+    width: 80%;
     height: 46px;
     font-family: "Manrope", sans-serif;
     color: #FFF;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
     text-align: center;
     white-space: nowrap;
     z-index: 2;
-    margin-bottom: 58px;
-    margin-right: 107px;
+    padding-top: 5%;
 }
 
 .banner {
