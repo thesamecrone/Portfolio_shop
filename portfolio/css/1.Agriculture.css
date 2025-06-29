@@ -1238,7 +1238,7 @@ span {
 
 .master-new {
     display: flex;
-    width: 35%;
+    width: 30%;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
@@ -1248,7 +1248,7 @@ span {
 .back {
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/1.Agriculture/e8c92e8df267c9e4faa3897cbb33790b.png);
     background-size: cover;
-    width: 100%;
+    width: 90%;
     height: 299px;
     border-radius: 10px 10px 0 0;
     box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.05);
@@ -1257,7 +1257,7 @@ span {
 .back1 {
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/1.Agriculture/fa2241c429fe25e4a5676a68e572c4a0.png);
     background-size: cover;
-    width: 369.98px;
+    width: 90%;
     height: 299px;
     border-radius: 10px 10px 0 0;
     box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.05);
@@ -1266,7 +1266,7 @@ span {
 .back2 {
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/1.Agriculture/aef651440bc81e1fb157f15f8eb5507a.png);
     background-size: cover;
-    width: 369.98px;
+    width: 90%;
     height: 299px;
     border-radius: 10px 10px 0 0;
     box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.05);
