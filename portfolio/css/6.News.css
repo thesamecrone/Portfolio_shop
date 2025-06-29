@@ -98,10 +98,14 @@ a {
     text-decoration: none;
 }
 
+.imgfind {
+    width: 65%;
+    height: 50%;
+}
+
 .phone {
     width: 30px;
     height: 30px;
-    flex-shrink: 0;
     margin-top: 40px;
     margin-left: 20px;
     cursor: pointer;
