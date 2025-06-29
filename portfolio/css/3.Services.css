@@ -68,9 +68,7 @@ a {
     height: 115.5px;
     justify-content: flex-end;
     align-items: center;
-    flex-shrink: 0;
-    width: 217.44px;
-    flex-shrink: 0;
+    width: 17%;
 }
 
 .nav {
@@ -87,7 +85,6 @@ a {
 .icon {
     width: 14px;
     height: 14px;
-    flex-shrink: 0;
 }
 
 .call,
@@ -103,7 +100,6 @@ a {
 .phone {
     width: 30px;
     height: 30px;
-    flex-shrink: 0;
     margin-top: 40px;
     margin-left: 20px;
     cursor: pointer;
