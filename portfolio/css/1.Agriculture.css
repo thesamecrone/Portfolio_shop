@@ -70,9 +70,7 @@ a {
     height: 115.5px;
     justify-content: flex-end;
     align-items: center;
-    flex-shrink: 0;
     width: 17%;
-    flex-shrink: 0;
 }
 
 .nav {
@@ -89,7 +87,6 @@ a {
 .icon {
     width: 14px;
     height: 14px;
-    flex-shrink: 0;
 }
 
 nav {
@@ -205,7 +202,6 @@ h3 {
     height: 20px;
     flex-direction: column;
     justify-content: center;
-    flex-shrink: 0;
     color: #878680;
     font-family: "Manrope", sans-serif;
     font-size: 12px;
@@ -220,7 +216,6 @@ h3 {
     height: 20px;
     flex-direction: column;
     justify-content: center;
-    flex-shrink: 0;
     color: #1F1E17;
     font-family: "Manrope", sans-serif;
     font-size: 14px;
