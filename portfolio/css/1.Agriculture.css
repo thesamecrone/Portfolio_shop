@@ -1281,7 +1281,7 @@ span {
     border-radius: 10px;
     background: #4BAF47;
     display: flex;
-    width: 60%;
+    width: 50%;
     height: 40px;
     padding: 0px 24.669px 0px 25px;
     justify-content: center;
@@ -1299,7 +1299,8 @@ span {
 
 .package {
     display: flex;
-    justify-content: space-around;
+    width: 100%;
+    justify-content: center;
     margin-top: 20px;
 }
 
