@@ -93,14 +93,12 @@ a {
     width: 18%;
     height: 115.5px;
     display: flex;
-    justify-content: center;
     text-decoration: none;
 }
 
 .phone {
     width: 30px;
     height: 30px;
-    flex-shrink: 0;
     margin-top: 40px;
     margin-left: 20px;
     cursor: pointer;
