@@ -785,6 +785,7 @@ span {
     font-style: normal;
     font-weight: 800;
     line-height: 57.6px;
+    padding-bottom: 5%;
 }
 
 .contain {
@@ -916,7 +917,7 @@ span {
     height: 184px;
     border-radius: 10px;
     background: #4BAF47;
-    margin: 0 auto;
+    margin-top: 5%;
 }
 
 .ban {
@@ -931,7 +932,7 @@ span {
 
 .page4 {
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/1.Agriculture/1d480a43b8d523b9ec5a686d97d78cca.png);
-    height: 691px;
+    height: 740px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1152,12 +1153,13 @@ span {
     background-color: #FFF;
     position: relative;
     display: flex;
+    justify-content: center;
 }
 
 .choice {
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 90%;
     position: absolute;
     top: 0;
     margin-top: 10%;
