@@ -554,7 +554,7 @@ span {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    padding-top: 48px;
+    padding-top: 10%;
 }
 
 .description {
@@ -873,17 +873,19 @@ span {
     border-radius: 10px;
     background: #4BAF47;
     width: 50%;
-    height: 46px;
+    height: 23%;
     font-family: "Manrope", sans-serif;
     color: #FFF;
     text-decoration: none;
     font-size: 15px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     text-align: center;
     white-space: nowrap;
     z-index: 1;
-    padding-top: 3%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
 }
 
 .banner {
@@ -957,16 +959,15 @@ span {
 }
 
 .explore {
-    position: absolute;
-    top: 0;
+   margin-top: 5%;
 }
 
 .flex-cont {
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    margin-top: 70px;
-    margin-bottom: 100px;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .bigcard {
@@ -976,7 +977,7 @@ span {
     border-radius: 10px;
     width: 30%;
     height: 450px;
-    margin-left: 20px;
+    margin-left: 5%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -1042,19 +1043,19 @@ span {
 }
 
 .container2 {
-    height: 470px;
     width: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .container3 {
     width: 50%;
-    height: 254px;
     display: flex;
     justify-content: space-between;
     margin-left: 70px;
     background-color: #FFF;
     border-radius: 10px;
-    margin-bottom: 175px;
+    margin-bottom: 10%;
 }
 
 .paragraph1 {
@@ -1064,9 +1065,9 @@ span {
     font-style: normal;
     font-weight: 500;
     line-height: 30px;
-    padding-top: 33px;
-    margin-bottom: 30px;
-    width: 329.25px;
+    padding-top: 10%;
+    margin-bottom: 10%;
+    width: 70%;
 }
 
 .master {
@@ -1138,10 +1139,10 @@ span {
 .choice {
     display: flex;
     justify-content: center;
-    width: 1200px;
+    width: 80%;
     position: absolute;
     top: 0;
-    margin-top: 60px;
+    margin-top: 10%;
 }
 
 .backg {
@@ -1179,7 +1180,7 @@ span {
 
 .benefit {
     width: 40%;
-    margin-left: 20px;
+    margin-left: 5%;
 }
 
 .boxes {
@@ -1322,11 +1323,11 @@ span {
     font-style: normal;
     font-weight: 800;
     line-height: 36px;
-    margin-top: 10px;
+    margin-top: 5%;
 }
 
 .border {
-    height: 234.5px;
+    height: 120px;
     background: #F8F7F0;
 }
 
@@ -1339,9 +1340,8 @@ footer {
 }
 
 .columns {
-    width: 1200px;
-    height: 273px;
-    margin-top: 120px;
+    width: 80%;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
 }
