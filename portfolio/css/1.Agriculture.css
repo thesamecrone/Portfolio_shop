@@ -365,6 +365,26 @@ h3 {
     visibility: visible;
 }
 
+.button3_ {
+
+    border-radius: 10px;
+    background: #4BAF47;
+    width: 50%;
+    height: 20%;
+    font-family: "Manrope", sans-serif;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #search-input {
     padding: 10px;
     border: none;
@@ -898,7 +918,6 @@ span {
     border-radius: 10px;
     background: #4BAF47;
     margin: 0 auto;
-    margin-top: 100px;
 }
 
 .ban {
