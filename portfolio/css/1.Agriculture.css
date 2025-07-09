@@ -22,7 +22,7 @@ a {
     position: fixed;
     bottom: 20px;
     right: 5%;
-    background-color: #EEC044;
+    background-color: linear-gradient(45deg, rgb(238, 192, 68) 41%, rgb(69, 133, 80));
     font-size: 25px;
     color: #ffffff;
     text-align: center;
@@ -1179,7 +1179,7 @@ span {
 
 .quote {
     border-radius: 10px;
-    background: #EEC044;
+    background: linear-gradient(45deg, rgb(228, 195, 105) 36%, rgb(33, 82, 41), rgb(101, 103, 93));
     width: 30%;
     height: 128px;
     display: flex;
