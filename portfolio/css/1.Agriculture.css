@@ -766,12 +766,11 @@ span {
 }
 
 .off {
+    display: flex;
+    flex-direction: column;
     background-color: #E4E2D7;
     background-size: cover;
     background-attachment: fixed;
-    height: 406.59px;
-    position: absolute;
-    top: 0;
     width: 100%;
 }
 
@@ -793,7 +792,7 @@ span {
 .contain {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    width: 90%;
 }
 
 .rectangle1 {
