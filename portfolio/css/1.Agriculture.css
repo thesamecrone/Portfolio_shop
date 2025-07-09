@@ -758,9 +758,11 @@ span {
 }
 
 .page3 {
-    height: 750px;
+    height: 685px;
     background-color: aliceblue;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .off {
@@ -917,7 +919,6 @@ span {
     height: 184px;
     border-radius: 10px;
     background: #4BAF47;
-    margin-top: 5%;
 }
 
 .ban {
