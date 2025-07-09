@@ -758,7 +758,7 @@ span {
 }
 
 .page3 {
-    height: 685px;
+    height: 950px;
     background-color: aliceblue;
     position: relative;
     display: flex;
@@ -792,7 +792,7 @@ span {
 .contain {
     display: flex;
     justify-content: center;
-    width: 90%;
+    width: 100%;
 }
 
 .rectangle1 {
@@ -888,6 +888,7 @@ span {
     width: 50%;
     text-align: center;
     z-index: 1;
+    padding-bottom: 8%;
 }
 
 .button3 {
@@ -918,6 +919,7 @@ span {
     height: 184px;
     border-radius: 10px;
     background: #4BAF47;
+    margin-top: 5%;
 }
 
 .ban {
