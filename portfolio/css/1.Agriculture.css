@@ -115,18 +115,26 @@ nav {
 }
 
 @keyframes shakeWithPause {
-  0%, 5% {
-    transform: translateX(0);
-  }
-  10%, 15% {
-    transform: translateX(-8%);
-  }
-  20%, 25% {
-    transform: translateX(8%);
-  }
-  30%, 100% {
-    transform: translateX(0);
-  }
+
+    0%,
+    5% {
+        transform: translateX(0);
+    }
+
+    10%,
+    15% {
+        transform: translateX(-8%);
+    }
+
+    20%,
+    25% {
+        transform: translateX(8%);
+    }
+
+    30%,
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .phone {
@@ -805,7 +813,7 @@ span {
 }
 
 .page3 {
-    height: 950px;
+    height: 860px;
     background-color: aliceblue;
     position: relative;
     display: flex;
@@ -1230,6 +1238,7 @@ span {
     position: relative;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .choice {
@@ -1253,7 +1262,7 @@ span {
 
 .quote {
     border-radius: 10%;
-    background: linear-gradient(45deg, rgb(228, 195, 105) 36%, rgb(33, 82, 41), rgb(101, 103, 93));
+    background: linear-gradient(45deg, rgba(228, 195, 105, 0.678) 36%, rgba(33, 82, 41, 0.766), rgba(101, 103, 93, 0.892));
     width: 25%;
     display: flex;
     justify-content: flex-end;
@@ -1340,14 +1349,6 @@ span {
     height: 299px;
     border-radius: 10px 10px 0 0;
     box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease;
-    z-index: 2;
-}
-
-.back:hover {
-    transform: scale(1.1);
-    z-index: 1;
-    transition-delay: 0s;
 }
 
 .back1 {
@@ -1357,14 +1358,6 @@ span {
     height: 299px;
     border-radius: 10px 10px 0 0;
     box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease;
-    z-index: 2;
-}
-
-.back1:hover {
-    transform: scale(1.1);
-    z-index: 1;
-    transition-delay: 0s;
 }
 
 .back2 {
@@ -1374,14 +1367,6 @@ span {
     height: 299px;
     border-radius: 10px 10px 0 0;
     box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease;
-    z-index: 2;
-}
-
-.back2:hover {
-    transform: scale(1.1);
-    z-index: 1;
-    transition-delay: 0s;
 }
 
 .wrap {
@@ -1406,7 +1391,11 @@ span {
     font-weight: 700;
     line-height: 40px;
     margin: auto;
-    z-index: 3;
+    transition: transform 0.3s ease;
+}
+
+.logo2:hover {
+    transform: scale(1.1);
 }
 
 .package {
