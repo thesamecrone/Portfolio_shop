@@ -408,7 +408,7 @@ h3 {
     font-family: "Manrope", sans-serif;
     color: #FFF;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
     text-align: center;
@@ -814,7 +814,7 @@ span {
 }
 
 .page3 {
-    height: 860px;
+    height: 905px;
     background-color: aliceblue;
     position: relative;
     display: flex;
