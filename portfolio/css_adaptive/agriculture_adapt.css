@@ -231,7 +231,11 @@
     .call,
     .mail,
     .location {
-        width: 160px;
+        width: 20%;
+    }
+
+    .number {
+        font-size: 11px;
     }
 
     .find {
