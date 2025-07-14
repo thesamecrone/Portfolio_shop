@@ -6,28 +6,23 @@
 
 @media screen and (max-width: 1000px) {
 
-    html,
-    body {
-        overflow-x: hidden;
-    }
-
     #scroll-to-top {
         right: 80px;
     }
 
     .logo {
-        width: 100px;
+        width: 100%;
         height: 34.5px;
     }
 
     .navbar {
-        width: 173px;
+        width: 22%;
     }
 
     .call,
     .mail,
     .location {
-        width: 160px;
+        width: 20%;
     }
 
     .menuu {
@@ -40,11 +35,15 @@
     }
 
     .card {
-        width: 300px;
+        width: 50%;
+    }
+
+    .description {
+        width: 81%;
     }
 
     .pictures {
-        margin-left: 103px;
+        width: 45%;
     }
 
     .photos {
@@ -79,6 +78,22 @@
         width: 200px;
     }
 
+    .button3_ {
+        font-size: 13px;
+    }
+
+    .page3 {
+        height: 800px;
+    }
+
+    .headd {
+        width: 67%;
+    }
+
+    .flex-cont {
+        width: 85%;
+    }
+
     .button3 {
         width: 100px;
         padding: 13px 9px 14px 16px;
@@ -90,19 +105,28 @@
     }
 
     .bigcard {
-        width: 210px;
+        width: 20%;
     }
 
     .bigcard2 {
-        width: 210px;
+        width: 20%;
     }
 
     .bigcard3 {
-        width: 210px;
+        width: 20%;
     }
 
     .bigcard4 {
-        width: 210px;
+        width: 20%;
+    }
+
+    .name {
+        font-size: 26px;
+    }
+
+    .paragraphs, .paragraph0 {
+        font-size: 14px;
+        line-height: 27px;
     }
 
     .container3 {
@@ -140,40 +164,53 @@
 
     .master-news {
         gap: 0;
+        width: 100%;
+    }
+
+    .paragraph1 {
+        font-size: 14px;
+    }
+
+    .heading {
+        font-size: 39px;
     }
 
     .back,
     .back1,
     .back2 {
-        width: 300px;
+        width: 85%;
     }
 
     .master-new {
-        width: 335px;
+        width: 35%;
     }
 
     .columns {
         width: 100%;
         max-width: 100vw;
         box-sizing: border-box;
-        padding: 0 15px;
     }
 
     .column2 {
         margin-left: 0;
+        width: 20%;
     }
 
     .column3 {
         margin-left: 0;
-        width: 270px;
+        width: 20%;
     }
 
     .texting {
         width: 240px;
     }
 
+    .texting2 {
+        width: 100%;
+    }
+
     .column1 {
-        margin-left: 40px;
+        width: 20%;
     }
 
     .area {
@@ -262,6 +299,7 @@
 
     .headd {
         margin-left: 190px;
+        width: 67%;
     }
 
     .bigcard {
