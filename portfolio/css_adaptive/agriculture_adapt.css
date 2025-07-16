@@ -419,9 +419,8 @@
 
 @media screen and (max-width: 880px) {
     .logo {
-        margin-left: 70px;
-        width: 60px;
-        height: 20px;
+        width: 90%;
+        height: 31px;
     }
 
     .phone {
@@ -473,7 +472,7 @@
 
     .title {
         font-size: 70px;
-        width: 410px;
+        width: 40%;
     }
 
     span {
@@ -482,7 +481,7 @@
 
     .fish {
         font-size: 13px;
-        width: 400px;
+        width: 45%;
     }
 
     .picture {
@@ -498,7 +497,7 @@
     }
 
     .card {
-        width: 170px;
+        width: 28%;
     }
 
     .description {
@@ -506,7 +505,8 @@
     }
 
     .pictures {
-        margin-left: 40px;
+        width: 45%;
+        height: 30%;
     }
 
     .heading {
@@ -519,20 +519,18 @@
 
     .paragraph {
         font-size: 14px;
-        width: 422px;
+        width: 85%;
     }
 
     .round2 {
-        width: 140px;
-        height: 140px;
-        margin-left: 125px;
+        width: 140%;
+        height: 35%;
     }
 
     .round1 {
-        width: 100px;
-        height: 100px;
-        margin-top: 90px;
-        margin-left: 125px;
+        width: 85%;
+        height: 20%;
+        margin-top: 100%;
     }
 
     .veg {
@@ -546,7 +544,7 @@
     }
 
     .box {
-        width: 350px;
+        width: 80%;
     }
 
     .sentence {
@@ -569,9 +567,9 @@
     }
 
     .headings {
-        width: 386px;
+        width: 50%;
         font-size: 40px;
-        margin-left: 85px;
+        margin-left: 10%;
     }
 
     .agricult {
@@ -586,11 +584,11 @@
     .rectangle2,
     .rectangle3,
     .rectangle4 {
-        width: 120px;
+        width: 20%;
     }
 
     .square {
-        width: 135px;
+        width: 85%;
     }
 
     .headd {
@@ -635,33 +633,28 @@
     }
 
     .container2 {
-        width: 300px;
+        width: 35%;
+        margin-top: 10%;
     }
 
     .intro {
-        margin-left: 37px;
         font-size: 18px;
     }
 
     .heading {
-        margin-left: 37px;
         font-size: 18px;
         line-height: 24px;
     }
 
     .paragraph1 {
         font-size: 13px;
-        width: 266px;
-        padding-top: 0;
-        margin-left: 37px;
-    }
-
-    .button2 {
-        margin-left: 37px;
+        width: 85%;
+        padding-top: 5%;
     }
 
     .container3 {
-        width: 250px;
+        width: 40%;
+        margin-top: 10%;
     }
 
     .master {
@@ -692,23 +685,14 @@
         height: 540px;
     }
 
-    .container2 {
-        margin-top: 150px;
-    }
-
-    .container3 {
-        margin-top: 150px;
-    }
-
     .backg {
         width: 340px;
         height: 580px;
     }
 
     .paragraph0 {
-        width: 300px;
+        width: 90%;
         font-size: 13px;
-        margin-left: 37px;
     }
 
     .checkbox {
@@ -728,17 +712,17 @@
     }
 
     .master-news {
-        width: 100%;
+        width: 95%;
     }
 
     .back,
     .back1,
     .back2 {
-        width: 210px;
+        width: 95%;
     }
 
     .master-new {
-        width: 220px;
+        width: 32%;
     }
 
     .sign {
@@ -755,9 +739,21 @@
     }
 
     .portrait {
-        width: 210px;
-        font-size: 15px;
-        white-space: pre-line;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .wrap {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        margin-top: -10%;
+    }
+
+    .date {
+        font-size: 11px;
+        font-style: normal;
     }
 
     .border {
@@ -818,18 +814,18 @@
     }
 
     .area {
-        width: 180px;
+        width: 95%;
         height: 40px;
     }
 
     .areas {
-        width: 35px;
+        width: 20%;
         height: 40px;
     }
 
     input[type="text"] {
-        padding-left: 18px;
-        padding-top: 13px;
+        padding-left: 15px;
+        padding-top: 10px;
     }
 
     .columnbox {
@@ -842,6 +838,7 @@
         box-sizing: border-box;
         padding: 0 15px;
         height: 320px;
+        gap: 2%;
     }
 
     #scroll-to-top {
@@ -849,16 +846,12 @@
     }
 
     .button3 {
-        width: 50px;
-        height: 50px;
+        width: 36%;
+        height: 6%;
         margin-right: 0;
-        padding: 13px 10px 13px 10px;
+        padding: 14px 10px 11px 10px;
         line-height: 15px;
-        font-size: 10px;
-    }
-
-    .headd {
-        margin-left: 45px;
+        font-size: 12px;
     }
 }
 
