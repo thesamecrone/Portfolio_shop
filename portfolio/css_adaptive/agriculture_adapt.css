@@ -368,7 +368,7 @@
     }
 
     .checkbox {
-        margin-top: 38px;
+        margin-top: 3%;
     }
 
     .paragraphs {
@@ -409,7 +409,7 @@
     }
 
     .columnbox2 {
-        width: 220px;
+        width: 35%;
     }
 
     .reserved {
@@ -629,7 +629,6 @@
 
     .name {
         font-size: 18px;
-        margin-left: 20px;
     }
 
     .container2 {
@@ -654,12 +653,12 @@
 
     .container3 {
         width: 40%;
+        height: 50%;
         margin-top: 10%;
     }
 
     .master {
-        width: 260px;
-        padding: 20px 40px 75px 35px;
+        width: 30%;
     }
 
     .review {
@@ -670,11 +669,11 @@
 
     .minibox {
         flex-direction: column;
-        width: 170px;
     }
 
     .names {
         font-size: 16px;
+        margin-top: 2%;
     }
 
     .parent {
@@ -829,7 +828,7 @@
     }
 
     .columnbox {
-        width: 470px;
+        width: 70%;
     }
 
     .columns {
@@ -864,18 +863,18 @@
 
     .head,
     .navbar {
-        flex: 0 0 50%;
+        flex: 0 0 40%;
         width: 100%;
     }
 
     .call,
     .mail,
     .location {
-        flex: 0 0 33.33%;
+        flex: 0 0 27%;
     }
 
     .logo {
-        width: 120px;
+        width: 40%;
         height: 40px;
     }
 
@@ -884,8 +883,28 @@
         margin-right: 0;
     }
 
+    nav {
+        align-items: center;
+    }
+
     .number {
         width: 111px;
+    }
+
+    .photos {
+        visibility: hidden;
+    }
+
+    .button3_ {
+        width: 75%;
+    }
+
+    .feature {
+        padding-top: 5%;
+    }
+
+    .contain {
+        margin-top: 5%;
     }
 
 }
