@@ -124,7 +124,8 @@
         font-size: 26px;
     }
 
-    .paragraphs, .paragraph0 {
+    .paragraphs,
+    .paragraph0 {
         font-size: 14px;
         line-height: 27px;
     }
@@ -294,10 +295,9 @@
     }
 
     .button3 {
-        height: 80px;
-        width: 50px;
-        white-space: normal;
-        padding: 13px 9px 14px 10px;
+        width: 30%;
+        height: 6%;
+        font-size: 13px;
     }
 
     .headd {
@@ -343,19 +343,28 @@
     }
 
     .heading {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .benefit {
-        width: 380px;
+        width: 45%;
     }
 
     .backg {
-        width: 440px;
+        width: 45%;
     }
 
     .boxes {
-        width: 350px;
+        width: 90%;
+    }
+
+    .texting {
+        font-size: 13px;
+        width: 85%;
+    }
+
+    .portrait {
+        font-size: 18px;
     }
 
     .checkbox {
@@ -367,33 +376,44 @@
     }
 
     .master-new {
-        width: 275px;
+        width: 32%;
     }
 
     .back,
     .back1,
     .back2 {
-        width: 260px;
+        width: 95%;
     }
 
     .column1 {
-        width: 210px;
+        width: 25%;
     }
 
     .column2 {
-        width: 170px;
+        width: 20%;
     }
 
     .column3 {
-        width: 205px;
+        width: 23%;
     }
 
     .texty {
-        width: 196px;
+        font-size: 13px;
+        width: 90%;
+    }
+
+    .nav1 {
+        width: 35px;
+        height: 35px;
+        padding: 8px;
     }
 
     .columnbox2 {
         width: 220px;
+    }
+
+    .reserved {
+        font-size: 12px;
     }
 }
 
