@@ -585,6 +585,7 @@
     .rectangle3,
     .rectangle4 {
         width: 20%;
+        height: 92%;
     }
 
     .square {
@@ -692,6 +693,7 @@
     .paragraph0 {
         width: 90%;
         font-size: 13px;
+        line-height: 24px;
     }
 
     .checkbox {
@@ -727,18 +729,20 @@
     .sign {
         width: 15px;
         height: 20px;
+        margin-left: 0px;
     }
 
     .writing {
         font-size: 10px;
+        margin-left: 0px;
     }
 
     .package {
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     .portrait {
-        width: 100%;
+        width: 85%;
         font-size: 14px;
     }
 
@@ -752,7 +756,8 @@
 
     .date {
         font-size: 11px;
-        font-style: normal;
+        font-weight: 400;
+        padding: 0px 7px 0px 7px;
     }
 
     .border {
@@ -780,17 +785,13 @@
         height: 25px;
     }
 
-    .navbar2 {
-        width: 140px;
-    }
-
     .titles {
-        margin-top: 12px;
+        margin-top: 10%;
         font-size: 15px;
     }
 
     .texting2 {
-        font-size: 12px;
+        font-size: 11px;
         width: 155px;
     }
 
@@ -823,8 +824,10 @@
     }
 
     input[type="text"] {
-        padding-left: 15px;
-        padding-top: 10px;
+        padding-right: 14px;
+        padding-left: 18px;
+        padding-top: 13px;
+        font-size: 10px;
     }
 
     .columnbox {
@@ -835,7 +838,7 @@
         width: 100%;
         max-width: 100vw;
         box-sizing: border-box;
-        padding: 0 15px;
+        padding: 0 5%;
         height: 320px;
         gap: 2%;
     }
@@ -849,7 +852,6 @@
         height: 6%;
         margin-right: 0;
         padding: 14px 10px 11px 10px;
-        line-height: 15px;
         font-size: 12px;
     }
 }
@@ -913,7 +915,6 @@
 @media screen and (max-width: 690px) {
     section {
         height: 90px;
-        flex-wrap: wrap;
     }
 
     .menuu {
@@ -962,7 +963,7 @@
     }
 
     .page2 {
-        height: 940px;
+        height: 100%;
     }
 
     .headings {
@@ -1043,16 +1044,12 @@
         margin-left: 3px;
     }
 
-    .columnbox {
-        width: 370px;
-    }
-
     .texting2 {
-        width: 115px;
+        width: 95%;
     }
 
     .texting {
-        width: 100px;
+        width: 85%;
     }
 
     .navbar2 {
@@ -1060,24 +1057,24 @@
     }
 
     .texty {
-        width: 100px;
+        width: 90%;
         font-size: 11px;
     }
 
     .column1 {
-        width: 110px;
+        width: 15%;
     }
 
     .column2 {
-        width: 145px;
+        width: 22%;
     }
 
     .column3 {
-        width: 110px;
+        width: 22%;
     }
 
     .column4 {
-        width: 200px;
+        width: 25%;
     }
 }
 
