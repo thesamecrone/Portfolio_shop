@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         );
         renderSearchResults(searchResults);
     } else {
-        displayProducts(products); // Показываем все продукты по умолчанию
+        displayProducts(products); 
     }
 });
 
@@ -30,7 +30,16 @@ function renderSearchResults(productsToDisplay) {
     productsContainer.innerHTML = "";
 
     if (productsToDisplay.length === 0) {
-        productsContainer.innerHTML = "<p>No products found.</p>";
+        productsContainer.innerHTML = `
+        <p style="
+            color: #878680;
+            font-family: 'Manrope', sans-serif;
+            font-size: 30px;
+            margin-top: 5%;
+        ">
+            No products found.
+        </p>
+    `;
     } else {
         productsToDisplay.forEach(product => {
             const productElement = document.createElement("div");
