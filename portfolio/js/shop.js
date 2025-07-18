@@ -35,7 +35,8 @@ function renderSearchResults(productsToDisplay) {
             color: #878680;
             font-family: 'Manrope', sans-serif;
             font-size: 30px;
-            margin-top: 5%;
+            margin-top: 10%;
+            margin-left: 8%;
         ">
             No products found.
         </p>
