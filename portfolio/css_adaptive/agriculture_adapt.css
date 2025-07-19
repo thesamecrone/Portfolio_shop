@@ -62,24 +62,17 @@
         margin-top: 195px;
     }
 
-    .rectangle1 {
-        width: 200px;
-    }
-
-    .rectangle2 {
-        width: 200px;
-    }
-
-    .rectangle3 {
-        width: 200px;
-    }
-
+    .rectangle1,
+    .rectangle2,
+    .rectangle3,
     .rectangle4 {
-        width: 200px;
+        width: 20%;
     }
 
     .button3_ {
         font-size: 13px;
+        width: 62%;
+        height: 22%;
     }
 
     .page3 {
@@ -427,6 +420,15 @@
     .reserved {
         font-size: 12px;
     }
+
+    .feature {
+        padding-top: 5%;
+    }
+
+    .article {
+        margin-left: 17%;
+        margin-top: 0px;
+    }
 }
 
 @media screen and (max-width: 880px) {
@@ -535,13 +537,13 @@
     }
 
     .round2 {
-        width: 140%;
-        height: 35%;
+        width: 143%;
+        height: 20%;
     }
 
     .round1 {
         width: 85%;
-        height: 20%;
+        height: 12%;
         margin-top: 100%;
     }
 
@@ -671,13 +673,17 @@
     }
 
     .master {
-        width: 30%;
+        width: 100%;
     }
 
     .review {
         font-size: 10px;
         width: 100%;
-        line-height: 28px;
+        line-height: 22px;
+    }
+
+    .banner {
+        margin-top: 2%;
     }
 
     .minibox {
@@ -687,10 +693,12 @@
     .names {
         font-size: 16px;
         margin-top: 2%;
+        width: 70%;
     }
 
     .parent {
         margin-top: 0;
+        width: 70%;
     }
 
     .page6 {
