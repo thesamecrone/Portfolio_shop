@@ -928,6 +928,7 @@
 
     .contain {
         margin-top: 5%;
+        margin-bottom: 5%;
     }
 
 }
@@ -1182,7 +1183,7 @@
     .bigcard3,
     .bigcard4 {
         width: 30%;
-        height: 280px;
+        height: 240px;
     }
 
     .master {
@@ -1321,6 +1322,30 @@
 
     .page3 {
         height: 470px;
+    }
+
+    .menuu {
+        padding-right: 0px;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .description {
+        width: 90%;
+    }
+
+    .card {
+        height: 230px;
+    }
+
+    .iconn {
+        margin-top: 77%;
+    }
+
+    .headd {
+        padding-bottom: 14%;
     }
 
 }
