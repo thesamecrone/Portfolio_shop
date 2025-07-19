@@ -812,7 +812,7 @@
 
     .texting2 {
         font-size: 11px;
-        width: 155px;
+        width: 85%;
     }
 
     .texty {
@@ -1313,6 +1313,14 @@
 
     .names {
         width: 100%;
+    }
+
+    .border {
+        height: 100px;
+    }
+
+    .page3 {
+        height: 470px;
     }
 
 }
