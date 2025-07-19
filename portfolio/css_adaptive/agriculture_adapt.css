@@ -1014,7 +1014,7 @@
     }
 
     .paragraphs {
-        width: 185px;
+        width: 100%;
         line-height: 20px;
     }
 
@@ -1027,7 +1027,7 @@
     }
 
     .backg {
-        width: 230px;
+        width: 45%;
     }
 
     .quote {
@@ -1312,6 +1312,7 @@
 
     .names {
         width: 100%;
+        font-size: 14px;
     }
 
     .border {
@@ -1344,6 +1345,38 @@
 
     .headd {
         padding-bottom: 14%;
+    }
+
+    input[type="text"] {
+        padding-left: 13%;
+    }
+
+    .area {
+        width: 127px;
+    }
+
+    .boxes {
+        width: 100%;
+    }
+
+    .feature {
+        padding-top: 30%;
+    }
+
+    .master {
+        padding: 17px 23px 23px 18px;
+    }
+
+    .parent {
+        width: 85%;
+    }
+
+    .review {
+        padding-right: 5px;
+    }
+
+    .finder {
+        padding-right: 10px;
     }
 
 }
