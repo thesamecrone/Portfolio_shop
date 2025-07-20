@@ -1675,3 +1675,111 @@
         margin-top: 100%;
     }
 }
+
+@media screen and (max-width: 410px) {
+    .page {
+        flex-direction: column;
+    }
+
+    .finder {
+        height: 15px;
+        width: 25px;
+        padding-left: 0px;
+    }
+
+    .basket {
+        width: 14px;
+        height: 15px;
+    }
+
+    .number {
+        line-height: 14px;
+    }
+
+    .feature {
+        font-size: 20px;
+    }
+
+    .description {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .name {
+        font-size: 10px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+
+    .minibox {
+        width: 90%;
+        padding-top: 20%;
+    }
+
+    .button3 {
+        width: 65%;
+    }
+
+    .backg {
+        height: 715px;
+    }
+
+    .page7 {
+        height: 1450px;
+    }
+
+    .back,
+    .back1,
+    .back2 {
+        width: 115px;
+    }
+
+    .writing {
+        font-size: 9px;
+    }
+
+    .portrait {
+        width: 112px;
+        font-size: 11px;
+    }
+
+    .border {
+        height: 75px;
+    }
+
+    .reserved {
+        font-size: 8px;
+    }
+
+    .columnbox {
+        width: 65%;
+    }
+
+    .navbar2 {
+        flex-wrap: wrap;
+        width: 77%;
+    }
+
+    .texty {
+        width: 60px;
+        font-size: 7px;
+        font-weight: 400;
+    }
+
+    .area {
+        width: 95px;
+        height: 35px;
+    }
+
+    .texting2,
+    .texting {
+        font-size: 7px;
+    }
+
+    input[type="text"] {
+        padding-top: 13px;
+        padding-left: 4%;
+        font-size: 7px;
+    }
+
+}
