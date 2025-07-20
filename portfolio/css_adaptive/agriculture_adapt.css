@@ -958,7 +958,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
     .page7 {
         height: 1361px;
     }
@@ -1460,7 +1460,7 @@
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 441px) {
 
     .home,
     .menuu,
