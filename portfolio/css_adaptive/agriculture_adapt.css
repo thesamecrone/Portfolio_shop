@@ -5,6 +5,86 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .round2 {
+        border-radius: 50%;
+        width: 110%;
+        height: 33%;
+        margin-top: 25%;
+    }
+
+    .round1 {
+        margin-top: 95%;
+        width: 52%;
+        height: 16%;
+    }
+
+    .headd {
+        width: 73%;
+    }
+
+    .page3 {
+        height: 875px;
+    }
+
+    .master2 {
+        visibility: hidden;
+    }
+
+    .master {
+        padding: 38px 1px 48px 50px;
+    }
+
+    .container3 {
+        margin-left: 0px;
+    }
+
+    .text-right {
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    .paragraph0 {
+        line-height: 23px;
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+
+    .names {
+        margin-top: 10px;
+    }
+
+    .paragraphs {
+        line-height: 25px;
+    }
+
+    .texting {
+        width: 100%;
+        margin-top: 38px;
+    }
+    
+    .navbar2 {
+        gap: 0px;
+    }
+
+    .texting2 {
+        width: 95%;
+    }
+
+    .column2 {
+        width: 20%;
+    }
+
+    .logo2 {
+        width: 95%;
+    }
+
+    .parent {
+        margin-top: 17px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
 
     #scroll-to-top {
         right: 80px;
