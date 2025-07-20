@@ -61,7 +61,7 @@
         width: 100%;
         margin-top: 38px;
     }
-    
+
     .navbar2 {
         gap: 0px;
     }
@@ -80,6 +80,10 @@
 
     .parent {
         margin-top: 17px;
+    }
+
+    body {
+        width: 101%;
     }
 
 }
@@ -953,6 +957,12 @@
         margin-right: 0;
         padding: 14px 10px 11px 10px;
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page7 {
+        height: 1361px;
     }
 }
 
