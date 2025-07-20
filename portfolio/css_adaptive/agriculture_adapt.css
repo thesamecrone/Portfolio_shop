@@ -646,12 +646,10 @@
     }
 
     .sentence {
-        width: 400px;
         font-size: 13px;
     }
 
     .sentence2 {
-        width: 430px;
         margin-bottom: 20px;
         font-size: 13px;
     }
@@ -1000,10 +998,6 @@
         align-items: center;
     }
 
-    .number {
-        width: 111px;
-    }
-
     .photos {
         visibility: hidden;
     }
@@ -1254,10 +1248,6 @@
         height: 140px;
     }
 
-    .ban {
-        width: 100px;
-    }
-
     .reserved {
         font-size: 10px;
     }
@@ -1359,7 +1349,6 @@
 
     .column2 {
         width: 105px;
-        margin-left: -20px;
     }
 
     .texting {
@@ -1467,6 +1456,141 @@
 
     .finder {
         padding-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .home,
+    .menuu,
+    .menu-label {
+        font-size: 10px;
+    }
+
+    .callme,
+    .textme {
+        margin-left: 3px;
+    }
+
+    .call,
+    .mail,
+    .location {
+        flex: 0 0 33%;
+    }
+
+    .phone {
+        margin-top: 36px;
+        margin-left: 13px;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
+
+    .description {
+        width: 100%;
+        font-size: 11px;
+    }
+
+    .feature {
+        width: 60%;
+    }
+
+    .pictures {
+        height: 55px;
+    }
+
+    .paragraph {
+        width: 75%;
+    }
+
+    .name {
+        font-size: 11px;
+        line-height: 22px;
+    }
+
+    .bigcard,
+    .bigcard2,
+    .bigcard3,
+    .bigcard4 {
+        height: 180px;
+    }
+
+    .review {
+        line-height: 19px;
+    }
+
+    .paragraph1 {
+        width: 81%;
+        line-height: 22px;
+    }
+
+    .button2 {
+        font-size: 10px;
+    }
+
+    .parent {
+        width: 100%;
+    }
+
+    .names {
+        padding-top: 5%;
+        font-size: 13px;
+    }
+
+    .checkbox {
+        margin-top: 6%;
+    }
+
+    .paragraphs {
+        font-size: 10px;
+    }
+
+    .intro {
+        line-height: 30px;
+    }
+
+    .button3 {
+        width: 53%;
+    }
+
+    .texting2,
+    .texting {
+        font-size: 8px;
+    }
+
+    .navbar2 {
+        flex-wrap: wrap;
+        width: 65%;
+    }
+
+    .titles {
+        font-size: 13px;
+    }
+
+    .columnbox {
+        width: 75%;
+    }
+
+    .columnbox2 {
+        width: 46%;
+    }
+
+    .area {
+        width: 100px;
+        height: 35px;
+    }
+
+    input[type="text"] {
+        padding-top: 13px;
+        padding-left: 2%;
+        font-size: 8px;
+    }
+
+    .areas {
+        height: 35px;
+        padding: 5px;
     }
 
 }
