@@ -973,9 +973,9 @@ span {
     justify-content: center;
     justify-content: space-around;
     align-items: center;
-    height: 184px;
+    height: 305px;
     background: linear-gradient(45deg, rgb(75, 175, 71) 28%, rgb(24, 77, 70));
-    margin-top: 5%;
+    margin-top: 7%;
 }
 
 .ban {
