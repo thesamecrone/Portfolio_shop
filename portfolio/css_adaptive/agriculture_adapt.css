@@ -1494,7 +1494,8 @@
     }
 
     .feature {
-        width: 60%;
+        width: 100%;
+        padding-top: 10%;
     }
 
     .pictures {
@@ -1565,6 +1566,10 @@
         width: 65%;
     }
 
+    .texting {
+        width: 68px;
+    }
+
     .titles {
         font-size: 13px;
     }
@@ -1593,4 +1598,44 @@
         padding: 5px;
     }
 
+    .portrait {
+        line-height: 25px;
+    }
+
+    .date2 {
+        font-size: 11px;
+    }
+
+    footer {
+        height: 400px;
+
+    }
+
+    .texty {
+        width: 74px;
+        font-size: 8px;
+        font-weight: 500;
+    }
+
+    .logo2 {
+        width: 100%;
+    }
+
+    .page3 {
+        height: 540px;
+    }
+
+    .banner {
+        height: 160px;
+    }
+
+    .headd {
+        font-weight: 500;
+        font-size: 11px;
+    }
+
+    .banner {
+        height: 173px;
+        margin-top: 9%;
+    }
 }
