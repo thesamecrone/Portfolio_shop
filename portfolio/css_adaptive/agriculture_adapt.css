@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 2570px) {
+    .offer {
+        padding-bottom: 0%;
+    }
+
+    .boxes {
+        justify-content: flex-start;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .round2 {
         border-radius: 50%;
@@ -962,6 +972,14 @@
     .page7 {
         height: 1361px;
     }
+
+    .number {
+        font-size: 8px;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 715px) {
@@ -1681,6 +1699,10 @@
         flex-direction: column;
     }
 
+    .article {
+        margin-left: 0%;
+    }
+
     .finder {
         height: 15px;
         width: 25px;
@@ -1784,5 +1806,75 @@
 
     .title {
         font-size: 50px;
+    }
+
+    .pictures {
+        height: 20%;
+    }
+
+    .card {
+        height: 80%;
+    }
+
+}
+
+@media screen and (max-width: 330px) {
+    .logo {
+        height: 25px;
+    }
+
+    h3,
+    .number {
+        font-size: 7px;
+    }
+
+    .feature {
+        font-size: 17px;
+    }
+
+    .description {
+        font-size: 8px;
+    }
+
+    .iconn {
+        margin-top: 126%;
+    }
+
+    .area {
+        width: 83px;
+    }
+
+    input[type="text"] {
+        font-size: 6px;
+    }
+
+    .reserved {
+        font-size: 6px;
+    }
+
+    .texting2,
+    .texting {
+        font-size: 6px;
+    }
+
+    .date {
+        width: 75%;
+        font-size: 9px;
+    }
+
+    .back,
+    .back1,
+    .back2 {
+        width: 81%;
+    }
+
+    .package {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .writing {
+        font-size: 7px;
+        width: 38%;
     }
 }
