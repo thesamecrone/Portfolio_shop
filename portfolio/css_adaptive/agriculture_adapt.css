@@ -6,11 +6,41 @@
 
 @media screen and (max-width: 2570px) {
     .offer {
-        padding-bottom: 0%;
+        padding-bottom: 2%;
     }
 
     .boxes {
         justify-content: flex-start;
+    }
+
+    .round {
+        height: 25%;
+        top: 65%;
+    }
+
+    .quote {
+        width: 15%;
+    }
+
+    .nav {
+        width: 10%;
+    }
+
+    .pictures {
+        height: 45%;
+        width: 18%;
+    }
+
+    .feature {
+        padding-top: 2%;
+    }
+
+    .square {
+        width: 55%;
+    }
+
+    .banner {
+        margin-top: 3%;
     }
 }
 
