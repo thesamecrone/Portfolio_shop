@@ -1877,4 +1877,104 @@
         font-size: 7px;
         width: 38%;
     }
+
+    .cards {
+        gap: 5%;
+    }
+
+    .card {
+        margin-left: 0px;
+    }
+
+    .picture {
+        margin-left: 8px;
+    }
+
+    .rectangle1,
+    .rectangle2,
+    .rectangle3,
+    .rectangle4 {
+        max-width: 15%;
+        height: 155px;
+    }
+
+    .square {
+        width: 90%;
+    }
+
+    .headd {
+        font-size: 7px;
+    }
+
+    .button3_ {
+        width: 142%;
+    }
+
+    .feature {
+        padding-top: 6%;
+    }
+
+    .page3 {
+        height: 435px;
+    }
+
+    .headings {
+        width: 129px;
+        font-size: 19px;
+    }
+
+    .name {
+        font-size: 9px;
+
+    }
+
+    .button2 {
+        font-size: 7px;
+    }
+
+    .container3 {
+        width: 47%;
+        margin-left: 0px;
+    }
+
+    .checkbox {
+        width: 15px;
+        height: 15px;
+        margin-top: 15%;
+    }
+
+    .names {
+        padding-top: 5%;
+        font-size: 10px;
+    }
+
+    .paragraphs {
+        line-height: 17px;
+    }
+
+    .text-right {
+        font-size: 16px;
+    }
+
+    .button3 {
+        font-size: 10px;
+    }
+
+    .master-new {
+        width: 33%;
+    }
+
+    .back,
+    .back1,
+    .back2 {
+        width: 33%;
+    }
+
+    .area {
+        width: 77px;
+    }
+
+    .date2 {
+        font-size: 9px;
+    }
 }
