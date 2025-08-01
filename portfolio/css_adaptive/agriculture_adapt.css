@@ -1954,7 +1954,7 @@
     }
 
     .name {
-        font-size: 9px;
+        font-size: 7px;
 
     }
 
@@ -1992,12 +1992,13 @@
 
     .master-new {
         width: 33%;
+        height: 82%;
     }
 
     .back,
     .back1,
     .back2 {
-        width: 33%;
+        width: 94%;
     }
 
     .area {
