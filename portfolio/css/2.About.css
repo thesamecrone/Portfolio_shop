@@ -67,10 +67,10 @@ a {
 .navbar {
     display: flex;
     height: 115.5px;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    width: 17%;
+    width: 12%;
 }
 
 .nav {
@@ -351,7 +351,6 @@ input[type="text"] {
 .find {
     display: flex;
     height: 59px;
-    padding: 3px 15px 0px 176px;
     justify-content: flex-end;
     align-items: center;
     position: relative;
