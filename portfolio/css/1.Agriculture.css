@@ -601,7 +601,6 @@ span {
     box-shadow: 0px 0px 60px 10px rgba(0, 0, 0, 0.10);
     width: 30%;
     height: 285px;
-    margin-left: 20px;
     margin-top: 135px;
     display: flex;
     flex-direction: column;
@@ -848,6 +847,7 @@ span {
     justify-content: center;
     width: 100%;
     margin-top: 5%;
+    gap: 5%;
 }
 
 .rectangle1 {
@@ -870,7 +870,6 @@ span {
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/1.Agriculture/cf457813a031831dedc2504e82343ee4.png);
     background-position: center;
     background-size: cover;
-    margin-left: 30px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -884,7 +883,6 @@ span {
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/1.Agriculture/958b13fb0907f3eac38ba5ce4f172799.png);
     background-position: center;
     background-size: cover;
-    margin-left: 30px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -898,7 +896,6 @@ span {
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/1.Agriculture/ebf914f107f29f1bcbb5e4913b1734d4.png);
     background-position: center;
     background-size: cover;
-    margin-left: 30px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -1429,6 +1426,7 @@ span {
     font-weight: 800;
     line-height: 36px;
     margin-top: 5%;
+    overflow-wrap: break-word;
 }
 
 .border {
