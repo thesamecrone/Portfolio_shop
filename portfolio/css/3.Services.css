@@ -21,7 +21,7 @@ a {
     position: fixed;
     bottom: 20px;
     right: 5%;
-    background-color: #EEC044;
+    background: linear-gradient(45deg, rgb(238, 192, 68) 41%, rgb(69, 133, 80));
     font-size: 25px;
     color: #ffffff;
     text-align: center;
@@ -29,11 +29,9 @@ a {
     border-style: none;
     cursor: pointer;
     z-index: 1000;
+    animation: shakeWithPause 10s ease-in-out infinite;
 }
 
-.animated {
-    animation: pulse 0.5s ease-out;
-}
 
 @keyframes pulse {
     from {
@@ -43,6 +41,33 @@ a {
     to {
         transform: scale(1.2);
     }
+}
+
+@keyframes shakeWithPause {
+
+    0%,
+    5% {
+        transform: translateX(0);
+    }
+
+    10%,
+    15% {
+        transform: translateX(-8%);
+    }
+
+    20%,
+    25% {
+        transform: translateX(8%);
+    }
+
+    30%,
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.animated {
+    animation: pulse 0.5s ease-out;
 }
 
 .top {
@@ -55,6 +80,11 @@ a {
 .logo {
     width: 100%;
     height: 51.5px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 .head {
@@ -66,9 +96,9 @@ a {
 .navbar {
     display: flex;
     height: 115.5px;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    width: 17%;
+    width: 16%;
 }
 
 .nav {
@@ -80,6 +110,11 @@ a {
     align-items: center;
     border-radius: 20px;
     background: #e3e8f6e8;
+    transition: transform 0.3s ease;
+}
+
+.nav:hover {
+    transform: scale(1.1);
 }
 
 .icon {
@@ -102,6 +137,7 @@ a {
     margin-top: 40px;
     margin-left: 20px;
     cursor: pointer;
+    animation: shakeWithPause 10s ease-in-out infinite;
 }
 
 #callback-form {

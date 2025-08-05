@@ -16,6 +16,29 @@ a {
     text-decoration: none;
 }
 
+@keyframes shakeWithPause {
+
+    0%,
+    5% {
+        transform: translateX(0);
+    }
+
+    10%,
+    15% {
+        transform: translateX(-8%);
+    }
+
+    20%,
+    25% {
+        transform: translateX(8%);
+    }
+
+    30%,
+    100% {
+        transform: translateX(0);
+    }
+}
+
 #scroll-to-top {
     width: 50px;
     height: 50px;
@@ -33,10 +56,6 @@ a {
     animation: shakeWithPause 10s ease-in-out infinite;
 }
 
-.animated {
-    animation: pulse 0.5s ease-out;
-}
-
 @keyframes pulse {
     from {
         transform: scale(1);
@@ -45,6 +64,10 @@ a {
     to {
         transform: scale(1.2);
     }
+}
+
+.animated {
+    animation: pulse 0.5s ease-out;
 }
 
 .top {
@@ -112,29 +135,6 @@ nav {
     height: 115.5px;
     display: flex;
     text-decoration: none;
-}
-
-@keyframes shakeWithPause {
-
-    0%,
-    5% {
-        transform: translateX(0);
-    }
-
-    10%,
-    15% {
-        transform: translateX(-8%);
-    }
-
-    20%,
-    25% {
-        transform: translateX(8%);
-    }
-
-    30%,
-    100% {
-        transform: translateX(0);
-    }
 }
 
 .phone {

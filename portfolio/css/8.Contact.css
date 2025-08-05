@@ -15,13 +15,36 @@ a {
     text-decoration: none;
 }
 
+@keyframes shakeWithPause {
+
+    0%,
+    5% {
+        transform: translateX(0);
+    }
+
+    10%,
+    15% {
+        transform: translateX(-8%);
+    }
+
+    20%,
+    25% {
+        transform: translateX(8%);
+    }
+
+    30%,
+    100% {
+        transform: translateX(0);
+    }
+}
+
 #scroll-to-top {
     width: 50px;
     height: 50px;
     position: fixed;
     bottom: 20px;
     right: 5%;
-    background-color: #EEC044;
+    background: linear-gradient(45deg, rgb(238, 192, 68) 41%, rgb(69, 133, 80));
     font-size: 25px;
     color: #ffffff;
     text-align: center;
@@ -29,10 +52,7 @@ a {
     border-style: none;
     cursor: pointer;
     z-index: 1000;
-}
-
-.animated {
-    animation: pulse 0.5s ease-out;
+    animation: shakeWithPause 10s ease-in-out infinite;
 }
 
 @keyframes pulse {
@@ -45,6 +65,10 @@ a {
     }
 }
 
+.animated {
+    animation: pulse 0.5s ease-out;
+}
+
 .top {
     display: flex;
     height: 115.5px;
@@ -55,6 +79,11 @@ a {
 .logo {
     width: 100%;
     height: 51.5px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 .head {
@@ -66,9 +95,9 @@ a {
 .navbar {
     display: flex;
     height: 115.5px;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    width: 17%;
+    width: 16%;
 }
 
 .nav {
@@ -80,12 +109,16 @@ a {
     align-items: center;
     border-radius: 20px;
     background: #e3e8f6e8;
+    transition: transform 0.3s ease;
+}
+
+.nav:hover {
+    transform: scale(1.1);
 }
 
 .icon {
     width: 14px;
     height: 14px;
-    flex-shrink: 0;
 }
 
 .call,
@@ -103,6 +136,7 @@ a {
     margin-top: 40px;
     margin-left: 20px;
     cursor: pointer;
+    animation: shakeWithPause 10s ease-in-out infinite;
 }
 
 #callback-form {
@@ -800,7 +834,6 @@ footer {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.00) 100%), #FFF;
     height: 50px;
     width: 270px;
-    flex-shrink: 0;
 }
 
 .input,
@@ -878,7 +911,6 @@ input {
     height: 70px;
     padding: 20px 0px 20px 15px;
     align-items: flex-start;
-    flex-shrink: 0;
 }
 
 .columnbox2 {
@@ -888,7 +920,6 @@ input {
     padding: 20px 0px 20px 15px;
     justify-content: flex-end;
     align-items: flex-start;
-    flex-shrink: 0;
 }
 
 .reserved {
