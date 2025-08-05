@@ -513,13 +513,13 @@ h1 {
 }
 
 .tractor {
-    width: 450px;
+    width: 100%;
     height: 601px;
     border-radius: 10px;
 }
 
 .lady {
-    width: 290px;
+    width: 20%;
     height: 321px;
     border-radius: 10px;
     position: absolute;
@@ -532,7 +532,7 @@ h1 {
 .square {
     border-radius: 10px;
     background: #C5CE38;
-    width: 100px;
+    width: 9%;
     height: 100px;
     position: absolute;
     top: 224px;
@@ -541,7 +541,7 @@ h1 {
 
 .column02 {
     display: flex;
-    width: 600px;
+    width: 32%;
     flex-direction: column;
     align-items: flex-start;
     padding-left: 15px;
@@ -585,7 +585,6 @@ h1 {
     line-height: 30px;
     padding-top: 33px;
     margin-bottom: 20px;
-    width: 526.62px;
 }
 
 .check {
@@ -645,6 +644,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .plays {
@@ -660,7 +661,7 @@ h1 {
     font-weight: 800;
     line-height: 72px;
     letter-spacing: -4px;
-    width: 698.8px;
+    width: 47%;
     height: 144px;
     margin-top: 95px;
 }
@@ -682,6 +683,11 @@ h1 {
     font-style: normal;
     font-weight: 500;
     line-height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.texts:hover {
+    transform: scale(1.1);
 }
 
 .three {
@@ -722,7 +728,7 @@ h1 {
 }
 
 .wrap {
-    width: 500px;
+    width: 35%;
     height: 285px;
     border-radius: 10px;
     background: #FFF;
@@ -753,7 +759,7 @@ h1 {
     font-weight: 400;
     line-height: 36px;
     margin: 26px;
-    width: 328.79px;
+    width: 100%;
     height: 144px;
 }
 
@@ -803,16 +809,15 @@ h1 {
 
 .container {
     display: flex;
-    width: 1170px;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 120px;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .card1 {
-    width: 369.98px;
+    width: 25%;
     height: 439.97px;
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/2.About/cd4dc91da50dd58ed5e92ceb4c310e65.png);
     background-size: cover;
@@ -821,7 +826,7 @@ h1 {
 }
 
 .card2 {
-    width: 369.98px;
+    width: 25%;
     height: 439.97px;
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/2.About/7fe1e6efe516290bc73eec2788c6fac9.png);
     background-size: cover;
@@ -831,7 +836,7 @@ h1 {
 }
 
 .card3 {
-    width: 369.98px;
+    width: 25%;
     height: 439.97px;
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/2.About/1c56ceb2e19a5ccd03573d1678f7e03b.png);
     background-size: cover;
@@ -841,7 +846,7 @@ h1 {
 }
 
 .content {
-    width: 245px;
+    width: 70%;
     height: 92px;
     background: #FFF;
     border-radius: 10px 0px 0px 10px;
@@ -856,7 +861,7 @@ h1 {
 
 .frames {
     background: #F8F7F0;
-    height: 234.5px;
+    height: 225px;
 }
 
 footer {
