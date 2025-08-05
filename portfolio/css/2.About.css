@@ -501,7 +501,7 @@ h1 {
 .columns0 {
     display: flex;
     justify-content: center;
-    height: 603.19px;
+    height: 100%;
     position: relative;
     margin-top: 120px;
     margin-bottom: 120px;
@@ -662,7 +662,6 @@ h1 {
     line-height: 72px;
     letter-spacing: -4px;
     width: 47%;
-    height: 144px;
     margin-top: 95px;
 }
 
