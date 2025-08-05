@@ -142,24 +142,12 @@
     }
 
     .texting {
-        width: 100%;
+        width: 78%;
         margin-top: 38px;
-    }
-
-    .navbar2 {
-        gap: 0px;
-    }
-
-    .texting2 {
-        width: 95%;
     }
 
     .column2 {
         width: 20%;
-    }
-
-    .logo2 {
-        width: 95%;
     }
 
     .parent {
@@ -169,10 +157,6 @@
     body {
         width: 101%;
     }
-
-}
-
-@media screen and (max-width: 1000px) {
 
     #scroll-to-top {
         right: 80px;
@@ -369,10 +353,6 @@
     .column3 {
         margin-left: 0;
         width: 20%;
-    }
-
-    .texting {
-        width: 78%;
     }
 
     .logo2 {
@@ -1666,6 +1646,7 @@
 
     .titles {
         font-size: 13px;
+        margin-top: 11%;
     }
 
     .columnbox {
@@ -1692,10 +1673,6 @@
         padding: 5px;
     }
 
-    .titles {
-        margin-top: 11%;
-    }
-
     .portrait {
         line-height: 25px;
     }
@@ -1706,7 +1683,6 @@
 
     footer {
         height: 400px;
-
     }
 
     .texty {
@@ -1915,10 +1891,6 @@
 
     .iconn {
         margin-top: 126%;
-    }
-
-    .area {
-        width: 83px;
     }
 
     input[type="text"] {
