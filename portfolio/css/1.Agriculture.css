@@ -983,6 +983,7 @@ span {
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .ban:hover {
@@ -1024,6 +1025,7 @@ span {
     justify-content: center;
     align-items: center;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .play:hover {
