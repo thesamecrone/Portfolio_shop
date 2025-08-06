@@ -390,7 +390,6 @@ input {
 .find {
     display: flex;
     height: 59px;
-    padding: 3px 15px 0px 176px;
     justify-content: flex-end;
     align-items: center;
     position: relative;
