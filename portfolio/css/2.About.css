@@ -661,24 +661,13 @@ h1 {
     margin-left: 7px;
 }
 
-@keyframes cursor {
-    0% {
-        border-color: white;
-    }
-
-    50% {
-        border-color: transparent;
-    }
-
-    100% {
-        border-color: white;
-    }
-}
-
-@keyframes printed_text {
-    from {
-        width: 0;
-    }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .title {
@@ -692,7 +681,7 @@ h1 {
     letter-spacing: -4px;
     width: 47%;
     margin-top: 95px;
-    animation: cursor 0.75s step-end infinite, printed_text 5s steps(29);
+    animation: fadeIn 2s ease-in-out forwards;
 }
 
 .frame {
