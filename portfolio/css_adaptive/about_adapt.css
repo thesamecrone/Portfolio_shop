@@ -4,6 +4,25 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 2570px) {
+    .square {
+        width: 111px;
+        top: 37%;
+        left: 23%;
+    }
+
+    .lady {
+        width: 13%;
+        height: 341px;
+        top: 76%;
+        left: 23%;
+    }
+
+    .sign {
+        left: 27%;
+    }
+}
+
 @media screen and (max-width: 780px) {
     .lady {
         height: 205px;
