@@ -131,7 +131,7 @@ nav {
 .call,
 .mail,
 .location {
-    width: 18%;
+    width: 21%;
     height: 115.5px;
     display: flex;
     text-decoration: none;
@@ -250,7 +250,7 @@ h3 {
     justify-content: center;
     color: #1F1E17;
     font-family: "Manrope", sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 700;
     line-height: 20px;
@@ -1049,7 +1049,8 @@ span {
 
 .flex-cont {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2%;
     margin-top: 5%;
     margin-bottom: 10%;
 }
@@ -1059,7 +1060,7 @@ span {
     background-position: center;
     background-size: cover;
     border-radius: 10px;
-    width: 30%;
+    width: 20%;
     height: 450px;
     display: flex;
     justify-content: center;
@@ -1087,9 +1088,8 @@ span {
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    width: 30%;
+    width: 20%;
     height: 450px;
-    margin-left: 20px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -1105,9 +1105,8 @@ span {
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    width: 30%;
+    width: 20%;
     height: 450px;
-    margin-left: 20px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -1123,9 +1122,8 @@ span {
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    width: 30%;
+    width: 20%;
     height: 450px;
-    margin-left: 20px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -1657,7 +1655,6 @@ input {
     height: 70px;
     padding: 20px 0px 20px 15px;
     align-items: flex-start;
-    flex-shrink: 0;
 }
 
 .columnbox2 {
@@ -1667,7 +1664,6 @@ input {
     padding: 20px 0px 20px 15px;
     justify-content: flex-end;
     align-items: flex-start;
-    flex-shrink: 0;
 }
 
 .reserved {

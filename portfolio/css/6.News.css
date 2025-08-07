@@ -126,7 +126,7 @@ a {
 .call,
 .mail,
 .location {
-    width: 18%;
+    width: 21%;
     height: 115.5px;
     display: flex;
     text-decoration: none;
@@ -249,7 +249,7 @@ h3 {
     justify-content: center;
     color: #1F1E17;
     font-family: "Manrope", sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 700;
     line-height: 20px;
@@ -979,7 +979,7 @@ input {
 
 .columnbox {
     display: flex;
-    width: 40%;
+    width: 50%;
     height: 70px;
     padding: 20px 0px 20px 15px;
     align-items: flex-start;

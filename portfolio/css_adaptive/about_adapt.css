@@ -23,36 +23,102 @@
     }
 }
 
-@media screen and (max-width: 780px) {
+
+@media screen and (max-width: 1048px) {
     .lady {
-        height: 205px;
-        top: 70%;
-        left: 36%;
+        height: 26%;
+        top: 79%;
     }
 
     .square {
-        top: 65%;
-        left: 19%;
+        top: 73%;
+    }
+
+    .column01 {
+        margin-left: 0px;
+    }
+
+    .column02 {
+        margin-left: 22px;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+
+    .desc {
+        font-style: 13px;
+        line-height: 25px;
+    }
+
+    .sign {
+        left: 15%;
+    }
+}
+
+
+@media screen and (max-width: 780px) {
+    .lady {
+        width: 20%;
+        height: 160px;
+        top: 94%;
+        left: 40%;
+    }
+
+    .square {
+        top: 84%;
+        left: 22%;
     }
 
     .columns0 {
-        width: 95%;
+        width: 85%;
     }
 
     .column01 {
         margin-left: 8%;
     }
 
+    .column02 {
+        padding-left: 0px;
+    }
+
     .column2 {
         margin-left: 5%;
+    }
+
+    .heading {
+        font-size: 40px;
+        line-height: 47.6px;
+    }
+
+    .heading2 {
+        font-size: 20px;
+        line-height: 26px;
+        padding-top: 20px;
+    }
+
+    .paragraph {
+        font-size: 12px;
+        line-height: 23px;
+        padding-top: 7px;
+        margin-bottom: 5px;
+    }
+
+    .text {
+        font-size: 9px;
+        margin-left: 6px;
+    }
+
+    .checks {
+        margin-top: 7px;
     }
 
     .desc {
         font-size: 9px;
         line-height: 18px;
-        margin: 19px;
-        width: 89%;
         height: 144px;
+        margin: 16px;
+        width: 100%;
     }
 
     .pics {
@@ -82,5 +148,10 @@
     input[type="text"] {
         padding-left: 17px;
         padding-top: 12px;
+    }
+
+    .texts {
+        text-wrap: auto;
+        width: 13%;
     }
 }
