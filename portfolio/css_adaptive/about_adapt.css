@@ -56,6 +56,12 @@
     }
 }
 
+@media screen and (max-width: 880px) {
+    #scroll-to-top {
+        right: 80px;
+    }
+}
+
 
 @media screen and (max-width: 780px) {
     .lady {
@@ -153,5 +159,156 @@
     .texts {
         text-wrap: auto;
         width: 13%;
+    }
+}
+
+@media screen and (max-width: 441px) {
+
+    .head,
+    .navbar {
+        padding-top: 10%;
+        height: 50px;
+        gap: 5%;
+    }
+
+    .heading {
+        font-size: 17px;
+        line-height: 24.6px;
+    }
+
+    .intro {
+        font-size: 14px;
+    }
+
+    .tractor {
+        width: 93%;
+    }
+
+    .heading2 {
+        width: 68%;
+        font-size: 11px;
+        line-height: 19px;
+        padding-top: 5px;
+    }
+
+    .paragraph {
+        width: 68%;
+        font-size: 9px;
+        line-height: 17px;
+    }
+
+    .column02 {
+        width: 40%;
+    }
+
+    .text {
+        line-height: 0px;
+    }
+
+    .button2 {
+        width: 100px;
+        height: 33px;
+        padding: 1px 6.651px 3px 10px;
+        font-size: 10px;
+    }
+
+    .square {
+        top: 75%;
+        left: 15%;
+    }
+
+    .lady {
+        width: 26%;
+        top: 82%;
+        left: 40%;
+    }
+
+    .title {
+        font-style: 40px;
+        letter-spacing: 0px;
+        line-height: 52px;
+    }
+
+    .two {
+        height: 680px;
+    }
+
+    .texts {
+        width: 17%;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .frame {
+        height: 130px;
+    }
+
+    .explore {
+        padding-top: 5%;
+    }
+
+    .offer {
+        font-size: 30px;
+    }
+
+    .feature {
+        font-size: 20px;
+    }
+
+    .face {
+        width: 90px;
+        height: 100px;
+        right: 11px;
+    }
+
+    .three {
+        height: 750px;
+    }
+
+    .viewport {
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .wrap {
+        margin-left: 0px;
+    }
+
+    .minitext {
+        width: 0px;
+        height: 0px;
+        margin-top: 0px;
+        margin-right: 53px;
+    }
+
+    .desc {
+        height: 118px;
+        line-height: 16px;
+    }
+
+    .name {
+        font-size: 11px;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        margin-left: 0px;
+        height: 257px;
+    }
+
+    .container {
+        gap: 5%;
+    }
+
+    .sign {
+        bottom: -8px;
+        left: -12px;
+    }
+
+    .frames {
+        height: 100px;
     }
 }
