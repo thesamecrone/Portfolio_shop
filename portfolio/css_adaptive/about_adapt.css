@@ -366,3 +366,56 @@
         flex: 0 0 32%;
     }
 }
+
+@media screen and (max-width: 330px) {
+
+    h3,
+    .number {
+        width: 100%;
+    }
+
+    .phone {
+        margin-left: 7px;
+    }
+
+    .home,
+    .menuu,
+    .menu-label {
+        font-size: 9px;
+    }
+
+    .square {
+        width: 85px;
+    }
+
+    .title {
+        font-size: 33px;
+    }
+
+    .wrap {
+        width: 70%;
+    }
+
+    .minitext {
+        width: 100px;
+        margin-right: 0px;
+    }
+
+    .cust {
+        padding-right: 5px;
+    }
+
+    .offer {
+        font-size: 25px;
+    }
+
+    .reserved {
+        font-size: 7px;
+    }
+
+    input[type="text"] {
+        padding-left: 0px;
+        padding-left: 0%;
+        font-size: 7px;
+    }
+}
