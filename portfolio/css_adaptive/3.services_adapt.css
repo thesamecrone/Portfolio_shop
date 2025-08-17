@@ -142,7 +142,7 @@
     }
 
     .page4 {
-        height: 1200px;
+        height: 800px;
     }
 
     .pack {
@@ -171,6 +171,51 @@
     .headings {
         font-style: 26px;
         line-height: 57px;
+    }
+
+    .old {
+        width: 250px;
+        height: 450px;
+        margin-right: 20px;
+    }
+
+    .healthy {
+        font-size: 19px;
+        line-height: 35px;
+        width: 74%;
+    }
+
+    .random {
+        width: 74%;
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .shape {
+        width: 307px;
+        height: 345px;
+    }
+
+    .food {
+        height: 890px;
+    }
+
+    .white {
+        font-size: 13px;
+        line-height: 32px;
+    }
+
+    .discover {
+        text-align: center;
+        line-height: 0px;
+    }
+
+    .footbox {
+        width: 95%;
+    }
+
+    input[type="text"] {
+        padding-left: 0px;
     }
 
 }
