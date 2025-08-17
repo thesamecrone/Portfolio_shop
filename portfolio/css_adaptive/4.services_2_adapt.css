@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1048px) {
+    .grass {
+        width: 588px;
+        height: 347px;
+    }
+
+    .paragr {
+        width: 73%;
+    }
+
+    .wood {
+        width: 255.02px;
+        height: 161px;
+    }
+
+    .string {
+        width: 580px;
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    .paragra {
+        width: 67%;
+        padding-left: 0px;
+    }
+
+    .smth {
+        padding-top: 22%;
+    }
+}
