@@ -128,7 +128,7 @@
     }
 
     .pics {
-        visibility: hidden;
+        display: none;
     }
 
     .minitext {
@@ -185,14 +185,14 @@
     }
 
     .heading2 {
-        width: 68%;
+        width: 83%;
         font-size: 11px;
         line-height: 19px;
         padding-top: 5px;
     }
 
     .paragraph {
-        width: 68%;
+        width: 83%;
         font-size: 9px;
         line-height: 17px;
     }
@@ -202,7 +202,7 @@
     }
 
     .text {
-        line-height: 0px;
+        line-height: 15px;
     }
 
     .button2 {
@@ -213,18 +213,18 @@
     }
 
     .square {
-        top: 75%;
+        top: 90%;
         left: 15%;
     }
 
     .lady {
         width: 26%;
-        top: 82%;
+        top: 98%;
         left: 40%;
     }
 
     .title {
-        font-style: 40px;
+        font-size: 40px;
         letter-spacing: 0px;
         line-height: 52px;
     }
@@ -266,6 +266,7 @@
     }
 
     .viewport {
+        gap: 40px;
         align-items: center;
         flex-wrap: wrap;
         flex-direction: column;
@@ -274,6 +275,8 @@
 
     .wrap {
         margin-left: 0px;
+        width: 60%;
+        height: 210px;
     }
 
     .minitext {
@@ -284,7 +287,7 @@
     }
 
     .desc {
-        height: 118px;
+        height: 90px;
         line-height: 16px;
     }
 
@@ -310,5 +313,23 @@
 
     .frames {
         height: 100px;
+    }
+
+    .reserved {
+        font-size: 9px;
+    }
+
+    .columnbox {
+        width: 60%;
+    }
+
+    .footbox {
+        width: 88%;
+    }
+
+    input[type="text"] {
+        padding-left: 0px;
+        padding-left: 5%;
+        font-size: 8px;
     }
 }
