@@ -91,7 +91,7 @@
     .green,
     .ochra,
     .orange {
-        height: 155px;
+        height: 140px;
     }
 
     .thing {
@@ -106,5 +106,42 @@
     input[type="text"] {
         padding-left: 14px;
         padding-top: 12px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .rectangle1,
+    .rectangle2,
+    .rectangle3,
+    .rectangle4 {
+        width: 180px;
+        height: 220px;
+    }
+
+    .square {
+        width: 158px;
+        height: 98px;
+        margin-top: 163px;
+    }
+
+    .contain {
+        gap: 77px;
+    }
+
+    .framing {
+        flex-wrap: wrap;
+    }
+
+    .button3 {
+        overflow: hidden;
+    }
+
+    #scroll-to-top {
+        right: 30%;
+    }
+
+    .page4 {
+        height: 1200px;
     }
 }
