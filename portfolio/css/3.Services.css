@@ -850,6 +850,7 @@ h1 {
 }
 
 .sticks {
+    gap: 10%;
     display: flex;
     justify-content: center;
 }
@@ -879,7 +880,6 @@ h1 {
     height: 198.19px;
     border-radius: 10px;
     background: #4BAF47;
-    margin-right: 30px;
     margin-bottom: 30px;
 }
 
@@ -892,7 +892,6 @@ h1 {
     height: 198.19px;
     border-radius: 10px;
     background: #C5CE38;
-    margin-right: 30px;
     margin-bottom: 30px;
 }
 
@@ -905,7 +904,6 @@ h1 {
     height: 198.19px;
     border-radius: 10px;
     background: #EEC044;
-    margin-right: 30px;
     margin-bottom: 30px;
 }
 

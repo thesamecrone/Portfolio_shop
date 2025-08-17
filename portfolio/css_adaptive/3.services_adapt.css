@@ -13,8 +13,9 @@
 @media screen and (max-width: 1048px) {
     .contain {
         gap: 104px;
-        width: 85%;
+        width: 88%;
         flex-wrap: wrap;
+        overflow: hidden;
     }
 
     .log {
@@ -111,6 +112,10 @@
 
 @media screen and (max-width: 450px) {
 
+    h3 {
+        padding-left: 0%;
+    }
+
     .rectangle1,
     .rectangle2,
     .rectangle3,
@@ -184,7 +189,7 @@
     .random {
         width: 74%;
         font-size: 12px;
-        line-height: 25px;
+        line-height: 21px;
     }
 
     .shape {
@@ -219,11 +224,19 @@
     .green,
     .ochra,
     .orange {
-        width: 30%;
+        width: 35%;
     }
 
     .thing {
         font-size: 12px;
+    }
+
+    .agri {
+        font-size: 25px;
+    }
+
+    .log {
+        width: 119px;
     }
 
 }
