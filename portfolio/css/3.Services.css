@@ -620,6 +620,11 @@ h1 {
     z-index: 2;
     margin-bottom: 58px;
     margin-right: 107px;
+    transition: transform 0.3s ease;
+}
+
+.button3:hover {
+    transform: scale(1.1);
 }
 
 .framing {
@@ -634,6 +639,12 @@ h1 {
     width: 190px;
     height: 74.5px;
     opacity: 0.4;
+    transition: transform 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .page4 {
@@ -645,13 +656,14 @@ h1 {
     align-items: center;
     flex-direction: column;
     position: relative;
+    background-size: cover;
 }
 
 .agricult {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1200px;
+    width: 100%;
 }
 
 .headings {
@@ -661,8 +673,7 @@ h1 {
     font-style: normal;
     font-weight: 800;
     line-height: 84px;
-    width: 486.69px;
-    height: 336px;
+    width: 45%;
     margin-right: 60px;
 }
 
@@ -675,6 +686,12 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.play:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .plays {
@@ -684,7 +701,7 @@ h1 {
 .package {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 40%;
 }
 
 .pack {
@@ -700,7 +717,6 @@ h1 {
 
 .photos {
     display: flex;
-    width: 1200px;
     padding-right: 0.05px;
     justify-content: center;
     margin: 0 auto;
@@ -720,13 +736,14 @@ h1 {
 
 .photos2 {
     display: flex;
-    width: 1200px;
+    width: 100%;
     justify-content: center;
     gap: 20px;
     margin: 0 auto;
 }
 
 .window {
+    width: 30%;
     background-color: #FFF;
     border-radius: 10px 10px 0 0;
 }
@@ -735,7 +752,7 @@ h1 {
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/3.Services/a1be2789347e99bb18f390b088952ad8.png);
     background-size: cover;
     background-position: center;
-    width: 369.98px;
+    width: 30%;
     height: 288.98px;
     border-radius: 0 0 10px 10px;
 }
@@ -744,7 +761,7 @@ h1 {
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/3.Services/51f25662e96c3ae7a7b91df1791e4da3.png);
     background-size: cover;
     background-position: center;
-    width: 369.98px;
+    width: 30%;
     height: 288.98px;
     border-radius: 0 0 10px 10px;
 }
@@ -753,14 +770,14 @@ h1 {
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/3.Services/cb6af01ae5ff0a860d9bccca2d09f129.png);
     background-size: cover;
     background-position: center;
-    width: 369.98px;
+    width: 30%;
     height: 288.98px;
     border-radius: 0 0 10px 10px;
 }
 
 .bold {
     height: 70px;
-    width: 369.98px;
+    width: 100%;
     font-family: "Manrope", sans-serif;
     font-size: 20px;
     font-weight: 800;
@@ -772,7 +789,7 @@ h1 {
 
 .food {
     display: flex;
-    width: 1200px;
+    width: 100%;
     height: 629.38px;
     justify-content: center;
     margin-top: 120px;
@@ -948,6 +965,12 @@ h1 {
     padding: 15px 49.651px 15px 50px;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.discover:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 footer {
