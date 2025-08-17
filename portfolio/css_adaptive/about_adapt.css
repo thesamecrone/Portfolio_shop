@@ -332,4 +332,37 @@
         padding-left: 5%;
         font-size: 8px;
     }
+
+    .cust {
+        font-size: 11px;
+    }
+
+    .sign {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .name {
+        width: 89%;
+    }
+
+    .cust {
+        padding-right: 10px;
+    }
+
+    .footbox {
+        width: 93%;
+    }
+
+    h3 {
+        padding-left: 0%;
+    }
+
+    .call,
+    .mail,
+    .location {
+        flex: 0 0 32%;
+    }
 }
