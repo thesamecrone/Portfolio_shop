@@ -246,7 +246,7 @@
     body {
         width: 102%;
     }
-    
+
     .old {
         width: 195px;
         height: 390px;
@@ -267,5 +267,33 @@
         width: 92px;
         margin-right: 120px;
         padding: 14px 14.952px 5px 15px;
+    }
+
+}
+
+@media screen and (max-width: 330px) {
+    body {
+        width: 107%;
+    }
+
+    .old {
+        width: 168px;
+        height: 387px;
+    }
+
+    .yellow {
+        font-size: 20px;
+    }
+
+    .random {
+        margin-bottom: 5px;
+    }
+
+    .area {
+        width: 87px;
+    }
+
+    #scroll-to-top {
+        right: 16%;
     }
 }
