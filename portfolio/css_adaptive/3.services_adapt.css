@@ -52,3 +52,59 @@
         right: 22%;
     }
 }
+
+@media screen and (max-width: 780px) {
+
+    .rectangle1,
+    .rectangle2,
+    .rectangle3,
+    .rectangle4 {
+        width: 235px;
+        height: 295px;
+    }
+
+    .log {
+        width: 125px;
+        height: 45.5px;
+    }
+
+    .framing {
+        height: 185px;
+    }
+
+    .headings {
+        font-size: 50px;
+    }
+
+    .bold {
+        font-size: 16px;
+    }
+
+    .healthy {
+        font-size: 33px;
+    }
+
+    .elementor {
+        width: 38%;
+    }
+
+    .green,
+    .ochra,
+    .orange {
+        height: 155px;
+    }
+
+    .thing {
+        font-size: 14px;
+    }
+
+    .discover {
+        width: 32%;
+        margin-right: 5%;
+    }
+
+    input[type="text"] {
+        padding-left: 14px;
+        padding-top: 12px;
+    }
+}
