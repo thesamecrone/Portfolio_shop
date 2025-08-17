@@ -615,31 +615,4 @@
         font-size: 6px;
     }
 
-    .headings {
-        font-style: 26px;
-        line-height: 57px;
-    }
-
-    .pack {
-        font-size: 21px;
-        margin-top: 18px;
-    }
-
-    .photo1,
-    .photo2,
-    .photo3 {
-        height: 185px;
-    }
-
-    .photos2,
-    .photos {
-        width: 95%;
-        gap: 12px;
-    }
-
-    .bold {
-        text-align: center;
-        width: 85%;
-        padding-left: 12%;
-    }
 }
