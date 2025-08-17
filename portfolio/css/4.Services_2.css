@@ -498,22 +498,19 @@ h1 {
 
 .page1 {
     display: flex;
-    width: 1200px;
-    height: 1840px;
+    width: 100%;
     padding-right: 0.02px;
     justify-content: center;
-    margin: 0 auto;
     margin-bottom: 100px;
+    gap: 2%;
 }
 
 .box1 {
     display: flex;
-    width: 399.95px;
-    height: 1692px;
-    padding-bottom: 896.5px;
     flex-direction: column;
     align-items: flex-start;
     margin-top: 120px;
+    margin-left: 5%;
 }
 
 .categories {
@@ -558,6 +555,11 @@ h1 {
     font-style: normal;
     font-weight: 600;
     line-height: 40px;
+    cursor: pointer;
+}
+
+.cate:hover {
+    color: #c7c5bb;
 }
 
 .needs {
@@ -607,11 +609,15 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
+    cursor: pointer;
+}
+
+.butt:hover {
+    transform: scale(1.1);
 }
 
 .box2 {
     display: flex;
-    width: 800.03px;
     height: 1692px;
     flex-direction: column;
     align-items: flex-start;
@@ -670,7 +676,6 @@ h1 {
 .paragra {
     display: flex;
     width: 719.58px;
-    height: 90px;
     justify-content: center;
     color: #878680;
     font-family: "Manrope", sans-serif;
@@ -688,8 +693,9 @@ h1 {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 36px;
-    width: 282.11px;
+    line-height: 30px;
+    width: 100%;
+    padding-top: 14%;
 }
 
 .string {
@@ -709,6 +715,11 @@ h1 {
     width: 770.03px;
     height: 80px;
     margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.string:hover {
+    color: #666456;
 }
 
 .smile {
@@ -717,6 +728,7 @@ h1 {
     border-radius: 10px;
     background: #C5CE38;
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/3.Services/Icon\ \(3\).png);
+    cursor: pointer;
 }
 
 footer {
