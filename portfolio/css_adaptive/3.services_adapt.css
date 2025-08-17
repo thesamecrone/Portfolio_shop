@@ -240,3 +240,21 @@
     }
 
 }
+
+@media screen and (max-width: 385px) {
+    .old {
+        width: 195px;
+        height: 390px;
+    }
+
+    .healthy {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 12px;
+    }
+
+    .random {
+        line-height: 23px;
+        margin-bottom: 5px;
+    }
+}
