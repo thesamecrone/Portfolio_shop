@@ -242,6 +242,11 @@
 }
 
 @media screen and (max-width: 385px) {
+
+    body {
+        width: 102%;
+    }
+    
     .old {
         width: 195px;
         height: 390px;
@@ -256,5 +261,11 @@
     .random {
         line-height: 23px;
         margin-bottom: 5px;
+    }
+
+    .button3 {
+        width: 92px;
+        margin-right: 120px;
+        padding: 14px 14.952px 5px 15px;
     }
 }
