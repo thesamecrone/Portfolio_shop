@@ -618,7 +618,6 @@ h1 {
 
 .box2 {
     display: flex;
-    height: 1692px;
     flex-direction: column;
     align-items: flex-start;
     margin-top: 120px;
@@ -649,12 +648,13 @@ h1 {
     line-height: 30px;
     margin-bottom: 33px;
     margin-top: 20px;
+    width: 100%;
 }
 
 .shelf {
     display: flex;
     gap: 30px;
-    width: 400.02px;
+    width: 80%;
 }
 
 .wood {
@@ -705,14 +705,14 @@ h1 {
     padding: 10px 10px 10px 38px;
     justify-content: space-between;
     align-items: center;
-    gap: 273.849px;
+    gap: 18%;
     color: #1F1E17;
     font-family: "Manrope", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
     line-height: 30px;
-    width: 770.03px;
+    width: 81%;
     height: 80px;
     margin-bottom: 10px;
     cursor: pointer;

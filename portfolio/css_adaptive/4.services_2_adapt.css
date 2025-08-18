@@ -6,22 +6,22 @@
 
 @media screen and (max-width: 1048px) {
     .grass {
-        width: 588px;
+        width: 90%;
         height: 347px;
     }
 
     .paragr {
-        width: 73%;
+        width: 84%;
     }
 
     .wood {
-        width: 255.02px;
-        height: 161px;
+        width: 100%;
+        height: 122px;
     }
 
     .string {
-        width: 580px;
-        font-size: 17px;
+        width: 81%;
+        font-size: 16px;
         line-height: 23px;
     }
 
@@ -32,5 +32,9 @@
 
     .smth {
         padding-top: 22%;
+    }
+
+    .need, .categories {
+        width: 100%;
     }
 }
