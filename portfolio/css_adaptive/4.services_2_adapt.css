@@ -67,3 +67,71 @@
         font-size: 14px;
     }
 }
+
+@media screen and (max-width: 440px) {
+    #scroll-to-top {
+        right: 100px;
+    }
+
+    .page1 {
+        flex-wrap: wrap;
+    }
+
+    .box1 {
+        margin-left: 0%;
+        align-items: center;
+    }
+
+    .need,
+    .categories {
+        width: 73%;
+    }
+
+    .box2 {
+        align-items: center;
+        width: 66%;
+    }
+
+    .grass {
+        width: 100%;
+        height: 70%;
+    }
+
+    .product {
+        text-align: center;
+    }
+
+    .paragr {
+        margin-top: 5%;
+        width: 100%;
+    }
+
+    .shelf {
+        flex-direction: column;
+    }
+
+    .smth {
+        padding-top: 0%;
+        padding-bottom: 15%;
+    }
+
+    input[type="text"] {
+        padding-left: 0px;
+    }
+
+    .footbox {
+        width: 90%;
+    }
+
+    .reserved {
+        font-size: 9px;
+    }
+
+    .columnbox {
+        width: 80%;
+    }
+
+    .columnbox2 {
+        width: 51%;
+    }
+}
