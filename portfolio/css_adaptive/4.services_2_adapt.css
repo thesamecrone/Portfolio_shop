@@ -34,7 +34,36 @@
         padding-top: 22%;
     }
 
-    .need, .categories {
+    .need,
+    .categories {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    input[type="text"] {
+        border: none;
+        outline: none;
+        padding-left: 19px;
+        padding-top: 13px;
+    }
+
+    .paragr {
+        margin-bottom: 15px;
+        margin-top: 0px;
+        line-height: 26px;
+    }
+
+    .benefit {
+        font-size: 24px;
+    }
+
+    .smth {
+        padding-top: 46%;
+        line-height: 26px;
+    }
+
+    .string {
+        font-size: 14px;
     }
 }
