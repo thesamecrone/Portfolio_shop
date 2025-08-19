@@ -151,4 +151,28 @@
     input[type="text"] {
         width: 83%;
     }
+
+    .categories {
+        height: 376px;
+    }
+
+    .need {
+        height: 555.5px;
+    }
+
+    .reserved {
+        font-size: 8px;
+    }
+
+    .footbox {
+        width: 97%;
+    }
+
+    .columnbox {
+        width: 93%;
+    }
+
+    .columnbox2 {
+        width: 60%;
+    }
 }
