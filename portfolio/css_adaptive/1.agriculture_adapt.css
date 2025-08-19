@@ -1814,7 +1814,7 @@
     .back,
     .back1,
     .back2 {
-        width: 115px;
+        width: 90%;
     }
 
     .writing {
@@ -1875,6 +1875,23 @@
 
     .card {
         height: 80%;
+    }
+
+    .names {
+        line-height: 22px;
+    }
+
+    .master-news {
+        margin-right: 0%;
+        width: 95%;
+    }
+
+    .button2 {
+        font-size: 8px;
+    }
+
+    .master {
+        padding: 10px 16px 10px 10px;
     }
 
 }
