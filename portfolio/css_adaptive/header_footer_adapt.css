@@ -533,6 +533,14 @@
 }
 
 @media screen and (max-width: 410px) {
+    .phone {
+        margin-left: 8px;
+    }
+
+    .submenu {
+        width: 125px;
+    }
+
     .page {
         flex-direction: column;
     }
@@ -584,6 +592,7 @@
     .reserved {
         font-size: 8px;
     }
+
 }
 
 @media screen and (max-width: 330px) {
