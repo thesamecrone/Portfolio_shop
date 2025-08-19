@@ -70,7 +70,7 @@
 
 @media screen and (max-width: 440px) {
     #scroll-to-top {
-        right: 100px;
+        right: 9%;
     }
 
     .page1 {
@@ -135,5 +135,19 @@
 
     .columnbox2 {
         width: 51%;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    h3 {
+        width: 90px;
+    }
+
+    .string {
+        line-height: 15px;
+    }
+
+    input[type="text"] {
+        width: 83%;
     }
 }
