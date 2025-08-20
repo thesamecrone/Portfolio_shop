@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1048px) {
+
+    .grid-item1,
+    .grid-item2,
+    .grid-item3,
+    .grid-item4,
+    .grid-item5,
+    .grid-item6 {
+        padding: 69px;
+        width: 90%;
+        height: 500px;
+    }
+}

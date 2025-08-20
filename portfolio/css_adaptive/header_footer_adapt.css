@@ -607,15 +607,7 @@
     h3,
     .number {
         font-size: 7px;
-    }
-
-    .logo {
-        height: 25px;
-    }
-
-    h3,
-    .number {
-        font-size: 7px;
+        width: 100%;
     }
 
     .texting2,
