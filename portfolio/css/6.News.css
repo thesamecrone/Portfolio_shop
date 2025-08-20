@@ -775,6 +775,10 @@ h1 {
     line-height: 30px;
 }
 
+.tag:hover {
+    color: #585856;
+}
+
 footer {
     height: 460px;
     width: 100%;
