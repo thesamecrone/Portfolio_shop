@@ -13,7 +13,21 @@
     .grid-item5,
     .grid-item6 {
         padding: 69px;
+        width: 45%;
+        height: 460px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+
+    .grid-item1,
+    .grid-item2,
+    .grid-item3,
+    .grid-item4,
+    .grid-item5,
+    .grid-item6 {
         width: 90%;
-        height: 500px;
+        height: 350px;
+        padding: 27px;
     }
 }
