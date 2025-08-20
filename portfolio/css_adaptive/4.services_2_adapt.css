@@ -140,9 +140,6 @@
 }
 
 @media screen and (max-width: 385px) {
-    h3 {
-        width: 90px;
-    }
 
     .string {
         line-height: 15px;
