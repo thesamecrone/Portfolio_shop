@@ -228,7 +228,6 @@ h2 {
 
 h3 {
     display: flex;
-    width: 100px;
     height: 20px;
     flex-direction: column;
     justify-content: center;
@@ -243,7 +242,6 @@ h3 {
 
 .number {
     display: flex;
-    width: 150px;
     height: 20px;
     flex-direction: column;
     justify-content: center;
@@ -615,6 +613,11 @@ h1 {
     font-style: normal;
     font-weight: 800;
     line-height: 24px;
+    cursor: pointer;
+}
+
+.read:hover {
+    color: #807e72;
 }
 
 .store2 {
@@ -676,6 +679,7 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 12px 20px 15px 20px;
+    cursor: pointer;
 }
 
 .bun {
@@ -693,6 +697,11 @@ h1 {
     font-weight: 800;
     line-height: 26px;
     width: 179.86px;
+    cursor: pointer;
+}
+
+.phrase:hover {
+    color: #666561;
 }
 
 .crisper2 {
@@ -715,6 +724,11 @@ h1 {
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
+    cursor: pointer;
+}
+
+.list:hover {
+    color: #b9b8b1;
 }
 
 .late2 {
@@ -879,7 +893,6 @@ footer {
 
 .navbar2 {
     display: flex;
-    height: 115.5px;
     width: 20%;
     margin-top: 20px;
     gap: 10px;
