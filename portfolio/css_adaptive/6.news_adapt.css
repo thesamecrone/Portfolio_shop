@@ -11,6 +11,7 @@
 
     .store1 {
         width: 40%;
+        gap: 30px;
     }
 
     .crisper {
@@ -31,4 +32,30 @@
     .lookfor {
         width: 335px;
     }
+
+    input[type="text"] {
+        border: none;
+        outline: none;
+        padding-left: 20px;
+        padding-top: 12px;
+    }
+}
+
+@media screen and (max-width: 441px) {
+    .store1 {
+        width: 81%;
+    }
+
+    .columnbox2 {
+        width: 50%;
+    }
+
+    .footbox {
+        width: 90%;
+    }
+
+    input[type="text"] {
+        padding-left: 0%;
+    }
+
 }
