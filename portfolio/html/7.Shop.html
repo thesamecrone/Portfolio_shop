@@ -8,6 +8,7 @@
     <link rel="icon" href="https://thesamecrone.github.io/Portfolio_shop/portfolio/images/1.Agriculture/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://thesamecrone.github.io/Portfolio_shop/portfolio/css/7.Shop.css">
     <link rel="stylesheet" href="https://thesamecrone.github.io/Portfolio_shop/portfolio/css_adaptive/header_footer_adapt.css">
+    <link rel="stylesheet" href="https://thesamecrone.github.io/Portfolio_shop/portfolio/css_adaptive/7.shop_adapt.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
@@ -119,19 +120,22 @@
 
     <section class="pages">
         <div class="block1">
-            <form class="lookfor">
-                <input type="search" id="search-inputs" placeholder="Search products...">
-                <label for="search-inputs">
-                </label>
-            </form>
+            
+            <div class="blocking">
+                <form class="lookfor">
+                    <input type="search" id="search-inputs" placeholder="Search products...">
+                    <label for="search-inputs">
+                    </label>
+                </form>
 
-            <div class="price-filter">
-                <p class="cost">Price</p>
-                <input type="range" id="price-range" min="20" max="100" value="20" oninput="updatePriceLabel()">
-                <label for="price-range"></label>
-                <div class="flexbox">
-                    <span id="price-label">20$</span>
-                    <button id="apply-button">Apply</button>
+                <div class="price-filter">
+                    <p class="cost">Price</p>
+                    <input type="range" id="price-range" min="20" max="100" value="20" oninput="updatePriceLabel()">
+                    <label for="price-range"></label>
+                    <div class="flexbox">
+                        <span id="price-label">20$</span>
+                        <button id="apply-button">Apply</button>
+                    </div>
                 </div>
             </div>
 
