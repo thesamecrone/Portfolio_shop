@@ -40,4 +40,26 @@
         padding-left: 10px;
         padding-top: 13px;
     }
+
+    .pagination {
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+
+    .cards-container {
+        gap: 0px;
+    }
+
+    .card,
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6,
+    .card7,
+    .card8,
+    .card9 {
+        padding: 10px;
+    }
 }

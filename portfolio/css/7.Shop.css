@@ -647,11 +647,6 @@ input[type="range"]::-moz-range-thumb {
     margin-bottom: 100px;
 }
 
-.product-cards {
-    max-width: 800px;
-    margin-left: 30px;
-}
-
 .pagination {
     display: flex;
     justify-content: space-between;
