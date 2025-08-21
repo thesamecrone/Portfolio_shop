@@ -11,5 +11,13 @@
 
     .blocking {
         display: flex;
+        flex-direction: column;
+    }
+
+    .block1 {
+        gap: 10%;
+        display: flex;
+        width: 60%;
+        height: 500px;
     }
 }
