@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 780px) {
+    .pages {
+        gap: 20px;
+    }
+
+    .store1 {
+        width: 40%;
+    }
+
+    .crisper {
+        width: 335px;
+    }
+
+    .crisper2 {
+        width: 335px;
+        height: 396px;
+        padding: 40px 78.42px 35px 50px;
+    }
+
+    .crisper3 {
+        width: 335px;
+        padding: 40px 30.42px 35px 25px;
+    }
+
+    .lookfor {
+        width: 335px;
+    }
+}
