@@ -59,3 +59,27 @@
     }
 
 }
+
+@media screen and (max-width: 385px) {
+
+    .lookfor {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+
+    .photo,
+    .photo2,
+    .photo3 {
+        height: 300px;
+    }
+
+    .store1 {
+        margin-top: 10%;
+    }
+
+    .crisper, .crisper2, .crisper3 {
+        width: 280px;
+    }
+}
