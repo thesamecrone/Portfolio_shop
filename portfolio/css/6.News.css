@@ -513,6 +513,7 @@ h1 {
     flex-direction: column;
     margin-top: 5%;
     align-items: center;
+    width: 45%;
 }
 
 .case {
@@ -521,10 +522,10 @@ h1 {
 
 .photo {
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/6.News/ec29d7bad1e10f718d1e9c3ba3f21c90.png);
-    width: 90%;
     height: 421px;
     display: flex;
     align-items: flex-end;
+    background-size: cover;
 }
 
 .jul {
@@ -548,18 +549,18 @@ h1 {
 
 .photo2 {
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/6.News/3911062bf8bc4d57a6d7344d6cd08182.png);
-    width: 90%;
     height: 421px;
     display: flex;
     align-items: flex-end;
+    background-size: cover;
 }
 
 .photo3 {
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/6.News/20ba2170f95b9e7c25633c956f3fdce5.png);
-    width: 90%;
     height: 421px;
     display: flex;
     align-items: flex-end;
+    background-size: cover;
 }
 
 .shell {
