@@ -79,7 +79,25 @@
         margin-top: 10%;
     }
 
-    .crisper, .crisper2, .crisper3 {
+    .crisper,
+    .crisper2,
+    .crisper3 {
         width: 280px;
+    }
+
+    .lookfor {
+        width: 260px;
+    }
+
+    #search-inputs {
+        font-size: 15px;
+    }
+
+    .crisper {
+        height: 525px;
+    }
+
+    #scroll-to-top {
+        right: 35px;
     }
 }
