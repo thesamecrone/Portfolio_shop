@@ -21,3 +21,23 @@
         height: 500px;
     }
 }
+
+@media screen and (max-width: 780px) {
+
+    .product {
+        width: 190px;
+        height: 230px;
+    }
+
+    .block1 {
+        gap: 7%;
+        display: flex;
+        width: 78%;
+        height: 500px;
+    }
+
+    input[type="text"] {
+        padding-left: 10px;
+        padding-top: 13px;
+    }
+}
