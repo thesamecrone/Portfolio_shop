@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 @media screen and (max-width: 2770px) {
     .grid-container {
         width: 55%;

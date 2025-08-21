@@ -504,26 +504,24 @@ h1 {
 .pages {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .store1 {
-    width: 770px;
     display: flex;
     flex-direction: column;
-    height: 2258px;
-    margin-top: 120px;
+    margin-top: 5%;
+    align-items: center;
 }
 
 .case {
-    width: 770px;
-    height: 702px;
+    width: 100%;
 }
 
 .photo {
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/6.News/ec29d7bad1e10f718d1e9c3ba3f21c90.png);
-    width: 770px;
+    width: 90%;
     height: 421px;
     display: flex;
     align-items: flex-end;
@@ -550,7 +548,7 @@ h1 {
 
 .photo2 {
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/6.News/3911062bf8bc4d57a6d7344d6cd08182.png);
-    width: 770px;
+    width: 90%;
     height: 421px;
     display: flex;
     align-items: flex-end;
@@ -558,7 +556,7 @@ h1 {
 
 .photo3 {
     background-image: url(https://thesamecrone.github.io/Portfolio_shop/portfolio/images/6.News/20ba2170f95b9e7c25633c956f3fdce5.png);
-    width: 770px;
+    width: 90%;
     height: 421px;
     display: flex;
     align-items: flex-end;
@@ -623,12 +621,10 @@ h1 {
 .store2 {
     display: flex;
     width: 370px;
-    height: 2258px;
-    padding-bottom: 956.64px;
     flex-direction: column;
     align-items: flex-start;
     gap: 30px;
-    margin-top: 120px;
+    margin-top: 5%;
 }
 
 #search-inputs {
