@@ -32,6 +32,7 @@
     .block1 {
         gap: 7%;
         display: flex;
+        justify-content: center;
         width: 78%;
         height: 500px;
     }
@@ -42,8 +43,8 @@
     }
 
     .pagination {
-        padding-left: 9%;
-        padding-right: 9%;
+        padding-left: 3%;
+        padding-right: 3%;
     }
 
     .cards-container {
@@ -61,5 +62,63 @@
     .card8,
     .card9 {
         padding: 10px;
+    }
+
+    #scroll-to-top {
+        right: 40px;
+    }
+}
+
+@media screen and (max-width: 441px) {
+    .cards-container {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sort-button {
+        width: 168px;
+        height: 53px;
+    }
+
+    .pagination {
+        font-size: 15px;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .block1 {
+        flex-wrap: wrap;
+        height: 866px;
+    }
+
+    .product {
+        width: 160px;
+        height: 210px;
+    }
+
+    .footbox {
+        width: 93%;
+    }
+
+    input[type="text"] {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .pagination {
+        font-size: 11px;
+        line-height: 17.75px;
+    }
+
+    .sort-button {
+        width: 123px;
+        height: 36px;
+        font-size: 11px;
+    }
+
+    .pages {
+        margin-top: 50px;
     }
 }
