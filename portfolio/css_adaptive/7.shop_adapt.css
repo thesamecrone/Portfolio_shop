@@ -12,6 +12,8 @@
     .blocking {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .block1 {
@@ -126,5 +128,9 @@
 
     .pages {
         margin-top: 50px;
+    }
+
+    .lookfor, .price-filter, .crisper2 {
+        width: 235px;
     }
 }
