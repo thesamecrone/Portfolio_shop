@@ -571,7 +571,6 @@ h1 {
 
 .second {
     width: 1200px;
-    height: 630px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -805,7 +804,6 @@ footer {
 
 .navbar2 {
     display: flex;
-    height: 115.5px;
     width: 20%;
     margin-top: 20px;
     gap: 10px;

@@ -102,4 +102,38 @@
         flex-wrap: wrap-reverse;
         align-items: center;
     }
+
+    iframe {
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .mapp {
+        width: 100%;
+    }
+
+    .second {
+        border-radius: 0px;
+        gap: 0px;
+    }
+
+    .sms {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .footbox {
+        width: 92%;
+    }
+
+    .columnbox {
+        width: 73%;
+    }
+
+    .columnbox2 {
+        width: 54%;
+    }
+
+    input[type="text"] {
+        padding-left: 0px;
+    }
 }
