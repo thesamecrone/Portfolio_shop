@@ -67,4 +67,9 @@
     .smths {
         height: 150px;
     }
+
+    input[type="text"] {
+        padding-left: 14px;
+        padding-top: 12px;
+    }
 }
