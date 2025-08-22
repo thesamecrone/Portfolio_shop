@@ -587,6 +587,7 @@ h1 {
 
 iframe {
     border-radius: 10px 0 0 10px;
+    height: 100%;
 }
 
 .sms {
