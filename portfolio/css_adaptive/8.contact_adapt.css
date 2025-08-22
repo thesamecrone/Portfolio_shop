@@ -60,6 +60,10 @@
         padding: 26px 15px 1px 16px;
     }
 
+    .mapp {
+        width: 50%;
+    }
+
     .smth {
         padding: 21px 8px 20px 11px;
     }
@@ -71,5 +75,31 @@
     input[type="text"] {
         padding-left: 14px;
         padding-top: 12px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .first {
+        gap: 8px;
+    }
+
+    .bred1,
+    .bred2,
+    .bred3 {
+        padding: 8px 13px 1px 8px;
+    }
+
+    .descript {
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .cursive {
+        font-size: 25px;
+    }
+
+    .second {
+        flex-wrap: wrap-reverse;
+        align-items: center;
     }
 }
