@@ -76,6 +76,10 @@
         padding-left: 14px;
         padding-top: 12px;
     }
+
+    #scroll-to-top {
+        right: 40px;
+    }
 }
 
 @media screen and (max-width: 440px) {
@@ -135,5 +139,13 @@
 
     input[type="text"] {
         padding-left: 0px;
+    }
+
+    .smths {
+        padding: 19px 31.427px 29px 31px;
+    }
+
+    .smth {
+        width: 40%;
     }
 }
