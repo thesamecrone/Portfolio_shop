@@ -160,6 +160,10 @@
         text-wrap: auto;
         width: 13%;
     }
+
+     #scroll-to-top {
+        right: 40px;
+    }
 }
 
 @media screen and (max-width: 441px) {

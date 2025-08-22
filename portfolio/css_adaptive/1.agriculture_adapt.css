@@ -1039,6 +1039,10 @@
     h3 {
         font-size: 10px;
     }
+
+     #scroll-to-top {
+        right: 40px;
+    }
 }
 
 @media screen and (max-width: 715px) {

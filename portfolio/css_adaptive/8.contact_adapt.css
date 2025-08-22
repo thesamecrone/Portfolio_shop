@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1048px) {
+
+    .first,
+    .second {
+        width: 80%;
+    }
+
+    .bred1,
+    .bred2,
+    .bred3 {
+        width: 45%;
+        padding: 24px 40px 11px 42px;
+    }
+
+    .smths {
+        width: 328.3px;
+        height: 120px;
+        padding: 19px 128.427px 29px 31px;
+    }
+
+    .smsbox {
+        width: 85%;
+    }
+
+    .sub {
+        width: 165.66px;
+        height: 51px;
+        padding: 12.5px 8.635px 12.5px 8px;
+    }
+}
