@@ -113,6 +113,10 @@
         padding-left: 14px;
         padding-top: 12px;
     }
+
+     #scroll-to-top {
+        right: 40px;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -141,10 +145,6 @@
 
     .framing {
         flex-wrap: wrap;
-    }
-
-    #scroll-to-top {
-        right: 30%;
     }
 
     .page4 {
@@ -298,7 +298,4 @@
         width: 87px;
     }
 
-    #scroll-to-top {
-        right: 16%;
-    }
 }

@@ -66,13 +66,13 @@
     .string {
         font-size: 14px;
     }
+
+     #scroll-to-top {
+        right: 40px;
+    }
 }
 
 @media screen and (max-width: 440px) {
-
-    #scroll-to-top {
-        right: 9%;
-    }
 
     .page1 {
         flex-wrap: wrap;

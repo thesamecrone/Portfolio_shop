@@ -37,6 +37,10 @@
         height: 340px;
         font-size: 25px;
     }
+
+     #scroll-to-top {
+        right: 40px;
+    }
 }
 
 @media screen and (max-width: 440px) {

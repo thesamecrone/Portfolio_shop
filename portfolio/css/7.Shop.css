@@ -549,8 +549,6 @@ h1 {
 }
 
 .price-filter input[type="range"] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
     width: 208px;
     height: 5px;
     background-color: #EEC044;
