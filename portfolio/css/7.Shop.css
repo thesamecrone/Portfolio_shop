@@ -662,12 +662,10 @@ input[type="range"]::-moz-range-thumb {
     padding-left: 20px;
 }
 
-.pagination .sort-button {
+.pagination, .sort-button {
     padding: 10px;
     cursor: pointer;
     border-radius: 10px;
-    width: 270px;
-    height: 76px;
     color: #878680;
     font-family: "Manrope", sans-serif;
     font-size: 14px;
