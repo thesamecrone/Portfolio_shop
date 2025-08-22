@@ -18,6 +18,10 @@
         padding: 24px 40px 11px 42px;
     }
 
+    .mapp {
+        width: 40%;
+    }
+
     .bigtext {
         font-size: 40px;
     }
@@ -40,5 +44,27 @@
 
     .smth {
         width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    .descript {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .bred1,
+    .bred2,
+    .bred3 {
+        padding: 26px 15px 1px 16px;
+    }
+
+    .smth {
+        padding: 21px 8px 20px 11px;
+    }
+
+    .smths {
+        height: 150px;
     }
 }
