@@ -1649,7 +1649,7 @@
 
     .navbar2 {
         flex-wrap: wrap;
-        width: 65%;
+        width: 70%;
     }
 
     .texting {
@@ -1759,7 +1759,7 @@
     }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 415px) {
     .page {
         flex-direction: column;
     }
