@@ -252,8 +252,8 @@
         .smallhead {
             width: 197px;
             height: 35px;
-            background-color: #E6E6E6;
-            color: #000;
+            color: #fff;
+            background-color: #3f434b;
             font-family: 'Montserrat', sans-serif;
             font-weight: 600;
             font-size: 16px;
@@ -261,6 +261,7 @@
             text-align: center;
             padding-top: 5px;
             margin-top: 5px;
+            cursor: pointer;
         }
 
         .smallheads {
@@ -275,6 +276,8 @@
             border-radius: 50px;
             text-align: center;
             margin-top: 5px;
+            border-color: #fff;
+            cursor: pointer;
         }
 
         .nums {
@@ -317,6 +320,15 @@
             margin-top: 35px;
         }
 
+        .desc:hover {
+            cursor: pointer;
+            color: #F94F0D;
+        }
+
+        .next:hover {
+            text-decoration: underline;
+        }
+
         .author {
             font-family: 'Montserrat', sans-serif;
             font-weight: 700;
@@ -345,8 +357,8 @@
         }
 
         .smallheads2 {
-            padding-top: 5px;
-            width: 143px;
+            padding-top: 2px;
+            width: 114px;
             height: 35px;
             font-family: 'Montserrat', sans-serif;
             font-weight: 500;
@@ -357,8 +369,28 @@
             text-align: center;
             margin-top: 5px;
             position: absolute;
-            left: 111px;
+            left: 133px;
             top: 186px;
+            border-color: #fff;
+            border-style: solid;
+        }
+
+        .smallheads2:hover {
+            background-color: #e6e6e6;
+            color: #494949;
+            cursor: pointer;
+        }
+
+        .smallheads:hover {
+            background-color: #e6e6e6;
+            color: #494949;
+            cursor: pointer;
+        }
+
+        .smallhead:hover {
+            background-color: #e6e6e6;
+            color: #494949;
+            cursor: pointer;
         }
 
         .dates,
@@ -403,6 +435,19 @@
             font-family: 'Open Sans', sans-serif;
             font-weight: 400;
             font-size: 18px;
+            cursor: pointer;
+        }
+
+        .page-number:hover {
+            background-color: #F94F0D;
+            ;
+            color: #fff;
+        }
+
+        .next:hover {
+            background-color: #F94F0D;
+            ;
+            color: #fff;
         }
 
         .ellipsis {
@@ -1428,6 +1473,49 @@
         @media (max-width:575px) {}
 
         @media (max-width:767px) {
+            .header-main__menu.sf-hidden {
+                display: flex !important;
+                justify-content: center;
+            }
+
+            .header-main__menu {
+                margin-top: 23px;
+                font-size: 17px;
+            }
+
+            .header-main__menu a {
+                color: #000;
+                font-size: 17px;
+            }
+
+            .header-main__menu ul {
+                justify-content: center;
+            }
+
+            .header-main__menu li {
+                position: relative;
+                flex-grow: 0;
+            }
+
+            .header-main__menu li+li:before {
+                content: '';
+                background: #B7B7B7;
+                width: 1px;
+                height: 9px;
+                position: absolute;
+                top: 50%;
+                margin-top: -4px;
+                display: block;
+                left: -15px;
+            }
+
+            .header-main__menu li+li:before {
+                background: #222;
+                height: 80%;
+                margin-top: 0;
+                transform: translateY(-45%);
+            }
+
             .mob-phone-wrap {
                 margin: 26px -5px 0;
             }
@@ -4626,16 +4714,52 @@
                 margin-left: 11px !important;
                 margin-top: 40px;
             }
+
+            .header-navigation__btn:after {
+                margin: 0 15px 0 0;
+                width: 28px;
+                height: 28px;
+            }
+
+            .header-navigation__btn {
+                font-size: 23px;
+                text-transform: uppercase;
+                padding: 13px 0 14px;
+                display: flex !important;
+                flex-direction: row-reverse;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .header-navigation__btn:after {
+                content: '';
+                display: inline-block;
+                background: url(../img/icons/icon-menu.svg) no-repeat center;
+                width: 16px;
+                height: 16px;
+                -webkit-background-size: contain;
+                -moz-background-size: contain;
+                -o-background-size: contain;
+                background-size: contain;
+                margin-left: 5px;
+                margin-bottom: -2px;
+            }
         }
 
         @media (max-width:430px) {
 
+            .section-blog {
+                margin-left: 0%;
+            }
+
             .section-blogs {
                 margin-right: 2%;
+                margin-left: 2%;
+                margin-top: 5%;
             }
 
             .title1 {
-                font-size: 21px;
+                font-size: 18px;
                 text-align: center;
             }
 
@@ -4689,6 +4813,12 @@
 
         }
 
+        @media screen and (max-width: 415px) {
+            .sign {
+                margin: -2px -6px 0 14px !important;
+            }
+        }
+
         @media (max-width:380px) {
             .mob-phone-wrap.sf-hidden {
                 justify-content: center;
@@ -4696,14 +4826,24 @@
 
             .sign {
                 margin: -3px -2px 0 8px !important;
+                height: 24px !important;
+                width: 24px !important;
+            }
+        }
+
+        @media screen and (max-width: 360px) {
+
+            .btn-4,
+            .btn-5 {
+                font-size: 12px !important;
+                height: 44px !important;
             }
         }
 
         @media (max-width:330px) {
 
-            .btn-4,
-            .btn-5 {
-                font-size: 16px !important;
+            .sharp {
+                padding-right: 3px;
             }
 
             .smallheads {
@@ -4712,6 +4852,29 @@
 
             .section-headings {
                 width: 300px;
+            }
+
+            .section-blog {
+                margin-left: 0%;
+            }
+
+            .title1 {
+                font-size: 17px;
+            }
+
+            .greeting {
+                width: 270px;
+            }
+
+            .section-blogs {
+                margin-right: 4%;
+                margin-left: 4%;
+            }
+
+            .tg-link2 {
+                width: 275px;
+                padding: 26px 7px 6px 8px;
+                font-size: 16px;
             }
         }
 
@@ -8992,6 +9155,23 @@
             display: none !important
         }
 
+        .header-main__menu {
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+        .header-main__menu ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        .header-main__menu li {
+            margin: 0 15px;
+            flex-grow: 0;
+        }
+
         @media (max-width: 767px) {
             .mob-phone-wrap.sf-hidden {
                 display: flex !important;
@@ -9035,6 +9215,22 @@
                 height: 62px;
                 margin: 0 5px;
             }
+
+            .header-navigation__btn {
+                font-size: 23px;
+                text-transform: uppercase;
+                padding: 13px 0 14px;
+                display: flex !important;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                background-color: #fff;
+                border: none;
+                font-weight: 600;
+                cursor: pointer;
+                position: relative;
+                margin-left: 28%;
+            }
         }
     </style>
     <meta http-equiv="content-security-policy"
@@ -9076,8 +9272,19 @@
                     <div class="header-main__block" bis_skin_checked="1"> <img
                             src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIyLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxNjg3IDE1OC40IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxNjg3IDE1OC40OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLDQ5Ny4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiPgoJPHBhdGggZD0iTTY1MSw0OTI0Yy0xMC0yNC0xNjEtMzY0LTMzNS03NTZTMCwzNDUzLDAsMzQ1MGMwLTIsNDMtMyw5Ni0ybDk2LDNsODYsMjAzbDg3LDIwMmgzMDVoMzA2bDg0LTIwNWw4NS0yMDVoOTQKCQljOTIsMCw5MywwLDg4LDIyYy0xMiw0NC02NDIsMTQ5OC02NTAsMTQ5OEM2NzMsNDk2Niw2NjEsNDk0Nyw2NTEsNDkyNHogTTc1OCw0MzcxYzQ0LTEwNCw5Ni0yMjcsMTE2LTI3MmwzNS04M0g2NzBINDMxbDEwNiwyNDMKCQljNTcsMTMzLDExMSwyNTcsMTE5LDI3NnMxNiwzMiwxOCwzMFM3MTQsNDQ3Niw3NTgsNDM3MXoiLz4KCTxwYXRoIGQ9Ik0xMDc0MCw0MjA4di03NjJoODVoODVsMiw1NTNsMyw1NTJsNTYwLTU4MmMzMDgtMzIwLDU2My01ODIsNTY4LTU4M2M0LDAsNywzNDIsNyw3NjB2NzYwaC04NWgtODVsLTItNTU1bC0zLTU1NWwtNTMyLDU1MgoJCWMtMjkyLDMwNC01NDgsNTY5LTU2Nyw1ODdsLTM2LDM1VjQyMDh6Ii8+Cgk8cGF0aCBkPSJNMTQyNTAsNDIwOHYtNzYyaDg1aDg1bDIsNTUzbDMsNTUybDU2MC01ODJjMzA4LTMyMCw1NjMtNTgyLDU2OC01ODNjNCwwLDcsMzQyLDcsNzYwdjc2MGgtODVoLTg1bC0yLTU1NWwtMy01NTVsLTUzMiw1NTIKCQljLTI5MiwzMDQtNTQ4LDU2OS01NjcsNTg3bC0zNiwzNVY0MjA4eiIvPgoJPHBhdGggZD0iTTk0MDUsNDkyMGMtMzAyLTQ5LTU0Mi0yNjAtNjE3LTU0M2MtMjgtMTA3LTI4LTI5NiwwLTQwMmM1NS0yMDUsMTk2LTM3NiwzODctNDcwYzEyNS02MSwxODctNzQsMzU1LTc0YzEyNCwwLDE1Niw0LDIyMCwyMwoJCWMyOTcsOTQsNDkzLDMyMiw1MzAsNjE5YzQ4LDM3OS0xNzMsNzIxLTUzMCw4MjNDOTY3Niw0OTE3LDk0NzUsNDkzMSw5NDA1LDQ5MjB6IE05NjQ1LDQ3NTFjMTEwLTIzLDIwOC03NywyOTAtMTU5CgkJYzIzNS0yMzYsMjM1LTU5NiwwLTgzMWMtMzE0LTMxNS04MjUtMTg2LTk3MSwyNDVjLTE0LDQxLTE5LDg0LTE5LDE3MGMwLDEyNiwxMiwxNzcsNjksMjg1YzQ1LDg4LDE1NSwxOTMsMjQ2LDIzOQoJCUM5Mzg4LDQ3NjIsOTUxMiw0Nzc5LDk2NDUsNDc1MXoiLz4KCTxwYXRoIGQ9Ik0xNTIwLDQ4MjF2LTg1aDE3NWgxNzV2LTY0NXYtNjQ1aDg1aDg1djY0NXY2NDVoMTc1aDE3NXY4NXY4NWgtNDM1aC00MzVWNDgyMXoiLz4KCTxwYXRoIGQ9Ik0yNzcwLDQxNzZ2LTczMGgzODVoMzg1djg1djg1aC0zMDBoLTMwMHYyNzV2Mjc1aDI5MGgyOTB2ODB2ODBoLTI5MGgtMjkwdjIwNXYyMDVoMzAwaDMwMHY4NXY4NWgtMzg1aC0zODVWNDE3NnoiLz4KCTxwYXRoIGQ9Ik00MDAwLDQxNzZ2LTczMGgyODVoMjg1djg1djg1aC0yMDBoLTIwMHY2NDV2NjQ1aC04NWgtODVWNDE3NnoiLz4KCTxwYXRoIGQ9Ik00OTYwLDQxNzZ2LTczMGg4NWg4NXY3MzB2NzMwaC04NWgtODVWNDE3NnoiLz4KCTxwYXRoIGQ9Ik01NjcwLDQxNzZ2LTczMGgzODVoMzg1djg1djg1aC0zMDBoLTMwMHYyNzV2Mjc1aDI5MGgyOTB2ODB2ODBoLTI5MGgtMjkwdjIwNXYyMDVoMzAwaDMwMHY4NXY4NWgtMzg1aC0zODVWNDE3NnoiLz4KCTxwYXRoIGQ9Ik02ODkwLDQxNzh2LTczMmg4NWg4NXYzMjBjMCwyOTgsMSwzMjAsMTgsMzIwYzExLTEsOTQtMTEyLDI0MC0zMjBsMjIzLTMyMGgxMDBjNjEsMCw5OSw0LDk5LDEwcy0xMDEsMTUxLTIyNCwzMjNsLTIyNCwzMTIKCQlsNjEsMTZjNzgsMTksMTE4LDQwLDE3Myw5MWM4Nyw4MSwxMzEsMjAyLDEyMCwzMzVjLTE1LDE4My0xMTEsMjk3LTI5MiwzNDNjLTYwLDE2LTEyNiwyMi0yNzEsMjdsLTE5Myw2VjQxNzh6IE03MzA4LDQ3MjEKCQljMTM2LTQxLDIwMy0xODcsMTQ5LTMyN2MtMzktMTAwLTEzMC0xNDktMjg5LTE1NmwtMTA4LTV2MjUydjI1MWg5OEM3MjE4LDQ3MzYsNzI3Nyw0NzMwLDczMDgsNDcyMXoiLz4KCTxwYXRoIGQ9Ik0xMjU5MCw0MTc2di03MzBoMjg1aDI4NXY4NXY4NWgtMjAwaC0yMDB2NjQ1djY0NWgtODVoLTg1VjQxNzZ6Ii8+Cgk8cGF0aCBkPSJNMTM1NDAsNDE3NnYtNzMwaDg1aDg1djczMHY3MzBoLTg1aC04NVY0MTc2eiIvPgoJPHBhdGggZD0iTTE2MTAwLDQxNzZ2LTczMGgzODVoMzg1djg1djg1aC0zMDBoLTMwMHYyNzV2Mjc1aDI5MGgyOTB2ODB2ODBoLTI5MGgtMjkwdjIwNXYyMDVoMzAwaDMwMHY4NXY4NWgtMzg1aC0zODVWNDE3NnoiLz4KCTxwYXRoIGQ9Ik04MTU1LDM2MjRjLTMxLTI4LTM4LTQxLTM5LTc0Yy0yLTgwLDcwLTEzNywxNDUtMTE1YzUyLDE2LDc5LDUzLDc5LDEwN2MwLDYyLTM5LDEwNC0xMDIsMTExCgkJQzgxOTYsMzY1OCw4MTg5LDM2NTUsODE1NSwzNjI0eiIvPgo8L2c+Cjwvc3ZnPgo="
                             alt="Ателье Онлайн" class="logo">
-                        <div class="mob-phone-wrap sf-hidden" bis_skin_checked="1"> </div>
-                        <div class="mob-messengers sf-hidden" bis_skin_checked="1"> </div>
+                        <div class="mob-phone-wrap sf-hidden" bis_skin_checked="1">
+                            <img src="phone.svg" alt="phone" style="margin-right: 7px;">
+                            <a href="tel:+74994551903" class="mob-phone">+ 7 (499) 455 - 19 - 03</a>
+                        </div>
+                        <div class="mob-messengers sf-hidden" bis_skin_checked="1">
+                            <a href="https://wa.me/79162190605" class="btn-4" target="_blank"> <span>WhatsApp</span>
+                                <img src="whatsapp.png" alt=""
+                                    style="width: 33px; height: 33px; margin: -2px -2px 0 18px;" class="sign">
+                            </a>
+                            <a href="https://t.me/atelier_online_moscow" class="btn-5" target="_blank">
+                                <span>Telegram</span> <img src="telegram.png" alt=""
+                                    style="width: 33px; height: 33px; margin: -2px -2px 0 18px;" class="sign"></a>
+                        </div>
                         <div class="header-main__controls" bis_skin_checked="1"> <span class="header-main__location"> г.
                                 Москва <div class="more-locations sf-hidden" bis_skin_checked="1"> </div> </span>
                             <div class="header-main__controls-item" bis_skin_checked="1"> <a href="tel:+74994551903"
@@ -9089,12 +9296,19 @@
                                     class="btn btn-xs btn-secondary">Написать WhatsApp</a> </div>
                         </div>
                     </div>
-                    <div class="header-main__menu sf-hidden" bis_skin_checked="1"> </div>
+                    <div class="header-main__menu sf-hidden" bis_skin_checked="1">
+                        <ul>
+                            <li><a href="ob-atelye">О нас</a></li>
+                            <li><a href="ceny">Цены</a></li>
+                            <li><a href="kontakty">Контакты</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="header-navigation" bis_skin_checked="1">
                 <div class="container" bis_skin_checked="1"> <button
-                        class="header-navigation__btn sf-hidden">Меню</button>
+                        class="header-navigation__btn sf-hidden">
+                        <img src="icon-menu.svg" alt="pic" style="width: 28px; height: 28px; margin-right: 9%;">Меню</button>
                     <div class="header-navigation__menu" bis_skin_checked="1">
                         <ul class="header-navigation__lvl-1">
                             <li class="header-navigation__item header-navigation__item-has-children"> <span
@@ -9178,7 +9392,7 @@
                 <div class="section-container">
                     <div class="card">
                         <img src="fur.png" alt="fur">
-                        <div class="smallheads2"><span class="sharp">#</span>Брюки<span class="nums">147</span></div>
+                        <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
                         <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
                         <p class="author">Татьяна Левина</p>
                         <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня норковое
@@ -9206,7 +9420,7 @@
 
                     <div class="card">
                         <img src="fur.png" alt="fur">
-                        <div class="smallheads2"><span class="sharp">#</span>Брюки<span class="nums">147</span></div>
+                        <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
                         <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
                         <p class="author">Татьяна Левина</p>
                         <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня норковое
@@ -9234,7 +9448,7 @@
 
                     <div class="card">
                         <img src="fur.png" alt="fur">
-                        <div class="smallheads2"><span class="sharp">#</span>Брюки<span class="nums">147</span></div>
+                        <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
                         <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
                         <p class="author">Татьяна Левина</p>
                         <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня норковое
@@ -9262,7 +9476,7 @@
 
                     <div class="card">
                         <img src="fur.png" alt="fur">
-                        <div class="smallheads2"><span class="sharp">#</span>Брюки<span class="nums">147</span></div>
+                        <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
                         <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
                         <p class="author">Татьяна Левина</p>
                         <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня норковое
@@ -9290,7 +9504,7 @@
 
                     <div class="card">
                         <img src="fur.png" alt="fur">
-                        <div class="smallheads2"><span class="sharp">#</span>Брюки<span class="nums">147</span></div>
+                        <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
                         <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
                         <p class="author">Татьяна Левина</p>
                         <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня норковое
@@ -9318,7 +9532,7 @@
 
                     <div class="card">
                         <img src="fur.png" alt="fur">
-                        <div class="smallheads2"><span class="sharp">#</span>Брюки<span class="nums">147</span></div>
+                        <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
                         <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
                         <p class="author">Татьяна Левина</p>
                         <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня норковое
@@ -9346,7 +9560,7 @@
 
                     <div class="card">
                         <img src="fur.png" alt="fur">
-                        <div class="smallheads2"><span class="sharp">#</span>Брюки<span class="nums">147</span></div>
+                        <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
                         <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
                         <p class="author">Татьяна Левина</p>
                         <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня норковое
@@ -9374,7 +9588,7 @@
 
                     <div class="card">
                         <img src="fur.png" alt="fur">
-                        <div class="smallheads2"><span class="sharp">#</span>Брюки<span class="nums">147</span></div>
+                        <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
                         <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
                         <p class="author">Татьяна Левина</p>
                         <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня норковое
@@ -9402,7 +9616,7 @@
 
                     <div class="card">
                         <img src="fur.png" alt="fur">
-                        <div class="smallheads2"><span class="sharp">#</span>Брюки<span class="nums">147</span></div>
+                        <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
                         <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
                         <p class="author">Татьяна Левина</p>
                         <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня норковое
@@ -9492,6 +9706,7 @@
             <div class="container" bis_skin_checked="1">
                 <div class="footer-block" bis_skin_checked="1">
                     <div class="mob-phone-wrap sf-hidden" bis_skin_checked="1">
+                        <img src="phone.svg" alt="phone" style="margin-right: 7px;">
                         <a href="tel:+74994551903" class="mob-phone">+ 7 (499) 455 - 19 - 03</a>
                     </div>
                     <div class="mob-messengers sf-hidden" bis_skin_checked="1">
