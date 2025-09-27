@@ -132,20 +132,6 @@
             color: #000000;
         }
 
-        .tg-link {
-            width: 216px;
-            height: 55px;
-            color: #fff;
-            background-color: 039BE5;
-            margin-left: -18px;
-            font-style: 'Montserrat', sans-serif;
-            font-weight: 900;
-            font-size: 12px;
-            font-style: italic;
-            display: flex;
-            padding: 8px 16px 8px 16px;
-        }
-
         .section-blog {
             margin-top: 1%;
             flex-direction: column;
@@ -188,10 +174,561 @@
             text-align: center;
         }
 
+        /* стили для второй страницы блога */
+
+        main {
+            background-color: #fff
+        }
+
+        .tg-link {
+            width: 216px;
+            height: 55px;
+            color: #fff;
+            background-color: 039BE5;
+            margin-left: -18px;
+            font-style: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-size: 12px;
+            font-style: italic;
+            display: flex;
+            padding: 8px 16px 8px 16px;
+        }
+
         .descript {
             display: flex;
             flex-direction: column;
+            width: 855px;
         }
+
+        .photo {
+            width: 855px;
+            height: 563px;
+            margin-bottom: 5%;
+        }
+
+        .paragraph {
+            width: 855px;
+            height: 290px;
+            background-color: #F2F2F2;
+            margin-bottom: 10%;
+            padding: 63px 46px 40px 51px;
+        }
+
+        .tip {
+            width: 763px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            color: #000000;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .questions {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            width: 140px;
+            height: 28px;
+            font-size: 16px;
+            color: #FFFFFF;
+            background-color: #F94F0D;
+            margin-top: 30px;
+            padding-left: 8px;
+            padding-top: 2px;
+        }
+
+        .questions:hover {
+            background-color: #fff;
+            border: 1px solid #F94F0D;
+            color: #F94F0D;
+        }
+
+        .contactus {
+            width: 218px !important;
+            height: 49px !important;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            color: #F94F0D;
+            border: 1px solid #F94F0D;
+            margin-top: 25px;
+            text-align: center;
+            padding-top: 11px;
+            cursor: pointer;
+        }
+
+        .contactus:hover {
+            background-color: #F94F0D;
+            color: #fff;
+        }
+
+        .content {
+            background-color: #3F434B;
+            width: 854px;
+            height: 230px;
+            padding: 33px 15px 14px 43px;
+        }
+
+        .contents {
+            font-family: 'Montserrat', sans-serif;
+            color: #fff;
+            font-weight: 600;
+            font-size: 34px;
+        }
+
+        .points {
+            margin-top: 25px;
+            list-style: none;
+            padding-left: 5px;
+        }
+
+        .point {
+            position: relative;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            padding-left: 19px;
+        }
+
+        .point::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            background-color: #F94F0D;
+            border-radius: 50%;
+        }
+
+        .article {
+            width: 844px;
+            height: 475px;
+            font-family: 'Montserrat', sans-serif;
+            color: #000000;
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: 6%;
+            margin-bottom: 6%;
+        }
+
+        .highlight {
+            position: relative;
+            padding-left: 30px;
+            font-weight: 600;
+        }
+
+        .highlight::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            background-color: #F94F0D;
+            border-radius: 50%;
+            margin-left: 10px;
+        }
+
+        .technology {
+            width: 849px;
+            height: 168px;
+            background-color: #F2F2F2;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            color: #000000;
+            padding: 42px 78px 15px 48px;
+            margin-bottom: 6%;
+        }
+
+        .heads {
+            font-family: 'Montserrat', sans-serif;
+            color: #000000;
+            font-size: 34px;
+            font-weight: 600;
+            height: 100px;
+            width: 852.0093940465719;
+            border-top: 1px solid #979797;
+            border-right: none;
+            border-bottom: none;
+            border-left: none;
+            padding-top: 35px;
+            padding-left: 10px;
+        }
+
+        .minihead {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            color: #000000;
+            padding-left: 10px;
+        }
+
+        .miniheads {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            color: #000000;
+            padding-left: 10px;
+            margin-top: 20px;
+        }
+
+        .lists {
+            list-style: none;
+            padding-left: 20px;
+            margin-top: 20px;
+        }
+
+        .typelist {
+            position: relative;
+            padding-left: 25px;
+            font-size: 16px;
+            font-weight: 400;
+            color: #000000;
+        }
+
+        .typelist::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            background-color: #F94F0D;
+            border-radius: 50%;
+        }
+
+        .advice {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            margin-top: 30px;
+            border-left: 2px solid #F94F0D;
+            padding-left: 80px;
+            margin-left: 33px;
+            color: #000000;
+            margin-bottom: 10%;
+        }
+
+        .imgs {
+            width: 245px;
+            height: 277px;
+            margin-bottom: 11%;
+        }
+
+        .theme {
+            font-family: 'Montserrat', sans-serif;
+            color: #000000;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .texting {
+            font-family: 'Montserrat', sans-serif;
+            color: #000000;
+            font-size: 16px;
+            font-weight: 400;
+            margin-top: 10px;
+            width: 844px;
+        }
+
+        .manual {
+            counter-reset: step-counter;
+            padding-left: 25px;
+            list-style: none;
+            margin-top: 25px;
+            margin-bottom: 45px;
+        }
+
+        .step {
+            counter-increment: step-counter;
+            position: relative;
+            padding-left: 25px;
+            font-family: 'Montserrat', sans-serif;
+            color: #000000;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .step::before {
+            content: counter(step-counter) ".";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #F94F0D;
+            font-weight: 600;
+        }
+
+        .mobadvice {
+            width: 849px;
+            height: 234px;
+            background-color: #F2F2F2;
+            padding: 35px 19px 20px 49px;
+        }
+
+        .mobiladvice {
+            font-family: 'Montserrat', sans-serif;
+            color: #000000;
+            font-size: 34px;
+            font-weight: 600;
+        }
+
+        .techno {
+            font-weight: 400;
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            color: #000000;
+            margin-top: 20px;
+        }
+
+        .hence {
+            width: 1200px;
+            display: flex;
+            margin-top: 65px;
+            border-bottom: 1px solid #979797;
+            padding-bottom: 20px;
+            justify-content: space-between;
+        }
+
+        .smallheadings {
+            display: flex;
+            gap: 10px;
+        }
+
+        .smallheads3 {
+            padding-top: 5px;
+            width: 120px;
+            height: 35px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            color: #000000;
+            background-color: #F2F2F2;
+            border-radius: 50px;
+            text-align: center;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+
+        .smallheads3:hover {
+            background-color: #3f434b;
+            color: #fff;
+        }
+
+        .authors,
+        .times1,
+        .views1 {
+            font-weight: 600;
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            color: #000000;
+            padding-top: 15px;
+
+        }
+
+        .signs {
+            margin-top: 15px;
+        }
+
+        .section-containers {
+            flex-direction: column;
+            align-items: center;
+            display: flex;
+        }
+
+        .mainhead {
+            font-family: 'Montserrat', sans-serif;
+            color: #000000;
+            font-size: 34px;
+            font-weight: 600;
+            margin-bottom: 1%;
+            margin-top: 5%;
+        }
+
+        .showmore {
+            width: 218px;
+            height: 49px;
+            border: 1px solid #F94F0D;
+            background-color: #fff;
+            color: #F94F0D;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 3%;
+            margin-top: 4%;
+            cursor: pointer;
+        }
+
+        .showmore:hover {
+            background-color: #F94F0D;
+            color: #fff;
+        }
+
+        .tg-link2 {
+            font-family: 'Montserrat', sans-serif;
+            width: 295px;
+            height: 63px;
+            background-color: #039BE5;
+            color: #fff;
+            font-style: italic;
+            font-size: 18px;
+            font-weight: 700;
+            padding: 18px 7px 0px 22px;
+            display: flex;
+            margin-top: 2%;
+            cursor: pointer;
+        }
+
+        .follow {
+            width: 295px;
+        }
+
+        .boxes {
+            width: 295px;
+            border-top: 1px solid #000000;
+            height: 185px;
+            display: flex;
+            flex-direction: column;
+            border-bottom: 1px solid #000000;
+            margin-top: 13%;
+        }
+
+        .columns {
+            width: 295px;
+            height: 490px;
+            display: flex;
+            flex-direction: column;
+            background-color: #3F434B;
+            color: #fff;
+            margin-top: 12%;
+        }
+
+        .services {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+            padding-left: 30px;
+            margin-top: 20px;
+            margin-bottom: 25px;
+        }
+
+        .service {
+            position: relative;
+            padding-left: 45px;
+            padding-top: 12px;
+            text-decoration: none;
+            color: inherit;
+            padding-bottom: 7px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+            border-top: 1px dashed #5F646E;
+        }
+
+        .service:hover {
+            background-color: #F94F0D;
+        }
+
+        .service::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            background-color: #F94F0D;
+            border-radius: 50%;
+            margin-top: 4px;
+            margin-left: 26px;
+        }
+
+        .address {
+            display: flex;
+            flex-direction: column;
+            width: 295px;
+            height: 817px;
+            background-color: #F2F2F2;
+            margin-top: 12%;
+        }
+
+        .ouraddress {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            color: #000000;
+            padding: 20px 10px 11px 30px;
+        }
+
+        .combo {
+            display: flex;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            color: #000000;
+            padding: 10px 10px 11px 25px;
+            border-top: 1px dashed #5F646E;
+        }
+
+        .logs {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5px;
+            width: 22px;
+            height: 22px;
+            border: 1px solid #ff4500;
+            border-radius: 50%;
+            font-size: 14px;
+            color: #ff4500;
+            font-weight: 500;
+        }
+
+        .logsblue {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5px;
+            width: 22px;
+            height: 22px;
+            border: 1px solid #4A93DF;
+            border-radius: 50%;
+            font-size: 14px;
+            color: #4A93DF;
+            font-weight: 500;
+        }
+
+        .logsgreen {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5px;
+            width: 22px;
+            height: 22px;
+            border: 1px solid #24AA59;
+            border-radius: 50%;
+            font-size: 14px;
+            color: #24AA59;
+            font-weight: 500;
+        }
+
+        .sometext {
+            width: 212px;
+            padding-left: 12px;
+        }
+
+
+        /* стили для второй страницы блога КОНЕЦ */
 
         .greeting {
             font-family: 'Montserrat', sans-serif;
@@ -208,21 +745,6 @@
             font-style: italic;
             font-weight: 700;
             margin-top: 4%;
-        }
-
-        .tg-link2 {
-            font-family: 'Montserrat', sans-serif;
-            width: 392px;
-            height: 80px;
-            background-color: #039BE5;
-            color: #fff;
-            font-style: italic;
-            font-size: 22px;
-            font-weight: 700;
-            padding: 22px 7px 8px 27px;
-            display: flex;
-            margin-top: 2%;
-            cursor: pointer;
         }
 
         .section-headings {
@@ -345,7 +867,8 @@
         }
 
         .next:hover {
-            text-decoration: underline;
+            text-decoration: underline !important;
+            background-color: transparent !important;
         }
 
         .author {
@@ -499,7 +1022,7 @@
         /* Конец стилей для элементов страницы Блога*/
 
         .mob-messengers {
-            /* Стили для наглядности, копировать не нужно */
+            /* Стиль для наглядности, копировать не нужно */
             margin: 10px -4px 0;
             display: flex;
             width: calc(100% + 8px);
@@ -4678,6 +5201,14 @@
         /* медиазапросы для блога */
 
         @media (max-width:1048px) {
+            .section-blogs {
+                margin-right: 0%;
+            }
+
+            .title1 {
+                font-size: 29px;
+            }
+
             .greeting {
                 width: 570px;
             }
@@ -4690,10 +5221,69 @@
                 width: 770px;
             }
 
+            .photo {
+                height: 415px;
+                width: 550px;
+            }
+
             .tg-link {
                 padding: 8px 16px 8px 0px;
                 font-size: 9px;
                 font-weight: 600;
+            }
+
+            .descript {
+                width: 550px;
+            }
+
+            .paragraph {
+                width: 550px;
+            }
+
+            .tip {
+                width: 465px;
+            }
+
+            .content {
+                width: 550px;
+            }
+
+            .article {
+                width: 550px;
+                height: 670px;
+            }
+
+            .technology {
+                width: 550px;
+                padding: 17px 78px 15px 48px;
+            }
+
+            .texting {
+                width: 550px;
+            }
+
+            .mobadvice {
+                width: 550px;
+                padding: 27px 19px 20px 26px;
+            }
+
+            .mobiladvice {
+                font-size: 25px;
+            }
+
+            .hence {
+                width: 830px;
+            }
+
+            .authors,
+            .times1,
+            .views1 {
+                font-size: 12px;
+            }
+
+            .smallheads3 {
+                width: 100px;
+                font-size: 14px;
             }
         }
 
@@ -4703,7 +5293,7 @@
             }
 
             .section-headings {
-                width: 650px;
+                width: 595px;
             }
 
             .greeting {
@@ -4743,6 +5333,99 @@
             .tg-link {
                 margin-left: 11px !important;
                 margin-top: 40px;
+            }
+
+            .title1 {
+                font-size: 22px;
+            }
+
+            .section-blogs {
+                margin-right: 8%;
+            }
+
+            .descript {
+                width: 370px;
+            }
+
+            .photo {
+                height: 300px;
+                width: 370px;
+            }
+
+            .paragraph {
+                width: 370px;
+                padding: 38px 40px 16px 28px;
+            }
+
+            .tip {
+                width: 320px;
+            }
+
+            .content {
+                width: 370px;
+                padding: 33px 15px 14px 23px
+            }
+
+            .article {
+                width: 370px;
+                height: 1000px;
+            }
+
+            .technology {
+                width: 370px;
+                font-size: 14px;
+                padding: 17px 15px 15px 24px;
+            }
+
+            .heads {
+                width: 370px;
+                font-size: 25px;
+            }
+
+            .advice {
+                padding-left: 35px;
+            }
+
+            .texting {
+                width: 370px;
+            }
+
+            .mobadvice {
+                width: 370px;
+            }
+
+            .mobiladvice {
+                font-size: 18px;
+            }
+
+            .techno {
+                font-size: 15px;
+                margin-top: 7px;
+            }
+
+            .hence {
+                width: 650px;
+            }
+
+            .smallheads3 {
+                width: 72px;
+                font-size: 11px;
+                height: 28px;
+                padding-top: 1px;
+            }
+
+            .authors,
+            .times1,
+            .views1 {
+                padding-top: 11px;
+            }
+
+            .signs {
+                margin-top: 10px;
+            }
+
+            .tg-link {
+                padding: 11px 5px 8px 12px
             }
 
             /* 3 стиля шапки для наглядности, копировать не нужно */
@@ -4818,7 +5501,7 @@
 
             .tg-link2 {
                 width: 310px;
-                padding: 26px 7px 6px 17px;
+                padding: 16px 7px 6px 17px;
                 font-size: 18px;
             }
 
@@ -4846,6 +5529,96 @@
                 display: flex !important;
             }
 
+            .section-blog {
+                align-items: center;
+            }
+
+            .photo {
+                height: 240px;
+            }
+
+            .paragraph {
+                width: 285px;
+            }
+
+            .tip {
+                width: 240px;
+                font-size: 14px;
+            }
+
+            .contents {
+                font-size: 28px;
+            }
+
+            .article {
+                width: 285px;
+                height: 1260px;
+            }
+
+            .technology {
+                width: 285px;
+                font-size: 12px;
+                padding: 22px 15px 15px 24px;
+            }
+
+            .heads {
+                width: 285px;
+                font-size: 19px;
+            }
+
+            .advice {
+                margin-left: 10px;
+                padding-left: 27px;
+            }
+
+            .texting {
+                width: 285px;
+            }
+
+            .manual {
+                padding-left: 0px;
+            }
+
+            .step {
+                font-size: 11px;
+                width: 333px;
+            }
+
+            .mobadvice {
+                width: 285px;
+            }
+
+            .techno {
+                font-size: 12px;
+            }
+
+            .mobiladvice {
+                font-size: 15px;
+            }
+
+            .content {
+                width: 285px;
+            }
+
+            .hence {
+                width: 285px;
+                flex-wrap: wrap;
+                display: flex;
+            }
+
+            .smallheadings {
+                gap: 1px;
+            }
+
+            .mainhead {
+                font-size: 24px;
+            }
+
+            .tg-link {
+                font-size: 13px;
+                padding: 7px 5px 8px 12px;
+            }
+
         }
 
         @media screen and (max-width: 415px) {
@@ -4864,6 +5637,18 @@
                 margin: -3px -2px 0 8px !important;
                 height: 24px !important;
                 width: 24px !important;
+            }
+
+            .tg-link2 {
+                width: 285px;
+            }
+
+            .advice {
+                font-size: 18px;
+            }
+
+            .step {
+                width: 300px;
             }
         }
 
@@ -4910,8 +5695,25 @@
 
             .tg-link2 {
                 width: 275px;
-                padding: 26px 7px 6px 8px;
+                padding: 18px 7px 6px 17px;
                 font-size: 16px;
+            }
+
+            .step {
+                width: 280px;
+            }
+
+            .lists {
+                padding-left: 7px;
+            }
+
+            .article {
+                font-size: 12px;
+                height: 699px;
+            }
+
+            .follow {
+                font-size: 20px;
             }
         }
 
@@ -5173,7 +5975,8 @@
             margin-top: -3px
         }
 
-        .footer-block__contacts-link { /* подправлены стили для правильного отображения */
+        .footer-block__contacts-link {
+            /* подправлены стили для правильного отображения */
             font-size: 16px;
             font-weight: 700;
             position: relative;
@@ -9366,28 +10169,318 @@
         <main class="main">
             <div class="section-blogs">
                 <div class="section-blog">
-                    <p class="title1">Блог Кристины Рожмановой</p>
+                    <p class="title1">Как сшить шторы своими руками. Обрабатываем верх</p>
                     <div class="ownerblog">
                         <div class="ownerphoto">
                             <img src="owner_photo.png" alt="owner" style="width: 295px; height: 345px;"
                                 class="ownerphot">
-                            <p class="ownername">Кристина Рожманова</p>
+                            <p class="ownername">Блог<br> Кристины Рожмановой</p>
                             <p class="ownerdescr">Владелец Ателье Онлайн<br>С заботой о каждом клиенте</p>
+
+                            <div class="boxes">
+                                <p class="follow">Подписывайтесь<br>и следите за нами!</p>
+                                <a href="https://t.me/atelieronlinemoscow" class="tg-link2">Наш Telegram-канал
+                                    <img src="telegram.png" alt="telegram"
+                                        style="width: 33px; height: 26px; margin-left: 15px;">
+                                </a>
+                            </div>
+
+                            <div class="columns">
+                                <p class="services">Услуги Ателье Онлайн:</p>
+                                <a href="#" class="service">Пошив одежды </a>
+                                <a href="#" class="service">Пошив мужской одежды</a>
+                                <a href="#" class="service">Пошив женской одежды </a>
+                                <a href="#" class="service">Пошив детской одежды</a>
+                                <a href="#" class="service">Ремонт одежды</a>
+                                <a href="#" class="service">Ремонт обуви</a>
+                                <a href="#" class="service">Ремонт сумок</a>
+                                <a href="#" class="service">Пошив штор </a>
+                                <a href="#" class="service">Химчистка</a>
+                            </div>
+
+                            <div class="address">
+                                <p class="ouraddress">Наши адреса:</p>
+
+                                <div class="combo">
+                                    <p class="logs">M</p>
+                                    <p class="sometext">Тверская Вознесенский пер., 16/4<br>
+                                        +7 499 455-19-03</p>
+                                </div>
+
+                                <div class="combo">
+                                    <p class="logs">M</p>
+                                    <p class="sometext">Марьина Роща Олимпийский проспект, 22<br>
+                                        +7 499 455-19-03</p>
+                                </div>
+
+                                <div class="combo">
+                                    <p class="logs">M</p>
+                                    <p class="sometext">Смоленская, Смоленский бул., 22/14<br>
+                                        +7 499 455-19-03</p>
+                                </div>
+
+                                <div class="combo">
+                                    <p class="logsblue">M</p>
+                                    <p class="sometext">Тверская
+                                        Вознесенский пер., 16/4<br>
+                                        +7 499 455-19-03</p>
+                                </div>
+
+                                <div class="combo">
+                                    <p class="logs">M</p>
+                                    <p class="sometext">Марьина Роща Олимпийский проспект, 22<br>
+                                        +7 499 455-19-03</p>
+                                </div>
+
+                                <div class="combo">
+                                    <p class="logs">M</p>
+                                    <p class="sometext">Смоленская, Смоленский бул., 22/14<br>
+                                        +7 499 455-19-03</p>
+                                </div>
+
+                                <div class="combo">
+                                    <p class="logsgreen">M</p>
+                                    <p class="sometext">Смоленская, Смоленский бул., 22/14<br>
+                                        +7 499 455-19-03</p>
+                                </div>
+                            </div>
                         </div>
+
                         <div class="descript">
-                            <p class="greeting">Добрый день, наши дорогие клиенты и просто друзья! Меня зовут Кристина
-                                Рожманова и я владелица Ателье Онлайн. Вот уже больше 10 лет я и моя команда
-                                профессионалов формируем концепцию ателье полного цикла услуг. Это означает, что у нас
-                                вы можете получить любую услугу в области пошива, ремонта одежды, химчистки или
-                                формированию стильного образа. Также у нас вы можете заказать выездное обслуживание,
-                                приобрести фирменные итальянские ткани и фурнитуру.</p>
-                            <p class="follow">Подписывайтесь и следите за нами!</p>
-                            <a href="https://t.me/atelieronlinemoscow" class="tg-link2">Наш Telegram-канал
-                                <img src="telegram.png" alt="telegram"
-                                    style="width: 45px; height: 36px; margin-left: 25px;">
-                            </a>
+                            <img src="photo.png" alt="pic" class="photo">
+
+                            <div class="paragraph">
+                                <p class="tip">Имея дома швейную машинку, можно самостоятельно изготовить различные
+                                    варианты штор.</p>
+
+                                <div class="box">
+                                    <a href="#target-paragraph" class="questions">Есть вопросы?</a>
+                                    <a href="https://atelier-online.ru/kontakty" class="contactus">Свяжитесь с нами</a>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <p class="contents">Содержание</p>
+                                <ul class="points">
+                                    <li class="point">Обработка вера штор</li>
+                                    <li class="point">Совет от “Мобильного портного”</li>
+                                </ul>
+                            </div>
+
+                            <div class="article">Технология пошива самих штор несложная: обрабатываются боковые края,
+                                верхний и нижний срезы. Боковины и низ подкладывают и прострачивают, обрабатывают косой
+                                бейкой или оборками из ткани.<br>
+                                Что касается обработки верха, то для этого используют различные отделочные и
+                                декоративные материалы. Это могут быть<br>
+                                <span class="highlight">люверсы.</span> Занавеска на металлических люверсах смотрится
+                                очень современно. Люверсы можно
+                                пробить в мастерской или купить ленту с уже установленной фурнитурой. Ее пристрачивают к
+                                полотнищу, а после в ткани вырезают отверстия<br>
+                                <span class="highlight">шторная тесьма различной ширины</span> — самый простой и быстрый
+                                способ обработки верха.
+                                Пристрачивается с изнаночной стороны. По желанию, над шторной тесьмой оставляют рюш
+                                разной высоты. После сборки он станет дополнительным декоративным элементом<br>
+                                <span class="highlight">банты.</span> Портьеры и гардины на бантах украсят комнату в
+                                стиле кантри или рустикаль. Для
+                                пошива банта используют атласные ленты, ткань тюля или плотной шторы. Низ и боковины
+                                обрабатывают обычной строчкой или воланами.<br>
+                                <span class="highlight">обычная строчка.</span> Портьерную ткань подгибают сверху,
+                                отступая на 3-5 см, и продевают
+                                металлический карниз.<br>
+                                Дополнительно шторы украшают сшитыми своими руками или купленными в магазине лентами,
+                                ремешками или шнурами.
+                            </div>
+
+                            <div class="technology">Технология пошива самих штор несложная: обрабатываются боковые края,
+                                верхний и нижний срезы. Боковины и низ подкладывают и прострачивают, обрабатывают косой
+                                бейкой или оборками из ткани.
+                            </div>
+
+                            <p class="heads">Виды швов на трикотаже</p>
+                            <p class="minihead">Потайной шов</p>
+                            <p class="miniheads">Потайной шов – это незаметный и аккуратный способ соединения тканей,
+                                который можно успешно выполнить вручную. При этом нити остаются скрытыми между слоями
+                                материала.</p>
+
+                            <ul class="lists">
+                                <li class="typelist">Скрепите булавками будущий шов по всей длине.</li>
+                                <li class="typelist">Подворачивайте низ изделия на 1 см, а затем еще раз – уже на
+                                    желаемую длину.</li>
+                                <li class="typelist">Прогладьте утюгом, чтобы подгибы были аккуратными.</li>
+                                <li class="typelist">Введите иголку с изнаночной стороны ткани, фиксируя узелком.
+                                    Рабочую нить следует вывести точно по ребру складки.</li>
+                                <li class="typelist">Выведите иглу на противоположную сторону, при этом захватите около
+                                    2-3 мм ткани, затем вернитесь снова на лицевую.</li>
+                            </ul>
+
+                            <div class="advice"><span style="font-weight: 600;">Совет.</span> Дутая куртка относится к
+                                спортивному стилю, поэтому не стоит
+                                перегружать свой образ другими вещами в этом же стиле. Это, скорее всего, будет
+                                выглядеть слишком просто и, чаще всего, неуместно.</div>
+                            <div class="imgs">
+                                <img src="needle.png" alt="needle" class="needle">
+                            </div>
+
+                            <p class="theme">Как подогнуть трикотажные брюки без машинки?</p>
+                            <p class="texting">В ателье ваши брюки подошьют быстро и незаметно. Но что, если они нужны
+                                здесь и сейчас? Ушить трикотажные брюки можно и в домашних условиях без машинки. Да, это
+                                потребует больше времени и сил, но задача-то выполнима!</p>
+
+                            <ol class="manual">
+                                <li class="step">Отмерьте длину брюк:</li>
+                                <li class="step">Наденьте брюки и встаньте прямо.</li>
+                                <li class="step">С помощью линейки или сантиметровой ленты измерьте желаемую длину брюк.
+                                </li>
+                                <li class="step">Отметьте булавкой, мелом или маркером для ткани место, где нужно будет
+                                    подогнуть брюки.</li>
+                                <li class="step">Подготовьте брюки:</li>
+                                <li class="step">Снимите брюки и разложите их на ровной поверхности.</li>
+                                <li class="step">С помощью линейки проведите ровную линию по отметке, сделанной на
+                                    предыдущем шаге.</li>
+                                <li class="step">Оставьте припуск на подгибку (около 2-3 см) и отрежьте лишнюю ткань.
+                                </li>
+                                <li class="step">Закрепите подгибку:</li>
+                                <li class="step">Подверните край на припуск и закрепите булавками.</li>
+                                <li class="step">Прошейте подгибку потайным швом:</li>
+                                <li class="step">Возьмите иглу и нитки подходящего цвета.</li>
+                                <li class="step">Начните с изнаночной стороны подгибки, введя иглу с ниткой в край
+                                    подгибки. </li>
+                                <li class="step">Закрепите узелок, выведите рабочую нить через подогнутый край.</li>
+                                <li class="step">Захватите нижнюю ткань (если трикотаж достаточно плотный, снизу можно
+                                    захватывать по одной петельке) и введите иглу параллельно в сгиб верхней.</li>
+                                <li class="step">Повторяйте эти шаги по всей длине подгибки.</li>
+                            </ol>
+
+                            <div class="mobadvice">
+                                <p class="mobiladvice">Совет от «Мобильного портного»</p>
+                                <p class="techno">Технология пошива самих штор несложная: обрабатываются боковые края,
+                                    верхний и нижний срезы. Боковины и низ подкладывают и прострачивают, обрабатывают
+                                    косой бейкой или оборками из ткани.</p>
+                            </div>
                         </div>
                     </div>
+                </div>
+
+                <div class="hence">
+                    <p class="authors">Андрей Прохоров, 13.12.2024</p>
+
+                    <div class="blocks">
+                        <div class="timeblock">
+                            <img src="clock.png" alt="clock" style="width: 20px; height: 20px; margin-right: 5px;"
+                                class="signs">
+                            <p class="times1">5 мин.</p>
+                        </div>
+                        <div class="viewsblock">
+                            <img src="views.png" alt="times"
+                                style="width: 20px; height: 20px; margin-right: 5px; margin-left: 10px;" class="signs">
+                            <p class="views1">829</p>
+                        </div>
+                    </div>
+
+                    <div class="smallheadings">
+                        <div class="smallheads3"><span class="sharp">#</span>Брюки</div>
+                        <div class="smallheads3"><span class="sharp">#</span>Брюки</div>
+                        <div class="smallheads3"><span class="sharp">#</span>Брюки</div>
+                        <div class="smallheads3"><span class="sharp">#</span>Брюки</div>
+                    </div>
+                </div>
+
+                <div class="section-containers">
+                    <p class="mainhead">Читайте также по теме</p>
+                    <div class="section-container">
+                        <div class="card">
+                            <img src="fur.png" alt="fur">
+                            <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
+                            <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
+                            <p class="author">Татьяна Левина</p>
+                            <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня
+                                норковое
+                                производство занимает ведущее положение в своей отрасли. Главные производители норки это
+                                США
+                            </p>
+                            <a class="next"
+                                style="color: #F94F0D; font-weight: 500; font-family: 'Montserrat', sans-serif; align-self: flex-start; margin-left: 25px;">Читать
+                                далее</a>
+                            <div class="information">
+                                <p class="dates">04.02.2025</p>
+                                <div class="blocks">
+                                    <div class="timeblock">
+                                        <img src="clock.png" alt="clock"
+                                            style="width: 20px; height: 20px; margin-right: 5px;">
+                                        <p class="times">5 мин.</p>
+                                    </div>
+                                    <div class="viewsblock">
+                                        <img src="views.png" alt="times"
+                                            style="width: 20px; height: 20px; margin-right: 5px; margin-left: 10px;">
+                                        <p class="views">829</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="fur.png" alt="fur">
+                            <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
+                            <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
+                            <p class="author">Татьяна Левина</p>
+                            <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня
+                                норковое
+                                производство занимает ведущее положение в своей отрасли. Главные производители норки это
+                                США
+                            </p>
+                            <a class="next"
+                                style="color: #F94F0D; font-weight: 500; font-family: 'Montserrat', sans-serif; align-self: flex-start; margin-left: 25px;">Читать
+                                далее</a>
+                            <div class="information">
+                                <p class="dates">04.02.2025</p>
+                                <div class="blocks">
+                                    <div class="timeblock">
+                                        <img src="clock.png" alt="clock"
+                                            style="width: 20px; height: 20px; margin-right: 5px;">
+                                        <p class="times">5 мин.</p>
+                                    </div>
+                                    <div class="viewsblock">
+                                        <img src="views.png" alt="times"
+                                            style="width: 20px; height: 20px; margin-right: 5px; margin-left: 10px;">
+                                        <p class="views">829</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="fur.png" alt="fur">
+                            <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
+                            <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
+                            <p class="author">Татьяна Левина</p>
+                            <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня
+                                норковое
+                                производство занимает ведущее положение в своей отрасли. Главные производители норки это
+                                США
+                            </p>
+                            <a class="next"
+                                style="color: #F94F0D; font-weight: 500; font-family: 'Montserrat', sans-serif; align-self: flex-start; margin-left: 25px;">Читать
+                                далее</a>
+                            <div class="information">
+                                <p class="dates">04.02.2025</p>
+                                <div class="blocks">
+                                    <div class="timeblock">
+                                        <img src="clock.png" alt="clock"
+                                            style="width: 20px; height: 20px; margin-right: 5px;">
+                                        <p class="times">5 мин.</p>
+                                    </div>
+                                    <div class="viewsblock">
+                                        <img src="views.png" alt="times"
+                                            style="width: 20px; height: 20px; margin-right: 5px; margin-left: 10px;">
+                                        <p class="views">829</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="showmore">Показать еще</button>
                 </div>
 
                 <div class="section-headings">
@@ -9415,275 +10508,13 @@
                     <div class="smallheads"><span class="sharp">#</span>Брюки<span class="nums">147</span></div>
                 </div>
 
-                <div class="section-container">
-                    <div class="card">
-                        <img src="fur.png" alt="fur">
-                        <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
-                        <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
-                        <p class="author">Татьяна Левина</p>
-                        <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня норковое
-                            производство занимает ведущее положение в своей отрасли. Главные производители норки это США
-                        </p>
-                        <a class="next"
-                            style="color: #F94F0D; font-weight: 500; font-family: 'Montserrat', sans-serif; align-self: flex-start; margin-left: 25px;">Читать
-                            далее</a>
-                        <div class="information">
-                            <p class="dates">04.02.2025</p>
-                            <div class="blocks">
-                                <div class="timeblock">
-                                    <img src="clock.png" alt="clock"
-                                        style="width: 20px; height: 20px; margin-right: 5px;">
-                                    <p class="times">5 мин.</p>
-                                </div>
-                                <div class="viewsblock">
-                                    <img src="views.png" alt="times"
-                                        style="width: 20px; height: 20px; margin-right: 5px; margin-left: 10px;">
-                                    <p class="views">829</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <img src="fur.png" alt="fur">
-                        <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
-                        <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
-                        <p class="author">Татьяна Левина</p>
-                        <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня норковое
-                            производство занимает ведущее положение в своей отрасли. Главные производители норки это США
-                        </p>
-                        <a class="next"
-                            style="color: #F94F0D; font-weight: 500; font-family: 'Montserrat', sans-serif; align-self: flex-start; margin-left: 25px;">Читать
-                            далее</a>
-                        <div class="information">
-                            <p class="dates">04.02.2025</p>
-                            <div class="blocks">
-                                <div class="timeblock">
-                                    <img src="clock.png" alt="clock"
-                                        style="width: 20px; height: 20px; margin-right: 5px;">
-                                    <p class="times">5 мин.</p>
-                                </div>
-                                <div class="viewsblock">
-                                    <img src="views.png" alt="times"
-                                        style="width: 20px; height: 20px; margin-right: 5px; margin-left: 10px;">
-                                    <p class="views">829</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <img src="fur.png" alt="fur">
-                        <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
-                        <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
-                        <p class="author">Татьяна Левина</p>
-                        <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня норковое
-                            производство занимает ведущее положение в своей отрасли. Главные производители норки это США
-                        </p>
-                        <a class="next"
-                            style="color: #F94F0D; font-weight: 500; font-family: 'Montserrat', sans-serif; align-self: flex-start; margin-left: 25px;">Читать
-                            далее</a>
-                        <div class="information">
-                            <p class="dates">04.02.2025</p>
-                            <div class="blocks">
-                                <div class="timeblock">
-                                    <img src="clock.png" alt="clock"
-                                        style="width: 20px; height: 20px; margin-right: 5px;">
-                                    <p class="times">5 мин.</p>
-                                </div>
-                                <div class="viewsblock">
-                                    <img src="views.png" alt="times"
-                                        style="width: 20px; height: 20px; margin-right: 5px; margin-left: 10px;">
-                                    <p class="views">829</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <img src="fur.png" alt="fur">
-                        <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
-                        <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
-                        <p class="author">Татьяна Левина</p>
-                        <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня норковое
-                            производство занимает ведущее положение в своей отрасли. Главные производители норки это США
-                        </p>
-                        <a class="next"
-                            style="color: #F94F0D; font-weight: 500; font-family: 'Montserrat', sans-serif; align-self: flex-start; margin-left: 25px;">Читать
-                            далее</a>
-                        <div class="information">
-                            <p class="dates">04.02.2025</p>
-                            <div class="blocks">
-                                <div class="timeblock">
-                                    <img src="clock.png" alt="clock"
-                                        style="width: 20px; height: 20px; margin-right: 5px;">
-                                    <p class="times">5 мин.</p>
-                                </div>
-                                <div class="viewsblock">
-                                    <img src="views.png" alt="times"
-                                        style="width: 20px; height: 20px; margin-right: 5px; margin-left: 10px;">
-                                    <p class="views">829</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <img src="fur.png" alt="fur">
-                        <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
-                        <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
-                        <p class="author">Татьяна Левина</p>
-                        <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня норковое
-                            производство занимает ведущее положение в своей отрасли. Главные производители норки это США
-                        </p>
-                        <a class="next"
-                            style="color: #F94F0D; font-weight: 500; font-family: 'Montserrat', sans-serif; align-self: flex-start; margin-left: 25px;">Читать
-                            далее</a>
-                        <div class="information">
-                            <p class="dates">04.02.2025</p>
-                            <div class="blocks">
-                                <div class="timeblock">
-                                    <img src="clock.png" alt="clock"
-                                        style="width: 20px; height: 20px; margin-right: 5px;">
-                                    <p class="times">5 мин.</p>
-                                </div>
-                                <div class="viewsblock">
-                                    <img src="views.png" alt="times"
-                                        style="width: 20px; height: 20px; margin-right: 5px; margin-left: 10px;">
-                                    <p class="views">829</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <img src="fur.png" alt="fur">
-                        <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
-                        <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
-                        <p class="author">Татьяна Левина</p>
-                        <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня норковое
-                            производство занимает ведущее положение в своей отрасли. Главные производители норки это США
-                        </p>
-                        <a class="next"
-                            style="color: #F94F0D; font-weight: 500; font-family: 'Montserrat', sans-serif; align-self: flex-start; margin-left: 25px;">Читать
-                            далее</a>
-                        <div class="information">
-                            <p class="dates">04.02.2025</p>
-                            <div class="blocks">
-                                <div class="timeblock">
-                                    <img src="clock.png" alt="clock"
-                                        style="width: 20px; height: 20px; margin-right: 5px;">
-                                    <p class="times">5 мин.</p>
-                                </div>
-                                <div class="viewsblock">
-                                    <img src="views.png" alt="times"
-                                        style="width: 20px; height: 20px; margin-right: 5px; margin-left: 10px;">
-                                    <p class="views">829</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <img src="fur.png" alt="fur">
-                        <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
-                        <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
-                        <p class="author">Татьяна Левина</p>
-                        <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня норковое
-                            производство занимает ведущее положение в своей отрасли. Главные производители норки это США
-                        </p>
-                        <a class="next"
-                            style="color: #F94F0D; font-weight: 500; font-family: 'Montserrat', sans-serif; align-self: flex-start; margin-left: 25px;">Читать
-                            далее</a>
-                        <div class="information">
-                            <p class="dates">04.02.2025</p>
-                            <div class="blocks">
-                                <div class="timeblock">
-                                    <img src="clock.png" alt="clock"
-                                        style="width: 20px; height: 20px; margin-right: 5px;">
-                                    <p class="times">5 мин.</p>
-                                </div>
-                                <div class="viewsblock">
-                                    <img src="views.png" alt="times"
-                                        style="width: 20px; height: 20px; margin-right: 5px; margin-left: 10px;">
-                                    <p class="views">829</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <img src="fur.png" alt="fur">
-                        <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
-                        <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
-                        <p class="author">Татьяна Левина</p>
-                        <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня норковое
-                            производство занимает ведущее положение в своей отрасли. Главные производители норки это США
-                        </p>
-                        <a class="next"
-                            style="color: #F94F0D; font-weight: 500; font-family: 'Montserrat', sans-serif; align-self: flex-start; margin-left: 25px;">Читать
-                            далее</a>
-                        <div class="information">
-                            <p class="dates">04.02.2025</p>
-                            <div class="blocks">
-                                <div class="timeblock">
-                                    <img src="clock.png" alt="clock"
-                                        style="width: 20px; height: 20px; margin-right: 5px;">
-                                    <p class="times">5 мин.</p>
-                                </div>
-                                <div class="viewsblock">
-                                    <img src="views.png" alt="times"
-                                        style="width: 20px; height: 20px; margin-right: 5px; margin-left: 10px;">
-                                    <p class="views">829</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <img src="fur.png" alt="fur">
-                        <div class="smallheads2"><span class="sharp">#</span>Брюки</div>
-                        <p class="desc">Меховая жилетка. Просто. Модно. Красиво</p>
-                        <p class="author">Татьяна Левина</p>
-                        <p class="texts">Мех норки с давних пор пользуется неизменной популярностью. Сегодня норковое
-                            производство занимает ведущее положение в своей отрасли. Главные производители норки это США
-                        </p>
-                        <a class="next"
-                            style="color: #F94F0D; font-weight: 500; font-family: 'Montserrat', sans-serif; align-self: flex-start; margin-left: 25px;">Читать
-                            далее</a>
-                        <div class="information">
-                            <p class="dates">04.02.2025</p>
-                            <div class="blocks">
-                                <div class="timeblock">
-                                    <img src="clock.png" alt="clock"
-                                        style="width: 20px; height: 20px; margin-right: 5px;">
-                                    <p class="times">5 мин.</p>
-                                </div>
-                                <div class="viewsblock">
-                                    <img src="views.png" alt="times"
-                                        style="width: 20px; height: 20px; margin-right: 5px; margin-left: 10px;">
-                                    <p class="views">829</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="pagination">
-                    <a href="#" class="page-number">1</a>
-                    <a href="#" class="page-number">2</a>
-                    <span class="ellipsis">...</span>
-                    <a href="#" class="page-number">12</a>
-                    <a href="#" class="nextpage">&gt;</a>
-                </div>
             </div>
 
             <div class="section section-light" bis_skin_checked="1">
                 <div class="container" bis_skin_checked="1">
                     <div id="sectionQuestion" class="section-item section-item__form" bis_skin_checked="1">
                         <div class="section__title" bis_skin_checked="1">
-                            <h2> У вас вопрос? Я помогу!</h2>
+                            <h2 id="target-paragraph"> У вас вопрос? Я помогу!</h2>
                         </div>
                         <div class="contact-block" bis_skin_checked="1">
                             <div class="contact-block__form" bis_skin_checked="1">
