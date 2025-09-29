@@ -87,6 +87,7 @@ li {
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
+    width: 100%;
 }
 
 .velo {
@@ -170,6 +171,7 @@ li {
     padding: 10px;
     align-items: flex-start;
     gap: 10px;
+    width: 100%;
 }
 
 .heading2 {
@@ -302,6 +304,7 @@ span {
     font-style: normal;
     line-height: 10px;
     padding-left: 10px;
+    vertical-align: top;
 }
 
 .price {
@@ -348,4 +351,74 @@ span {
 
 .carousel-control:hover {
     color: #8d8b8b;
+}
+
+.colours {
+    position: absolute;
+    bottom: 33px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 40px;
+}
+
+.circles {
+    -webkit-tap-highlight-color: transparent;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    background-clip: border-box;
+    cursor: pointer;
+}
+
+.circles.black {
+    background: #000;
+}
+
+.circles.graphit {
+    background: #606160;
+}
+
+.circles.dune {
+    background: #DDD9CD;
+}
+
+.circles.jetblack {
+    background: linear-gradient(90deg, #EFE1CB 50%, #000 50%);
+}
+
+.circles.pebble {
+    background: linear-gradient(90deg, #EFE1CB 50%, #F4F1EC 50%);
+}
+
+.circles::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+
+.circles:focus::after,
+.circles.active::after {
+    background: transparent;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.circles:focus,
+.circles.active {
+    transform: scale(0.9);
 }
