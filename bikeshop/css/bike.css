@@ -422,3 +422,161 @@ span {
 .circles.active {
     transform: scale(0.9);
 }
+
+.intouch {
+    justify-content: center;
+    display: flex;
+    border-bottom: 2px solid #c9c9c95e;
+}
+
+.form-container {
+    background: white;
+    border-radius: 5px;
+    width: 937px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.form-container .getin {
+    margin-top: 250px;
+    margin-bottom: 57px;
+    color: #333;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 50px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 937px;
+    height: 57px;
+    padding: 20px;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    color: #4a504de5;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.form-group select option {
+    cursor: pointer;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #4a504de5;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.form-group select {
+    color: #4a504de5;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.form-group textarea {
+    height: 309px;
+    resize: vertical;
+}
+
+.send {
+    width: 931.78px;
+    height: 50px;
+    padding: 10px;
+    background-color: #898A8A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 12px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+}
+
+.send:hover {
+    background-color: #555;
+}
+
+.anyquestions {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 147px;
+}
+
+.questions {
+    font-family: 'Nuckle', sans-serif;
+    font-size: 120px;
+    font-style: normal;
+    margin-bottom: 28px;
+}
+
+.accordion {
+    width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.accordion-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.accordion-header {
+    padding: 15px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-header:hover {
+    background-color: #f0f0f0;
+}
+
+.accordion-content {
+    padding: 15px;
+    display: none;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+
+.accordion-item.active .accordion-content {
+    display: block;
+}
+
+.accordion-item.active .accordion-header {
+    background-color: #e0e0e0;
+}
+
+.plus-sign {
+    font-size: 18px;
+    transition: transform 0.3s;
+}
+
+.accordion-item.active .plus-sign {
+    transform: rotate(45deg);
+}
