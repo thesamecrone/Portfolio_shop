@@ -1,0 +1,574 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product-box {
+    display: flex;
+}
+
+.model {
+    background-color: #F0F0F0;
+    height: 800px;
+    width: 847px;
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    border: none;
+    color: #000;
+    font-size: 34px;
+    font-family: 'Nuckle', sans-serif;
+    cursor: pointer;
+}
+
+.arrow.left {
+    padding-left: 20px;
+}
+
+.arrow.right {
+    padding-right: 20px;
+}
+
+.arrow:hover {
+    color: #606160;
+}
+
+.model img,
+.el {
+    width: 90%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.modifications {
+    height: 800px;
+    padding: 75px 42.34px 42.353px 42.34px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-title {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 31px;
+}
+
+.product-name {
+    color: #141615;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.product-price {
+    color: #141615;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.img-boxes {
+    display: flex;
+    gap: 20px;
+}
+
+.img-box {
+    padding: 5px 5px 24.4px 5px;
+}
+
+.ace {
+    color: #141615;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+span {
+    color: #000;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 8px;
+    font-style: normal;
+    line-height: 10px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+.bikemode {
+    width: 96px;
+    height: 66px;
+    border-radius: 8px;
+    border: none;
+    background-color: #EBEDEE;
+    cursor: pointer;
+    box-shadow: 0 5px 9px #4042434f;
+}
+
+.bikemode:hover {
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.336);
+}
+
+.color-mod1 {
+    height: 110px;
+    width: 508px;
+    border-top: 2px solid #cdcecdb4;
+    border-bottom: 2px solid #cdcecdb4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.color-name {
+    color: #141615;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    height: 25px;
+}
+
+.colors {
+    display: flex;
+    gap: 20px;
+}
+
+.circles {
+    position: relative;
+    cursor: pointer;
+}
+
+.black {
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    background-color: #000;
+    border: none;
+}
+
+.graphit {
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    background-color: #606160;
+    border: none;
+}
+
+.dune {
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    background-color: #DDD9CD;
+    border: none;
+}
+
+.jetblack {
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #EFE1CB 50%, #000 50%);
+    border: none;
+}
+
+.circles::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+
+.circles:focus::after,
+.circles.active::after {
+    background: transparent;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.circles:focus,
+.circles.active {
+    transform: scale(0.9);
+}
+
+.circles.pebble {
+    background: linear-gradient(90deg, #EFE1CB 50%, #F4F1EC 50%);
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    border: none;
+}
+
+.payments {
+    padding-top: 30px;
+    color: #141615;
+    text-align: center;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    height: 68px;
+    display: flex;
+}
+
+.payments:hover {
+    color: #606160;
+}
+
+.inform {
+    color: rgba(20, 22, 21, 0.60);
+    font-family: 'Nuckle', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    width: 459px;
+    padding-top: 10px;
+    padding-bottom: 28px;
+}
+
+.specific {
+    border-radius: 20px;
+    background-color: #F0F0F0;
+    color: #141615;
+    text-align: center;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    width: 191px;
+    height: 34px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 5px 9px #4042434f;
+}
+
+.specific:hover {
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.336);
+}
+
+.custom {
+    margin-top: 32px;
+    width: 508px;
+    height: 51px;
+    border-radius: 80px;
+    background-color: #141615;
+    color: #FFF;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 5px 9px #4042434f;
+}
+
+.custom:hover {
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.486);
+}
+
+.ship {
+    margin-top: 30px;
+    color: #141615;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 23px;
+    border-top: 2px solid #cdcecdb4;
+}
+
+.deliver {
+    color: #141615;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 9px;
+    padding-bottom: 23px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    height: 747px;
+    justify-content: center;
+    background-image: url(/bikeshop/images/removable.png);
+    background-size: cover;
+}
+
+.remove {
+    color: #FFF;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    margin-left: 127px;
+}
+
+.miniremove {
+    color: #FFF;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    width: 452px;
+    margin-left: 127px;
+    margin-top: 20px;
+}
+
+.ivytwo {
+    display: flex;
+    height: 900px;
+}
+
+.room {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFF;
+    padding: 11%;
+}
+
+.ivy2 {
+    color: #141615;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.intro {
+    color: rgba(20, 22, 21, 0.40);
+    font-family: 'Nuckle', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    width: 384px;
+}
+
+.ivyimg,
+.motors {
+    width: 50%;
+}
+
+.motor {
+    display: flex;
+    height: 810px;
+}
+
+.feature2 {
+    display: flex;
+    flex-direction: column;
+    height: 747px;
+    justify-content: center;
+    background-image: url(/bikeshop/images/feature2.png);
+    background-size: cover;
+}
+
+.feature3 {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: center;
+    background-image: url(/bikeshop/images/feature3.png);
+    background-size: cover;
+}
+
+.safe {
+    display: flex;
+    height: 816px;
+    padding: 6% 3%;
+}
+
+.safeimg {
+    width: 635px;
+    height: 635px;
+}
+
+.intro2 {
+    color: rgba(20, 22, 21, 0.90);
+    font-family: 'Nuckle', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    width: 450px;
+}
+
+.ivymodel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 12% 5% 12%;
+    position: relative;
+}
+
+.ivyphoto {
+    width: 931px;
+    height: 692px;
+    padding: 10px;
+    position: relative;
+}
+
+.round {
+    background-color: #D0D0D0;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    right: 8%;
+    top: 16%;
+}
+
+.ivyphot {
+    display: block;
+    z-index: 2;
+    width: 100%;
+    position: absolute;
+}
+
+.open {
+    z-index: 3;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #EDEAE8;
+    border: none;
+    position: absolute;
+    color: #000;
+    font-size: 15px;
+    font-family: 'Nuckle', sans-serif;
+    font-weight: 500;
+}
+
+.open.one {
+    top: 54%;
+    left: 15%;
+}
+
+.open.two {
+    top: 50%;
+    left: 35%;
+}
+
+.open.three {
+    top: 24%;
+    left: 31%;
+}
+
+.open.four {
+    top: 60%;
+    left: 45%;
+}
+
+.open.five {
+    top: 41%;
+    left: 59%;
+}
+
+.open.six {
+    top: 50%;
+    left: 80%;
+}
+
+.open.seven {
+    top: 17%;
+    left: 70%;
+}
+
+.open.eight {
+    top: 1%;
+    left: 67%;
+}
+
+.open.nine {
+    top: 0%;
+    left: 60%;
+}
+
+.details {
+    height: 984px;
+    border-top: 2px solid #cdcecdb4;
+}
+
+.detail {
+    color: #141615;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin-left: 8%;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 43px;
+}
+
+.heads {
+    color: #141615;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.miniheads {
+    color: #141615;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contents {
+    color: rgba(20, 22, 21, 0.60);
+    font-family: 'Nuckle', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    padding-top: 3px;
+}
+
+.download {
+    display: flex;
+    width: 287px;
+    height: 53px;
+    border-radius: 45px;
+    border: 1px solid #000;
+    color:#141615;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 9px #4042434f;
+}
+
+.download:hover {
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.589);
+}

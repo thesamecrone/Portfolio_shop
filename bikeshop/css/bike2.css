@@ -1,0 +1,600 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.main {
+    background-image: url(/bikeshop/images/this_is_two.png);
+    background-size: cover;
+    height: 828px;
+    display: flex;
+    padding-left: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.title {
+    color: #FFF;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+
+.maintext {
+    color: #FFF;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    line-height: 15px;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+    height: 74px;
+    padding-top: 27px;
+}
+
+.intro {
+    color: #FFF;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+}
+
+.explore {
+    height: 769px;
+    padding-top: 104px;
+    padding-bottom: 90px;
+}
+
+.smallbox {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+}
+
+.arrows {
+    padding-right: 60px;
+}
+
+.arrow1 {
+    cursor: pointer;
+    transform: scaleX(-1);
+    transition: all 0.2s ease;
+}
+
+.arrow2 {
+    padding-left: 25px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.arrow2:active {
+    transform: translateX(4px);
+}
+
+.arrow1:active {
+    transform: translateX(4px) scaleX(-1);
+}
+
+.exploreit {
+    color: #000;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.album {
+    display: flex;
+    justify-content: flex-start;
+    gap: 63px;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 25px 0;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    margin-left: 42px;
+}
+
+.album::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    width: 540px;
+    height: 510px;
+    border-radius: 8px;
+    background-color: #EBEDEE;
+    flex: 0 0 auto;
+    padding: 40px 30px;
+}
+
+.titlebox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.variant {
+    color: #000;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.euro {
+    color: #141615;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.buttons {
+    display: flex;
+    width: 130px;
+    justify-content: space-between;
+    padding-top: 19px;
+    padding-bottom: 11px;
+}
+
+.gender {
+    color: #000;
+    text-align: center;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+
+.gender:active,
+.gender:focus {
+    text-decoration: underline;
+}
+
+.down {
+    color: #000;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 19px;
+    padding-bottom: 11px;
+}
+
+.pics {
+    width: 480px;
+    height: 270px;
+}
+
+.container {
+    padding-top: 35px;
+}
+
+.subtitle {
+    height: 550px;
+    padding: 40px 42.35px 40px 42.34px;
+}
+
+.subtitles {
+    color: #000;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 81.88px 423.56px 30px 0;
+}
+
+.minicontainer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 96px;
+}
+
+.minititle {
+    color: #000;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    width: 506px;
+}
+
+.textmedia {
+    background-image: url('/bikeshop/images/textmedia.png');
+    background-size: cover;
+    height: 791px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.discovering {
+    margin-left: 127.05px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    color: #fff;
+    font-family: 'Nuckle', sans-serif;
+    padding-bottom: 20px;
+    width: 347px;
+}
+
+.smalltext {
+    color: #fff;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    margin-left: 127.05px;
+    padding-bottom: 20px;
+    width: 312px;
+}
+
+.find {
+    border-radius: 80px;
+    background-color: #FFF;
+    color: #141615;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 591;
+    width: 254px;
+    height: 51px;
+    margin-left: 127.05px;
+}
+
+.leasin {
+    display: flex;
+    padding: 91px 42.34px 90px 42.34px;
+    align-items: center;
+}
+
+.vel {
+    width: 636px;
+    height: 634px;
+}
+
+.bin {
+    width: 468px;
+    margin: 0 63.56px 0 190.59px;
+}
+
+.lease {
+    color: rgba(20, 22, 21, 0.90);
+    font-family: 'Nuckle', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.underlease {
+    color: rgba(20, 22, 21, 0.90);
+    font-family: 'Nuckle', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    padding-bottom: 29px;
+}
+
+.learning {
+    color: rgba(20, 22, 21, 0.90);
+    font-family: 'Nuckle', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 591;
+    text-decoration: none;
+}
+
+.learning:hover {
+    text-decoration: underline;
+}
+
+.magazines {
+    padding: 90px 42.35px 90px 42.34px;
+}
+
+.cages {
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 0 90px 0;
+}
+
+.cage {
+    border: 1px solid rgba(20, 22, 21, 0.10);
+    padding: 55px 39px;
+    width: 423px;
+    height: 287px;
+}
+
+.quotes {
+    color: #000;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.vogue {
+    display: flex;
+}
+
+.award {
+    height: 803px;
+    background-image: url(/bikeshop/images/reddotaward.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 127px;
+}
+
+.redaward {
+    color: #FFF;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.awardtext {
+    color: #FFF;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    width: 310px;
+}
+
+.ride {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 91px 42.326px 90px 42.34px;
+}
+
+.carefree {
+    width: 720px;
+    padding: 0 127.07px 0 127.08px;
+}
+
+/* carousel start */
+
+.featured {
+    display: flex;
+    padding: 80px 0px 60px 0px;
+    justify-content: space-evenly;
+}
+
+.wrapper {
+    position: relative;
+    width: 636px;
+    height: 762px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    border: none;
+}
+
+.models {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px 0 30px;
+}
+
+.model {
+    color: #000;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+span {
+    color: #000;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    line-height: 10px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+.price {
+    color: #141615;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 26px;
+}
+
+.undertext {
+    color: #000;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20.8px;
+    padding: 15px 30px 0 30px;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 10;
+}
+
+.carousel-control-prev {
+    left: 10px;
+}
+
+.carousel-control-next {
+    right: 10px;
+}
+
+.carousel-control:hover {
+    color: #8d8b8b;
+}
+
+.colours {
+    position: absolute;
+    bottom: 33px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 40px;
+    width: 577px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+.buy {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: 'Nuckle', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 591;
+    line-height: 21px;
+    border-radius: 45px;
+    background-color: #fff;
+    width: 99px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+}
+
+.buy:hover {
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.336);
+}
+
+.buy:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transform: translateY(2px);
+}
+
+.learnmore {
+    color: #000;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 591;
+    padding-right: 175px;
+    padding-left: 16px;
+    cursor: pointer;
+}
+
+.learnmore:hover {
+    color: #8d8b8b;
+}
+
+.circles {
+    -webkit-tap-highlight-color: transparent;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    background-clip: border-box;
+    cursor: pointer;
+}
+
+.circles.black {
+    background: #000;
+}
+
+.circles.graphit {
+    background: #606160;
+}
+
+.circles.dune {
+    background: #DDD9CD;
+}
+
+.circles.jetblack {
+    background: linear-gradient(90deg, #EFE1CB 50%, #000 50%);
+}
+
+.circles.pebble {
+    background: linear-gradient(90deg, #EFE1CB 50%, #F4F1EC 50%);
+}
+
+.circles::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+
+.circles:focus::after,
+.circles.active::after {
+    background: transparent;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.circles:focus,
+.circles.active {
+    transform: scale(0.9);
+}
+
+/* carousel end */
