@@ -15,14 +15,14 @@ document.addEventListener("DOMContentLoaded", function () {
     searchInput.addEventListener("keydown", function (event) {
         if (event.key === "Enter") {
             event.preventDefault(); 
-            console.log("Enter нажат!");
+            console.log("Enter pressed!");
 
             const query = searchInput.value.trim().toLowerCase();
             if (query) {
                 window.location.href = `https://thesamecrone.github.io/Portfolio_shop/portfolio/html/7.Shop.html?search=${encodeURIComponent(query)}`;
                 searchInput.value = "";
             } else {
-                console.log("Поле поиска пустое");
+                console.log("Search field is empty");
             }
         }
     });
