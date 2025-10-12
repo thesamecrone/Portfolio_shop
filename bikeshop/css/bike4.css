@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headers {
+    display: flex;
+    height: 49px;
+    padding: 18.69px 42.353px 18.68px 42.353px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header {
+    height: 828px !important;
+    background-image: url(/bikeshop/images/citybike.png) !important;
+    background-size: cover;
+    align-items: flex-start !important;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.en {
+    background-color: transparent !important;
+    color: #fff;
+}
+
+li, .li {
+    color: #fff;
+}
+
+.citybox {
+    padding-bottom: 25%;
+    padding-left: 50px;
+}
+
+.veloret {
+    color: #fff;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.city {
+    color: #fff;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    padding: 10px 0 10px 0;
+}
+
+.foreverfor {
+    height: 294px;
+    font-family: 'Nuckle', sans-serif;
+    color: #000;
+    font-size: 120px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgbox {
+    height: 1300px;
+    display: flex;
+    position: relative;
+    padding: 78px 86px;
+}
+
+.imgmini {
+    width: 295.19px;
+    height: 356.34px;
+}
+
+.texts {
+    width: 465.87px;
+    height: 412px;
+    padding: 62px 61px 64px 80px;
+    border-radius: 10px;
+    border: 1px solid rgba(20, 22, 21, 0.10);
+    color: #141615;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31.75px;
+    z-index: 1;
+    position: absolute;
+    background-color: #fff;
+    left: 32%;
+    bottom: 20%;
+}
+
+.imgbig {
+    width: 633.59px;
+    height: 749.93px;
+    z-index: 0;
+    position: absolute;
+    right: 6%;
+    top: 0%;
+}
+
+.sliderbar {
+    height: 761px;
+    background-color: #B6B6B6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    gap: 3%;
+    padding-left: 80px;
+    width: 100%;
+}
+
+.barbox {
+    position: relative;
+    transition: order 0.3s ease;
+    flex: 0 0 33.33%;
+    cursor: pointer;
+}
+
+.bar {
+    height: 550px;
+    width: 550px;
+    background: url(/bikeshop/images/firstbike.png) lightgray 0px 0px / 100% 100% no-repeat;
+}
+
+.bar2 {
+    height: 550px;
+    width: 550px;
+    background: url(/bikeshop/images/secondbike.png) lightgray 0px 0px / 100% 100% no-repeat;
+}
+
+.bar3 {
+    height: 550px;
+    width: 550px;
+    background: url(/bikeshop/images/thirdbike.png) lightgray 0px 0px / 100% 100% no-repeat;
+}
+
+.textroom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.types {
+    color: #FFF;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.gend {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: 'Nuckle', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bikebox {
+    display: flex;
+    position: relative;
+    padding: 70px 86px;
+    height: 1175px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imgone {
+    background-image: url('/bikeshop/images/imgone.jpg');
+    background-size: cover;
+    width: 590.39px;
+    height: 698.8px;
+    position: absolute;
+    z-index: 0;
+}
+
+.imgtwo {
+    background-image: url('/bikeshop/images/imgtwo.png');
+    background-size: cover;
+    width: 417.59px;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0%;
+    left: 31%;
+}
+
+.textbox2 {
+    width: 465.88px;
+    height: 582px;
+    padding: 81px 58.88px 88px 80px;
+    color: rgba(20, 22, 21, 0.40);
+    font-family: 'Nuckle', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 31.75px;
+    position: absolute;
+    background-color: #FFF;
+    border-radius: 10px;
+    border: 1px solid rgba(20, 22, 21, 0.10);
+    right: 21%;
+}
+
+.imgthree {
+    background-image: url('/bikeshop/images/imgthree.png');
+    background-size: cover;
+    position: absolute;
+    width: 273.59px;
+    height: 330.28px;
+    right: 2%;
+}
+
+.bikesforall {
+    height: 414px;
+    color: var(--download-3-black, #000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 120px;
+    font-weight: 500;
+    line-height: 120px;
+    text-align: center;
+}

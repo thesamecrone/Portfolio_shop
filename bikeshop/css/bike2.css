@@ -171,6 +171,10 @@ body {
     text-decoration: underline;
 }
 
+.gender:hover {
+    color: #8d8b8b;
+}
+
 .down {
     color: #000;
     font-family: 'Nuckle', sans-serif;
@@ -263,6 +267,7 @@ body {
     width: 254px;
     height: 51px;
     margin-left: 127.05px;
+    cursor: pointer;
 }
 
 .leasin {
@@ -513,6 +518,7 @@ span {
     height: 45px;
     border: none;
     cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.144);
 }
 
 .buy:hover {

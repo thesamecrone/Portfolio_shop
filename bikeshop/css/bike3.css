@@ -251,6 +251,10 @@ span {
     border: none;
     cursor: pointer;
     box-shadow: 0 5px 9px #4042434f;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .specific:hover {
@@ -444,6 +448,9 @@ span {
 }
 
 .open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 3;
     width: 44px;
     height: 44px;
@@ -455,6 +462,10 @@ span {
     font-size: 15px;
     font-family: 'Nuckle', sans-serif;
     font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
 }
 
 .open.one {
@@ -501,6 +512,30 @@ span {
     top: 0%;
     left: 60%;
 }
+
+.open:hover {
+    width: 245px;
+    border-radius: 22px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.descriptions {
+    display: none;
+    position: relative;
+    background-color: #EDEAE8;
+    padding: 5px;
+    border-radius: 4px;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 12px;
+}
+
+.open:hover .descriptions {
+    display: inline-block
+}
+
 
 .details {
     height: 984px;
@@ -558,7 +593,7 @@ span {
     height: 53px;
     border-radius: 45px;
     border: 1px solid #000;
-    color:#141615;
+    color: #141615;
     font-family: 'Nuckle', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -571,4 +606,8 @@ span {
 
 .download:hover {
     box-shadow: 0 5px 9px rgba(0, 0, 0, 0.589);
+}
+
+.load {
+    text-decoration: none;
 }

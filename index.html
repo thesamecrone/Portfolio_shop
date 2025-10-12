@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,12 +19,14 @@
         body {
             background-image: url(images/voda_pod_vodoj_glubina_197405_1920x1080.jpg);
             background-size: cover;
+            display: flex;
+            flex-direction: column;
         }
 
         h1 {
             font-size: 40px;
             font-family: 'Raleway';
-            color: #3a8982;
+            color: rgba(0, 255, 255, 0.486);
             letter-spacing: 10px;
             text-align: center;
         }
@@ -35,18 +38,18 @@
         }
 
         .btn {
-            background-color: #00555e6c;
+            background-color: rgba(0, 255, 255, 0.158);
             width: 250px;
             border: none;
             height: 80px;
-            border-radius: 10px;
+            border-radius: 5px;
             color: rgba(240, 248, 255, 0.423);
             font-family: 'Raleway';
             letter-spacing: 5px;
         }
 
         .btn:hover {
-            background-color: #3a898263;
+            background-color: #3a7d8963;
         }
 
         .track {
@@ -66,35 +69,164 @@
             background-color: transparent;
             color: rgba(240, 248, 255, 0.5);
         }
+
+        /* audio {
+            width: 300px;
+            outline: none;
+        }
+
+        audio::-webkit-media-controls-panel {
+            background-color: #04527141;
+            border-radius: 10px;
+        }
+
+        audio::-webkit-media-controls-play-button {
+            background-color: #045371;
+            border-radius: 50%;
+        }
+            */
+
+        .car-player {
+            width: 600px;
+            background: #024b643d;
+            border-radius: 5px;
+            padding: 20px;
+            color: #0ff;
+            text-align: center;
+            align-self: center;
+        }
+
+        canvas#car-spectrum {
+            width: 100%;
+            height: 150px;
+            background: #00000066;
+            margin-bottom: 10px;
+        }
+
+        .controls button {
+            padding: 8px 16px;
+            background: #003344;
+            color: #0ff;
+            border: 2px solid #0ff;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .controls input[type="range"] {
+            width: 60%;
+            accent-color: #00ffffc9;
+        }
     </style>
 
 </head>
 
 <body>
 
-    <h1>drowning station</h1>
+    <h1>portfolio</h1>
 
     <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             projects
         </button>
         <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="https://thesamecrone.github.io/Portfolio_shop/portfolio/html/1.Agriculture.html" target="_blank">Project
+            <li><a class="dropdown-item"
+                    href="https://thesamecrone.github.io/Portfolio_shop/portfolio/html/1.Agriculture.html"
+                    target="_blank">Project
                     Agriculture</a></li>
-            <li><a class="dropdown-item" href="https://thesamecrone.github.io/Portfolio_shop/bikeshop/html/bike.html" target="_blank">Veloretti Bikeshop (in development)</a></li>
-            <li><a class="dropdown-item" href="project_a/index.html" target="_blank">Ателье страница 1</a></li>
-            <li><a class="dropdown-item" href="project_a/index2.html" target="_blank">Ателье страница 2</a></li>
+            <li><a class="dropdown-item" href="https://thesamecrone.github.io/Portfolio_shop/bikeshop/html/bike.html"
+                    target="_blank">Veloretti Bikeshop (in development)</a></li>
     </div>
 
-    <div class="track">
-        <audio controls="controls" autoplay="autoplay">
-            <source src="Drowning Pool - Told You So.mp3" type="audio/mp3"></a>
-        </audio>
+    <div class="car-player">
+        <canvas id="car-spectrum"></canvas>
+        <div class="controls">
+            <button id="play-btn">▶ Play</button>
+            <input type="range" id="progress" min="0" max="100" value="0">
+        </div>
+        <audio id="audio" src="/Three_Days_Grace_-_6.Let_You_Down_(SkySound.cc).mp3"></audio>
     </div>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous">
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+    <script>
+        const audio = document.getElementById('audio');
+        const playBtn = document.getElementById('play-btn');
+        const canvas = document.getElementById('car-spectrum');
+        const ctx = canvas.getContext('2d');
+        let audioCtx, analyser, source, dataArray, bufferLength, animationId;
+
+        function initAudio() {
+            if (!audioCtx) {
+                audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                analyser = audioCtx.createAnalyser();
+                source = audioCtx.createMediaElementSource(audio);
+                source.connect(analyser);
+                analyser.connect(audioCtx.destination);
+                analyser.fftSize = 64;
+                bufferLength = analyser.frequencyBinCount;
+                dataArray = new Uint8Array(bufferLength);
+            }
+        }
+
+        playBtn.addEventListener('click', () => {
+            initAudio();
+            if (audio.paused) {
+                audio.play();
+                playBtn.textContent = '❚❚ Pause';
+                drawSpectrum();
+            } else {
+                audio.pause();
+                playBtn.textContent = '▶ Play';
+                cancelAnimationFrame(animationId);
+            }
+        });
+
+        function drawSpectrum() {
+            animationId = requestAnimationFrame(drawSpectrum);
+            analyser.getByteFrequencyData(dataArray);
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            const barWidth = canvas.width / bufferLength - 4; 
+            let x = 0;
+
+            for (let i = 0; i < bufferLength; i++) {
+                const value = dataArray[i];
+                const numSegments = 5; 
+                const segHeight = (canvas.height / numSegments) * 0.8;
+
+                for (let j = 0; j < numSegments; j++) {
+                    const threshold = (j + 1) * (255 / numSegments);
+                    ctx.fillStyle = value > threshold ? `rgb(0, ${200 + j * 10}, 255)` : 'rgba(0,50,80,0.2)';
+                    ctx.fillRect(x, canvas.height - (j + 1) * segHeight, barWidth, segHeight - 2);
+                }
+                x += barWidth + 4;
+            }
+        }
+
+        function resizeCanvas() {
+            canvas.width = canvas.offsetWidth;
+            canvas.height = canvas.offsetHeight;
+        }
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+
+        const progress = document.getElementById('progress');
+
+        audio.addEventListener('timeupdate', () => {
+            if (audio.duration) {
+                progress.value = (audio.currentTime / audio.duration) * 100;
+            }
+        });
+
+        progress.addEventListener('input', () => {
+            if (audio.duration) {
+                audio.currentTime = (progress.value / 100) * audio.duration;
+            }
+        });
+
     </script>
 </body>
 

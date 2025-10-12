@@ -104,10 +104,8 @@ colorButtons.forEach(circle => {
 });
 
 function updateActiveCircle() {
-    // Сначала убираем класс active со всех кружков
     colorButtons.forEach(circle => circle.classList.remove('active'));
 
-    // Находим кружок с соответствующим цветом и добавляем active
     const activeCircle = Array.from(colorButtons).find(circle => circle.dataset.color === currentColor);
     if (activeCircle) {
         activeCircle.classList.add('active');

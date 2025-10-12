@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.headers {
+    display: flex;
+    height: 49px;
+    padding: 18.69px 42.353px 18.68px 42.353px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header {
+    height: 828px !important;
+    background-image: url(/bikeshop/images/aboutus8.png) !important;
+    background-size: cover;
+    align-items: flex-start !important;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.en {
+    background-color: transparent !important;
+    color: #fff;
+}
+
+li, .li {
+    color: #fff;
+}
+
+.citybox {
+    padding-bottom: 25%;
+    padding-left: 50px;
+}
+
+.veloret {
+    color: #fff;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.city {
+    color: #fff;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    padding: 10px 0 10px 0;
+}
+
+.forwards {
+    height: 816px;
+    display: flex;
+    padding: 91px 42.34px 90px 42.34px;
+}
+
+.imgman {
+    width: 635.28px;
+    height: 635.28px;
+}
+
+.forwardbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.forforward {
+    color: rgba(20, 22, 21, 0.90);
+    font-family: 'Nuckle', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    width: 460px;
+}
+
+.minitexting {
+    color: rgba(20, 22, 21, 0.90);
+    font-family: 'Nuckle', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    width: 460px;
+}
+
+.designed {
+    height: 894px;
+    color: var(--download-4-black, #000);
+    text-align: center;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 120px;
+    font-weight: 500;
+    line-height: 120px;
+    padding: 97px 0 77px 0;
+}
+
+.madefor {
+    background-image: url(/bikeshop/images/madefor.jpg);
+    background-size: cover;
+    height: 810px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.made {
+    color: #FFF;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin-right: 127px;
+    width: 326px;
+    margin-bottom: 10px;
+}
+
+.madeforu {
+    color: #FFF;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    width: 301px;
+    margin-right: 144px;
+}
+
+.explore {
+    height: 769px;
+    padding-top: 104px;
+    padding-bottom: 90px;
+}
+
+.smallbox {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+}
+
+.arrows {
+    padding-right: 60px;
+}
+
+.arrow1 {
+    cursor: pointer;
+    transform: scaleX(-1);
+    transition: all 0.2s ease;
+}
+
+.arrow2 {
+    padding-left: 25px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.arrow2:active {
+    transform: translateX(4px);
+}
+
+.arrow1:active {
+    transform: translateX(4px) scaleX(-1);
+}
+
+.exploreit {
+    color: #000;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.album {
+    display: flex;
+    justify-content: flex-start;
+    gap: 63px;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 25px 0;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    margin-left: 42px;
+}
+
+.album::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    width: 540px;
+    height: 510px;
+    border-radius: 8px;
+    background-color: #EBEDEE;
+    flex: 0 0 auto;
+    padding: 40px 30px;
+}
+
+.titlebox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.variant {
+    color: #000;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.euro {
+    color: #141615;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.buttons {
+    display: flex;
+    width: 130px;
+    justify-content: space-between;
+    padding-top: 19px;
+    padding-bottom: 11px;
+}
+
+.gender {
+    color: #000;
+    text-align: center;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+
+.gender:active,
+.gender:focus {
+    text-decoration: underline;
+}
+
+.gender:hover {
+    color: #8d8b8b;
+}
+
+.down {
+    color: #000;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 19px;
+    padding-bottom: 11px;
+}
+
+.pics {
+    width: 480px;
+    height: 270px;
+}
+
+.container {
+    padding-top: 35px;
+}
+
+.learnmore {
+    color: #000;
+    font-family: 'Nuckle', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 591;
+    padding-right: 175px;
+    padding-left: 16px;
+    cursor: pointer;
+}
+
+.learnmore:hover {
+    color: #8d8b8b;
+}
+
+.buy {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: 'Nuckle', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 591;
+    line-height: 21px;
+    border-radius: 45px;
+    background-color: #fff;
+    width: 99px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.144);
+}
+
+.buy:hover {
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.336);
+}
+
+.buy:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transform: translateY(2px);
+}

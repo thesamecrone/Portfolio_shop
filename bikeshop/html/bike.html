@@ -7,18 +7,26 @@
     <title>Veloretti - Electric Bike Shop</title>
     <link rel="stylesheet" href="/bikeshop/css/bike.css">
     <link href="/bikeshop/css/stylesheet.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
     <header>
-        <img class="logo" src="https://thesamecrone.github.io/Portfolio_shop/bikeshop/images/Frame.png" alt="Veloretti">
+        <a href="/bikeshop/html/bike.html"><img class="logo"
+                src="https://thesamecrone.github.io/Portfolio_shop/bikeshop/images/Frame.png" alt="Veloretti"></a>
         <ul>
-            <li>Electric <img src="/bikeshop/icons/Vector.svg" alt="pic" style="padding-left: 5px;"></li>
-            <li>City <img src="/bikeshop/icons/Vector.svg" alt="pic" style="padding-left: 5px;"></li>
-            <li>Kids <img src="/bikeshop/icons/Vector.svg" alt="pic" style="padding-left: 5px;"></li>
-            <li>Accessories <img src="/bikeshop/icons/Vector.svg" alt="pic" style="padding-left: 5px;"></li>
-            <li>Stores <img src="/bikeshop/icons/Vector.svg" alt="pic" style="padding-left: 5px;"></li>
-            <li>Leasing <img src="/bikeshop/icons/Vector.svg" alt="pic" style="padding-left: 5px;"></li>
+            <li><a href="/bikeshop/html/bike3.html" class="li">Electric </a><img src="/bikeshop/icons/Vector.svg"
+                    alt="pic" style="padding-left: 5px;"></li>
+            <li><a href="/bikeshop/html/bike4.html" class="li">City </a><img src="/bikeshop/icons/Vector.svg" alt="pic"
+                    style="padding-left: 5px;"></li>
+            <li><a href="/bikeshop/html/bike2.html#kids" class="li">Kids </a><img src="/bikeshop/icons/Vector.svg"
+                    alt="pic" style="padding-left: 5px;"></li>
+            <li><a href="/bikeshop/html/bike2.html#kids" class="li">Accessories </a><img
+                    src="/bikeshop/icons/Vector.svg" alt="pic" style="padding-left: 5px;"></li>
+            <li><a href="/bikeshop/html/bike5.html" class="li">Stores </a><img src="/bikeshop/icons/Vector.svg"
+                    alt="pic" style="padding-left: 5px;"></li>
+            <li><a href="/bikeshop/html/bike2.html#leasing" class="li">Leasing </a><img src="/bikeshop/icons/Vector.svg"
+                    alt="pic" style="padding-left: 5px;"></li>
         </ul>
 
         <div class="signbox">
@@ -42,12 +50,12 @@
         </div>
     </header>
 
-    <section class="hero">
+    <section class="hero" data-aos="fade-up">
         <h2 class="velo">VELORETTI BUSINESS</h2>
         <p class="bikelease">Bike lease plan for employees.</p>
     </section>
 
-    <section class="about">
+    <section class="about" data-aos="fade-up">
         <img src="https://thesamecrone.github.io/Portfolio_shop/bikeshop/images/e4be4b810154d2d5146a366a9f02d120.jpg"
             alt="photo" class="man">
         <div class="textmedia">
@@ -60,7 +68,7 @@
         </div>
     </section>
 
-    <section class="service">
+    <section class="service" data-aos="fade-up">
         <p class="heading2">Service, maintenance and insurance</p>
         <p class="description2">The lease includes an all-in service package.
             Throughout the entire 36 months, you are
@@ -69,7 +77,7 @@
             access to roadside assistance.</p>
     </section>
 
-    <section class="about">
+    <section class="about" data-aos="fade-up">
         <img src="https://thesamecrone.github.io/Portfolio_shop/bikeshop/images/025d9fe07e01ce680521620d22b09326.jpg"
             alt="photo" class="man">
         <div class="textmedia">
@@ -81,7 +89,7 @@
         </div>
     </section>
 
-    <section class="how">
+    <section class="how" data-aos="fade-up">
         <div class="media">
             <p class="heading">How it works</p>
 
@@ -127,7 +135,7 @@
             alt="photo" class="caption">
     </section>
 
-    <section class="featured">
+    <section class="featured" data-aos="fade-up">
         <div class="wrapper">
             <div class="models">
                 <p class="model">Electric Ace<span>Two</span></p>
@@ -197,7 +205,7 @@
         </div>
     </section>
 
-    <section class="intouch">
+    <section class="intouch" data-aos="fade-up">
         <div class="form-container">
             <p class="getin">Get in touch</p>
             <form>
@@ -235,7 +243,7 @@
         </div>
     </section>
 
-    <section class="anyquestions">
+    <section class="anyquestions" data-aos="fade-up">
         <p class="questions">Any questions?</p>
 
         <div class="accordion">
@@ -384,6 +392,14 @@
             <img src="/bikeshop/icons/arrow.svg" alt="arrow">
         </button>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true   
+        });
+    </script>
 
     <script src="/bikeshop/js/bike.js"></script>
 </body>
