@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const cards = document.querySelectorAll('.card');
 
   if (!carousel || !arrowLeft || !arrowRight || cards.length === 0) {
-    console.error('Элементы не найдены!');
+    console.error('Elements were not found!');
     return;
   }
 
@@ -125,3 +125,24 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+
+
+// page 4
+const boxes = document.querySelectorAll('.barbox');
+const third = boxes[2];
+
+let swapped = false;
+
+third.addEventListener('click', () => {
+    if (!swapped) {
+        boxes[1].style.order = 3;
+        third.style.order = 2;
+        swapped = true;
+    } else {
+        boxes[0].style.order = 1;
+        boxes[1].style.order = 2;
+        boxes[2].style.order = 3;
+        swapped = false;
+    }
+});
+
