@@ -85,64 +85,12 @@ window.addEventListener('scroll', () => {
   }
 });
 
-// page 2
+// navbar
 
-document.addEventListener('DOMContentLoaded', function() {
-  const carousel = document.querySelector('.album');
-  const arrowLeft = document.querySelector('.arrow1');
-  const arrowRight = document.querySelector('.arrow2');
-  const cards = document.querySelectorAll('.card');
+const menuToggle = document.querySelector('.menu-toggle');
+const navMenu = document.querySelector('.nav-menu');
 
-  if (!carousel || !arrowLeft || !arrowRight || cards.length === 0) {
-    console.error('Elements were not found!');
-    return;
-  }
-
-  cards.forEach(card => {
-    const clone = card.cloneNode(true);
-    carousel.appendChild(clone);
-  });
-
-  const totalCards = cards.length;
-  const cardWidth = cards[0].offsetWidth + 63;
-  let currentPosition = 0;
-
-  arrowLeft.addEventListener('click', function() {
-    currentPosition = (currentPosition - 1 + totalCards) % totalCards;
-    const scrollToPosition = currentPosition * cardWidth;
-    carousel.scrollTo({
-      left: scrollToPosition,
-      behavior: 'smooth'
-    });
-  });
-
-  arrowRight.addEventListener('click', function() {
-    currentPosition = (currentPosition + 1) % totalCards;
-    const scrollToPosition = currentPosition * cardWidth;
-    carousel.scrollTo({
-      left: scrollToPosition,
-      behavior: 'smooth'
-    });
-  });
-});
-
-
-// page 4
-const boxes = document.querySelectorAll('.barbox');
-const third = boxes[2];
-
-let swapped = false;
-
-third.addEventListener('click', () => {
-    if (!swapped) {
-        boxes[1].style.order = 3;
-        third.style.order = 2;
-        swapped = true;
-    } else {
-        boxes[0].style.order = 1;
-        boxes[1].style.order = 2;
-        boxes[2].style.order = 3;
-        swapped = false;
-    }
+menuToggle.addEventListener('click', () => {
+  navMenu.classList.toggle('active');
 });
 
