@@ -10,7 +10,7 @@ body {
 }
 
 .main {
-    background-image: url(/bikeshop/images/this_is_two.png);
+    background-image: url('../images/this_is_two.png');
     background-size: cover;
     height: 828px;
     display: flex;
@@ -224,7 +224,7 @@ body {
 }
 
 .textmedia {
-    background-image: url('/bikeshop/images/textmedia.png');
+    background-image: url('../images/textmedia.png');
     background-size: cover;
     height: 791px;
     display: flex;
@@ -351,7 +351,7 @@ body {
 
 .award {
     height: 803px;
-    background-image: url(/bikeshop/images/reddotaward.png);
+    background-image: url('../images/reddotaward.png');
     background-size: cover;
     display: flex;
     flex-direction: column;
