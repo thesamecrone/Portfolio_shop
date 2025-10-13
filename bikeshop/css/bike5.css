@@ -21,7 +21,7 @@ body {
 
 header {
     height: 828px !important;
-    background-image: url(/bikeshop/images/aboutus8.png) !important;
+    background-image: url('../images/aboutus8.png') !important;
     background-size: cover;
     align-items: flex-start !important;
     padding: 0 !important;
@@ -97,7 +97,7 @@ li, .li {
 
 .designed {
     height: 894px;
-    color: var(--download-4-black, #000);
+    color: #000;
     text-align: center;
     font-family: 'Nuckle', sans-serif;
     font-size: 120px;
@@ -107,7 +107,7 @@ li, .li {
 }
 
 .madefor {
-    background-image: url(/bikeshop/images/madefor.jpg);
+    background-image: url('../images/madefor.jpg');
     background-size: cover;
     height: 810px;
     width: 100%;

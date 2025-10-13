@@ -306,7 +306,7 @@ span {
     flex-direction: column;
     height: 747px;
     justify-content: center;
-    background-image: url(/bikeshop/images/removable.png);
+    background-image: url('../images/removable.png');
     background-size: cover;
 }
 
@@ -380,7 +380,7 @@ span {
     flex-direction: column;
     height: 747px;
     justify-content: center;
-    background-image: url(/bikeshop/images/feature2.png);
+    background-image: url('../images/feature2.png');
     background-size: cover;
 }
 
@@ -389,7 +389,7 @@ span {
     flex-direction: column;
     height: 700px;
     justify-content: center;
-    background-image: url(/bikeshop/images/feature3.png);
+    background-image: url('../images/feature3.png');
     background-size: cover;
 }
 
