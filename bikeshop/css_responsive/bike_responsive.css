@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .media {
+        padding: 0 5%;
+    }
+
+    .featured {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .items {
+        padding-right: 10%;
+    }
+}
+
+@media screen and (max-width: 1165px) {
+
+    .man,
+    .caption {
+        width: 500px;
+        height: 500px;
+    }
+
+    .signbox {
+        margin-left: 23%;
+    }
+}
+
+@media screen and (max-width: 1048px) {
+    .signbox {
+        margin-left: 17%;
+    }
+
+    .man,
+    .caption {
+        width: 450px;
+        height: 450px;
+    }
+
+    .heading3 {
+        width: 440px;
+    }
+
+    .footer-email {
+        margin-right: 12px;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    .signbox {
+        margin-left: 10%;
+    }
+
+    .man,
+    .caption {
+        width: 400px;
+        height: 400px;
+    }
+
+    .plaintext {
+        margin-right: 0;
+    }
+
+    .items {
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .signbox {
+        margin-left: 8%;
+    }
+
+    .description,
+    .heading,
+    .discover,
+    .heading3,
+    .descr {
+        width: 350px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea,
+    .send,
+    .accordion-item {
+        width: 800px;
+    }
+
+    .form-group {
+        text-align: center;
+    }
+
+    .questions {
+        font-size: 92px;
+    }
+
+    .plaintext {
+        width: 605px;
+        font-size: 14px;
+    }
+
+    .field {
+        width: 405px;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .signbox {
+        margin-left: 1%;
+    }
+
+    .description,
+    .heading,
+    .discover,
+    .heading3,
+    .descr {
+        width: 315px;
+    }
+
+    .minidescr {
+        width: 300px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea,
+    .send,
+    .accordion-item {
+        width: 700px;
+    }
+
+    .check {
+        width: 412px;
+    }
+}
+
+@media screen and (max-width: 808px) {
+    .signbox {
+        margin-left: 5%;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .description,
+    .heading,
+    .discover,
+    .heading3,
+    .descr {
+        width: 260px;
+    }
+
+    .minidescr {
+        width: 250px;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+
+    .questions {
+        font-size: 77px;
+    }
+
+    .plaintext {
+        width: 480px;
+    }
+
+    .textbox {
+        align-items: center;
+    }
+
+    .field {
+        width: 328px;
+    }
+
+    .check {
+        line-height: 21px;
+        width: 280px;
+        margin-top: 4%;
+    }
+
+    .footer-email {
+        margin-right: 0px;
+    }
+
+    .items {
+        padding-right: 3%;
+    }
+
+    .footer-email {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 808px) {
+    .arrows {
+        display: none;
+    }
+
+    .signbox {
+        margin-left: 12%;
+    }
+
+    .man,
+    .caption {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea,
+    .send,
+    .accordion-item {
+        width: 620px;
+    }
+
+    .textbox {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .book {
+        height: 170px;
+    }
+
+    .plaintext {
+        width: 600px;
+    }
+
+    .field {
+        width: 280px;
+    }
+
+    .entermail {
+        font-size: 10px;
+    }
+
+    .footer-email {
+        width: 360px;
+    }
+
+    .topics {
+        font-size: 12px;
+    }
+
+    .sub {
+        width: 108px;
+    }
+
+    .form-container .getin {
+        margin-top: 100px;
+    }
+
+    .how,
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .minidescr {
+        width: 450px;
+    }
+
+    .man,
+    .caption {
+        width: 405px;
+        height: 405px;
+    }
+
+    .about {
+        justify-content: center;
+    }
+
+    .description,
+    .heading,
+    .discover,
+    .heading3,
+    .descr {
+        width: 390px;
+    }
+
+    .textmedia {
+        margin-top: 5%;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    .signbox {
+        margin-left: 13%;
+    }
+
+    .logo {
+        margin-left: 9%;
+        width: 82px;
+        height: 8.63px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .man,
+    .caption {
+        width: 350px;
+        height: 350px;
+    }
+
+    .description,
+    .heading,
+    .discover,
+    .heading3,
+    .descr {
+        width: 282px;
+    }
+
+    .service {
+        gap: 55px;
+    }
+
+    .description2,
+    .heading2 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .how {
+        flex-wrap: wrap-reverse;
+        gap: 30px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea,
+    .send,
+    .accordion-item {
+        width: 400px;
+    }
+
+    .book {
+        height: 200px;
+    }
+
+    .textbox {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .plaintext {
+        width: 410px;
+    }
+}
+
+.menu-toggle {
+    display: none;
+    border: none;
+    background-color: transparent;
+    font-size: 23px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    box-shadow: none;
+    width: auto;
+}
+
+.nav-menu li {
+    margin: 0 10px;
+}
+
+
+@media (max-width: 426px) {
+    
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 125px;
+        right: 135px;
+        padding: 10px;
+        z-index: 999;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu li {
+        margin: 10px 0;
+    }
+
+    .logo {
+        width: 110px;
+        height: 11.63px;
+        margin-top: 7px;
+    }
+
+    .signbox {
+        width: 75px;
+        margin-right: 5%;
+        margin-left: 38%;
+    }
+
+    .minidescr {
+        width: 315px;
+    }
+
+    .wrapper {
+        width: 395px;
+        height: 535px;
+    }
+
+    .anyquestions {
+        margin-top: 95px;
+    }
+
+    .questions {
+        font-size: 47px;
+    }
+
+    .bikelease {
+        font-size: 58px;
+    }
+
+    .service {
+        align-items: center;
+    }
+
+    .description2,
+    .heading2 {
+        width: 85%;
+    }
+
+    .heading2 {
+        font-size: 45px;
+    }
+
+    footer {
+        flex-wrap: wrap-reverse;
+        height: 600px;
+        justify-content: center;
+    }
+
+    .footer-menu {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .field {
+        width: 320px;
+    }
+
+    .plaintext {
+        font-size: 12px;
+    }
+}
