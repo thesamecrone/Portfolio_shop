@@ -1,6 +1,16 @@
-document.getElementById("search-icon").addEventListener("click", function () {
-    document.getElementById("search-input").focus();
-    document.getElementById("search-form").classList.toggle("show");
+document.getElementById("search-icon").addEventListener("click", function (event) {
+    const form = document.getElementById("search-form");
+    const input = document.getElementById("search-input");
+
+    form.classList.toggle("show");
+    input.focus();
+
+    document.addEventListener("click", function hideOnClickOutside(e) {
+        if (!form.contains(e.target) && e.target !== event.target) {
+            form.classList.remove("show");
+            document.removeEventListener("click", hideOnClickOutside);
+        }
+    });
 });
 
 //search input trial
@@ -8,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const searchInput = document.getElementById("search-input");
 
     if (!searchInput) {
-        console.log("Поле ввода не найдено на этой странице");
+        console.log("Input has not been found");
         return;
     }
 
