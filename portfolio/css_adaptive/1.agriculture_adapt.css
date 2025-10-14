@@ -1463,7 +1463,7 @@
     }
 
     .intro {
-        width: 60%;
+        width: 67%;
     }
 
     .paragraph0 {
@@ -1781,7 +1781,7 @@
     }
 
     .article {
-        margin-left: 0%;
+        margin-left: 10%;
     }
 
     .finder {
@@ -1816,7 +1816,28 @@
 
     .minibox {
         width: 90%;
-        padding-top: 20%;
+        padding-top: 0%;
+    }
+
+    .container3 {
+        height: 39%;
+    }
+
+    .heading {
+        margin-top: 6%;
+    }
+
+    .paragraph0 {
+        margin-top: 11%;
+        margin-bottom: 17%;
+    }
+
+    .names {
+        width: 75%;
+    }
+
+    .paragraphs {
+        width: 76%;
     }
 
     .button3 {
