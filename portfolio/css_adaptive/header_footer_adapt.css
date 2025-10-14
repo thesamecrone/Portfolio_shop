@@ -532,7 +532,7 @@
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 426px) {
     .phone {
         margin-left: 8px;
     }
@@ -595,6 +595,11 @@
 
     input[type="text"] {
         width: 80%;
+    }
+
+    #search-input {
+        width: 82px;
+        margin-left: 10px;
     }
 
 }

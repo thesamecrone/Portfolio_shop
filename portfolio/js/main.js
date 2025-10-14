@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     searchInput.addEventListener("keydown", function (event) {
         if (event.key === "Enter") {
-            event.preventDefault(); 
+            event.preventDefault();
             console.log("Enter pressed!");
 
             const query = searchInput.value.trim().toLowerCase();
@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
     });
+
 });
 
 //end

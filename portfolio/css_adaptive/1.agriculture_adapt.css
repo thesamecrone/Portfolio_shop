@@ -1040,7 +1040,7 @@
         font-size: 10px;
     }
 
-     #scroll-to-top {
+    #scroll-to-top {
         right: 40px;
     }
 }
@@ -1080,7 +1080,7 @@
     }
 
     .photos {
-        visibility: hidden;
+        display: none;
     }
 
     .button3_ {
@@ -1543,6 +1543,10 @@
 
 @media screen and (max-width: 441px) {
 
+    .agro {
+        width: 100%;
+    }
+
     .home,
     .menuu,
     .menu-label {
@@ -1759,7 +1763,19 @@
     }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 426px) {
+
+    h4,
+    .title,
+    .fish,
+    .button {
+        margin-left: 60px;
+    }
+
+    .fish {
+        width: 58%;
+    }
+
     .page {
         flex-direction: column;
     }
