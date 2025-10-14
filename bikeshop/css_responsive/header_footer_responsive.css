@@ -5,29 +5,12 @@
 }
 
 @media screen and (max-width: 1300px) {
-
-    .media {
-        padding: 0 5%;
-    }
-
-    .featured {
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
     .items {
         padding-right: 10%;
     }
 }
 
 @media screen and (max-width: 1165px) {
-
-    .man,
-    .caption {
-        width: 500px;
-        height: 500px;
-    }
-
     .signbox {
         margin-left: 23%;
     }
@@ -38,16 +21,6 @@
         margin-left: 17%;
     }
 
-    .man,
-    .caption {
-        width: 450px;
-        height: 450px;
-    }
-
-    .heading3 {
-        width: 440px;
-    }
-
     .footer-email {
         margin-right: 12px;
     }
@@ -56,12 +29,6 @@
 @media screen and (max-width: 965px) {
     .signbox {
         margin-left: 10%;
-    }
-
-    .man,
-    .caption {
-        width: 400px;
-        height: 400px;
     }
 
     .plaintext {
@@ -76,30 +43,6 @@
 @media screen and (max-width: 920px) {
     .signbox {
         margin-left: 8%;
-    }
-
-    .description,
-    .heading,
-    .discover,
-    .heading3,
-    .descr {
-        width: 350px;
-    }
-
-    .form-group input,
-    .form-group select,
-    .form-group textarea,
-    .send,
-    .accordion-item {
-        width: 800px;
-    }
-
-    .form-group {
-        text-align: center;
-    }
-
-    .questions {
-        font-size: 92px;
     }
 
     .plaintext {
@@ -117,26 +60,6 @@
         margin-left: 1%;
     }
 
-    .description,
-    .heading,
-    .discover,
-    .heading3,
-    .descr {
-        width: 315px;
-    }
-
-    .minidescr {
-        width: 300px;
-    }
-
-    .form-group input,
-    .form-group select,
-    .form-group textarea,
-    .send,
-    .accordion-item {
-        width: 700px;
-    }
-
     .check {
         width: 412px;
     }
@@ -151,38 +74,8 @@
         padding: 0;
     }
 
-    .arrows {
+    .arrowss {
         display: none;
-    }
-
-    .man,
-    .caption {
-        width: 350px;
-        height: 350px;
-    }
-
-    .heading {
-        font-size: 40px;
-    }
-
-    .description,
-    .heading,
-    .discover,
-    .heading3,
-    .descr {
-        width: 260px;
-    }
-
-    .minidescr {
-        width: 250px;
-    }
-
-    .form-container {
-        width: 100%;
-    }
-
-    .questions {
-        font-size: 77px;
     }
 
     .plaintext {
@@ -214,17 +107,22 @@
     .footer-email {
         width: 450px;
     }
-
 }
 
 @media screen and (max-width: 660px) {
 
-    .form-group input,
-    .form-group select,
-    .form-group textarea,
-    .send,
-    .accordion-item {
-        width: 620px;
+    header {
+        padding: 0;
+    }
+
+    .signbox {
+        margin-left: 13%;
+    }
+
+    .logo {
+        margin-left: 9%;
+        width: 82px;
+        height: 8.63px;
     }
 
     .textbox {
@@ -260,99 +158,9 @@
     .sub {
         width: 108px;
     }
-
-    .form-container .getin {
-        margin-top: 100px;
-    }
-
-    .how,
-    .about {
-        flex-wrap: wrap;
-    }
-
-    .minidescr {
-        width: 450px;
-    }
-
-    .man,
-    .caption {
-        width: 405px;
-        height: 405px;
-    }
-
-    .about {
-        justify-content: center;
-    }
-
-    .description,
-    .heading,
-    .discover,
-    .heading3,
-    .descr {
-        width: 390px;
-    }
-
-    .textmedia {
-        margin-top: 5%;
-    }
-
-    header {
-        padding: 0;
-    }
-
-    .signbox {
-        margin-left: 13%;
-    }
-
-    .logo {
-        margin-left: 9%;
-        width: 82px;
-        height: 8.63px;
-    }
 }
 
 @media screen and (max-width: 480px) {
-    .about {
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
-    .man,
-    .caption {
-        width: 350px;
-        height: 350px;
-    }
-
-    .description,
-    .heading,
-    .discover,
-    .heading3,
-    .descr {
-        width: 282px;
-    }
-
-    .service {
-        gap: 55px;
-    }
-
-    .description2,
-    .heading2 {
-        width: 100%;
-        margin: 0;
-    }
-
-    .how {
-        flex-wrap: wrap-reverse;
-        gap: 30px;
-    }
-
-    .form-group input,
-    .form-group select,
-    .form-group textarea,
-    .send,
-    .accordion-item {
-        width: 400px;
-    }
 
     .book {
         height: 200px;
@@ -392,6 +200,7 @@ header {
 }
 
 @media screen and (max-width: 426px) {
+
     .menu-toggle {
         display: block;
         z-index: 1001;
@@ -439,44 +248,6 @@ header {
         margin-left: 38%;
     }
 
-    .hero {
-        height: 600px;
-    }
-
-    .minidescr {
-        width: 315px;
-    }
-
-    .wrapper {
-        width: 395px;
-        height: 535px;
-    }
-
-    .anyquestions {
-        margin-top: 95px;
-    }
-
-    .questions {
-        font-size: 47px;
-    }
-
-    .bikelease {
-        font-size: 58px;
-    }
-
-    .service {
-        align-items: center;
-    }
-
-    .description2,
-    .heading2 {
-        width: 85%;
-    }
-
-    .heading2 {
-        font-size: 45px;
-    }
-
     footer {
         flex-wrap: wrap-reverse;
         height: 600px;
@@ -520,39 +291,6 @@ header {
         margin-left: 34%;
     }
 
-    .hero {
-        padding-left: 30px;
-    }
-
-    .wrapper {
-        width: 330px;
-        height: 475px;
-    }
-
-    .form-group input,
-    .form-group select,
-    .form-group textarea,
-    .send,
-    .accordion-item {
-        width: 325px;
-    }
-
-    .how {
-        padding: 11px 42.326px 18px 42.34px;
-    }
-
-    .description2 {
-        margin-top: 12%;
-    }
-
-    .heading {
-        text-align: center;
-    }
-
-    .minidescr {
-        width: 270px;
-    }
-
     .plaintext {
         width: 90%;
         font-size: 10px;
@@ -569,50 +307,6 @@ header {
         margin-left: 28%;
     }
 
-    .bikelease {
-        font-size: 48px;
-    }
-
-    .heading2 {
-        font-size: 41px;
-    }
-
-    .man,
-    .caption {
-        width: 310px;
-        height: 310px;
-    }
-
-    .minidescr {
-        width: 235px;
-    }
-
-    .wrapper {
-        width: 305px;
-        height: 435px;
-    }
-
-    .model {
-        font-size: 23px;
-    }
-
-    .getin {
-        font-size: 43px;
-    }
-
-    .questions {
-        font-size: 37px;
-    }
-
-    .form-group input,
-    .form-group select,
-    .form-group textarea,
-    .send,
-    .accordion-item {
-        width: 300px;
-    }
-
-    /* footer */
     .field {
         width: 275px;
     }
