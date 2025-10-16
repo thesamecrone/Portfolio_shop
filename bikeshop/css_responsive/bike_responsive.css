@@ -311,7 +311,71 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 485px) {
+
+    .menu-toggle {
+        display: block;
+        z-index: 1001;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        left: -260px;
+        width: 260px;
+        height: 100vh;
+        background-color: #fff;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 80px 20px;
+        gap: 25px;
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+        transition: left 0.3s ease;
+        z-index: 1000;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    header .nav-menu li {
+        width: 100%;
+    }
+
+    header .nav-menu a {
+        font-size: 18px;
+        display: block;
+    }
+
+
+    .logo {
+        width: 110px;
+        height: 11.63px;
+        margin-top: 7px;
+    }
+    
     .about {
         flex-wrap: wrap;
         gap: 20px;
@@ -369,69 +433,7 @@
     }
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    position: relative;
-}
-
-.nav-menu {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-}
-
-.menu-toggle {
-    display: none;
-    background: none;
-    border: none;
-    font-size: 28px;
-    cursor: pointer;
-}
-
 @media screen and (max-width: 426px) {
-    .menu-toggle {
-        display: block;
-        z-index: 1001;
-    }
-
-    .nav-menu {
-        position: fixed;
-        top: 0;
-        left: -260px;
-        width: 260px;
-        height: 100vh;
-        background-color: #fff;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 80px 20px;
-        gap: 25px;
-        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
-        transition: left 0.3s ease;
-        z-index: 1000;
-    }
-
-    .nav-menu.active {
-        left: 0;
-    }
-
-    header .nav-menu li {
-        width: 100%;
-    }
-
-    header .nav-menu a {
-        font-size: 18px;
-        display: block;
-    }
-
-
-    .logo {
-        width: 110px;
-        height: 11.63px;
-        margin-top: 7px;
-    }
 
     .signbox {
         width: 75px;
@@ -509,7 +511,14 @@ header {
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 415px) {
+    .plaintext {
+        width: 90%;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 395px) {
 
     .logo {
         margin-left: 2%;

@@ -4,28 +4,428 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 1300px) {}
+@media screen and (max-width: 1300px) {
+
+    .wrapper {
+        width: 610px;
+    }
+
+    .subtitles {
+        padding: 0.88px 423.56px 30px 0;
+    }
+
+    .bin {
+        margin: 0 63.56px 0 78.59px;
+    }
+
+    .cage {
+        width: 390px;
+    }
+
+    .carefree {
+        width: 583px;
+        padding: 0 124.07px 0 84.08px;
+    }
+}
 
 @media screen and (max-width: 1165px) {}
 
-@media screen and (max-width: 1048px) {}
+@media screen and (max-width: 1048px) {
+
+    .wrapper {
+        width: 450px;
+        height: 615px;
+    }
+
+    .colours {
+        width: 420px;
+    }
+
+    .learnmore {
+        padding-right: 20px;
+    }
+
+    .subtitle {
+        height: 695px;
+    }
+
+    .vel {
+        width: 500px;
+        height: 500px;
+    }
+
+    .bin {
+        margin: 0 66.56px 0 76.59px;
+    }
+
+    .cage {
+        width: 305px;
+        padding: 38px 39px;
+    }
+
+    .carefree {
+        width: 420px;
+        padding: 0 81.07px 0 81.08px;
+    }
+}
 
 @media screen and (max-width: 965px) {}
 
 @media screen and (max-width: 920px) {}
 
-@media screen and (max-width: 865px) {}
+@media screen and (max-width: 885px) {
+    .wrapper {
+        width: 400px;
+        height: 565px;
+    }
 
-@media screen and (max-width: 808px) {}
+    .colours {
+        width: 373px;
+    }
 
-@media screen and (max-width: 808px) {}
+    .learnmore {
+        padding-right: 0px;
+    }
+
+    .subtitles {
+        padding: 81.88px 245.56px 30px 0;
+    }
+
+    .bin {
+        margin: 0 4.56px 0 27.59px;
+    }
+
+    .cage {
+        width: 242px;
+        padding: 21px 23px;
+    }
+
+    .quotes {
+        font-size: 19px;
+    }
+
+    .carefree {
+        width: 284px;
+        padding: 0 43.07px 0 3.08px;
+    }
+}
+
+@media screen and (max-width: 825px) {
+
+    .featured {
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    .subtitles {
+        padding: 81.88px 186.56px 30px 0;
+    }
+
+    .vel {
+        width: 350px;
+        height: 350px;
+    }
+
+    .bin {
+        margin: 0 40.56px 0 40.59px;
+    }
+
+    .magazines {
+        padding: 0px 42.35px 90px 42.34px;
+    }
+
+    .cage {
+        width: 220px;
+        padding: 15px 21px;
+        justify-content: space-between;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .quotes {
+        font-size: 17px;
+    }
+
+    .brights {
+        padding-top: 17%;
+    }
+
+    .carefree {
+        width: 378px;
+        padding: 0 49.07px 0 49.08px;
+    }
+}
 
 @media screen and (max-width: 660px) {}
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 485px) {
 
-@media screen and (max-width: 426px) {}
+    .maintext {
+        height: 217px;
+        line-height: 80px;
+    }
 
-@media screen and (max-width: 380px) {}
+    .wrapper {
+        width: 395px;
+        height: 555px;
+    }
 
-@media screen and (max-width: 325px) {}
+    .colours {
+        width: 375px;
+    }
+
+    .learnmore {
+        padding-right: 0px;
+        padding-left: 6px;
+    }
+
+    .card {
+        width: 365px;
+        height: 465px;
+    }
+
+    .pics {
+        width: 305px;
+        height: 230px;
+    }
+
+    .smallbox {
+        padding-left: 47px;
+    }
+
+    .album {
+        margin-left: 30px;
+    }
+
+    .explore {
+        height: 595px;
+        padding-top: 104px;
+        padding-bottom: 0px;
+    }
+
+    .subtitles {
+        padding: 81.88px 0.56px 30px 0;
+        font-size: 54px;
+    }
+
+    .discovering,
+    .smalltext,
+    .find {
+        margin-left: 0;
+        width: 312px;
+    }
+
+    .discovering {
+        font-size: 45px;
+    }
+
+    .textmedia {
+        align-items: center;
+    }
+
+    .leasin {
+        padding: 38px 42.34px 0px 42.34px;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .bin {
+        margin: 0;
+    }
+
+    .subtitle {
+        padding: 90px 42.35px 40px 42.34px;
+    }
+
+    .subtitles {
+        padding: 92.88px 0.56px 30px 0;
+        text-align: center;
+    }
+
+    .cages {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        gap: 10px;
+    }
+
+    .cage {
+        width: 275px;
+    }
+
+    .award {
+        padding-left: 65px;
+        padding-bottom: 42%;
+    }
+
+    .carefree {
+        padding: 0;
+    }
+
+    .ride {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .subtitle {
+        padding: 39px 42.35px 40px 42.34px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    .album {
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 395px) {
+
+    .wrapper {
+        width: 345px;
+        height: 510px;
+    }
+
+    .colours {
+        flex-wrap: wrap;
+        width: 220px;
+        height: 105px;
+        justify-content: center;
+    }
+
+    .explore {
+        padding-top: 40px;
+    }
+
+    .smallbox {
+        padding-left: 33px;
+    }
+
+    .arrows {
+        padding-right: 25px;
+    }
+
+    .album {
+        margin-left: 30px;
+    }
+
+    .card {
+        width: 330px;
+        height: 445px;
+    }
+
+    .pics {
+        width: 275px;
+        height: 200px;
+    }
+
+    .variant {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .subtitle {
+        padding: 0px 42.35px 40px 42.34px;
+    }
+
+    .award {
+        padding-left: 43px;
+    }
+
+}
+
+@media screen and (max-width: 365px) {
+
+    .subtitles {
+        font-size: 50px;
+    }
+
+    .album {
+        margin-left: 17px;
+    }
+
+}
+
+@media screen and (max-width: 325px) {
+
+    .main {
+        padding-left: 25px;
+        height: 680px;
+    }
+
+    .wrapper {
+        width: 305px;
+        height: 470px;
+    }
+
+    .model {
+        font-size: 27px;
+    }
+
+    .exploreit {
+        font-size: 22px;
+    }
+
+    .card {
+        width: 305px;
+    }
+
+    .pics {
+        width: 245px;
+        height: 180px;
+    }
+
+    .album {
+        margin-left: 8px;
+    }
+
+    .subtitle {
+        padding: 0px 42.35px 40px 42.34px;
+    }
+
+    .subtitles {
+        padding: 25.88px 0.56px 30px 0;
+        font-size: 49px;
+    }
+
+    .textmedia {
+        height: 650px;
+    }
+
+    .discovering,
+    .smalltext,
+    .find {
+        width: 80%;
+    }
+
+    .discovering {
+        font-size: 37px;
+    }
+
+    .vel {
+        width: 300px;
+        height: 300px;
+    }
+
+    .award {
+        padding-left: 0;
+        align-items: center;
+        height: 650px;
+    }
+
+    .awardtext,
+    .redaward {
+        width: 90%;
+    }
+
+    .ride {
+        padding: 87px 13px 90px 13px;
+    }
+}
