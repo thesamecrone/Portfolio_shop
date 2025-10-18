@@ -4,28 +4,394 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 1300px) {}
+@media screen and (max-width: 1300px) {
+
+    .arrow.right {
+        padding-right: 0px;
+    }
+
+    .room {
+        padding: 5%;
+    }
+
+    .details {
+        height: 1005px;
+    }
+
+}
 
 @media screen and (max-width: 1165px) {}
 
-@media screen and (max-width: 1048px) {}
+@media screen and (max-width: 1048px) {
+
+    .model,
+    .modifications {
+        height: 700px;
+    }
+
+    .modifications {
+        padding: 18px 42.34px 20.353px 16.34px;
+    }
+
+    .arrow.left {
+        padding-left: 5px;
+    }
+
+    .ivyimg,
+    .motors,
+    .room,
+    .ivytwo,
+    .motor {
+        height: 650px;
+    }
+
+    .safeimg {
+        width: 500px;
+        height: 500px;
+    }
+
+    .ivy2 {
+        width: 104%;
+    }
+
+    .intro2 {
+        width: 100%;
+    }
+
+    .details {
+        height: 100%;
+    }
+}
 
 @media screen and (max-width: 965px) {}
 
 @media screen and (max-width: 920px) {}
 
-@media screen and (max-width: 865px) {}
+@media screen and (max-width: 885px) {
 
-@media screen and (max-width: 808px) {}
+    .arrow.left,
+    .arrow.right {
+        visibility: hidden;
+    }
 
-@media screen and (max-width: 808px) {}
+    .ivyphoto {
+        height: 445px;
+    }
+
+    .round {
+        width: 345px;
+        height: 345px;
+        top: 11%;
+    }
+
+}
+
+@media screen and (max-width: 835px) {
+
+    .color-mod1 {
+        width: 430px;
+    }
+
+    .custom,
+    .inform {
+        width: 410px;
+    }
+
+    .intro {
+        width: 80%;
+    }
+
+    .safeimg {
+        width: 400px;
+        height: 500px;
+    }
+
+    .ivyimg,
+    .motors,
+    .room,
+    .ivytwo,
+    .motor {
+        height: 535px;
+    }
+
+    .safe {
+        height: 650px;
+        padding: 4% 1%;
+    }
+
+}
 
 @media screen and (max-width: 660px) {}
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+
+    .modifications {
+        padding: 18px 2.34px 18.353px 9.34px;
+    }
+
+    .product-price {
+        font-size: 25px;
+    }
+
+    .product-title,
+    .ship,
+    .deliver,
+    .specific {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .img-boxes,
+    .payments,
+    .inform {
+        padding-left: 5%;
+    }
+
+    .color-mod1 {
+        width: 415px;
+        padding-left: 5%;
+    }
+
+    .product-box {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .model {
+        height: 350px;
+        width: 100%;
+    }
+
+    .remove,
+    .ivy2 {
+        font-size: 40px;
+    }
+
+    .feature {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .ivyimg {
+        width: 300px;
+    }
+
+    .ivyimg,
+    .motors,
+    .room,
+    .ivytwo,
+    .motor {
+        width: 100%;
+        height: 480px;
+    }
+
+    .ivytwo {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .safe {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .safeimg {
+        width: 400px;
+        height: 400px;
+        margin-top: 3%;
+    }
+
+    .room,
+    .feature2,
+    .feature3 {
+        align-items: center;
+    }
+
+    .ivy2,
+    .remove,
+    .intro2 {
+        width: 80%;
+    }
+
+    .motor,
+    .safe {
+        flex-wrap: wrap-reverse;
+        height: 100%;
+    }
+
+    .remove,
+    .miniremove {
+        margin-left: 0;
+    }
+
+    .miniremove {
+        width: 80%;
+    }
+
+    .ivymodel {
+        padding: 3% 2% 5% 0%;
+    }
+
+    .ivyphoto {
+        width: 400px;
+        height: 305px;
+    }
+
+    .round {
+        width: 315px;
+        height: 315px;
+        top: 0%;
+    }
+
+    .flexbox {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .box {
+        padding: 15px 30px;
+    }
+
+    .open {
+        width: 30px;
+        height: 30px;
+    }
+
+    .detail {
+        font-size: 45px;
+        margin-left: 6%;
+        margin-top: 40px;
+    }
+
+    .heads {
+        margin-bottom: 15px;
+    }
+
+    .contents {
+        font-size: 15px;
+    }
+
+    .descriptions {
+        font-size: 12px;
+    }
+
+    .open:hover {
+        width: 30px;
+    }
+
+    .open.nine {
+        left: 57%;
+    }
+
+    .open.one:hover,
+    .open.two:hover,
+    .open.three:hover,
+    .open.four:hover {
+        width: 170px;
+        z-index: 5;
+    }
+
+    .open:hover .descriptions {
+        display: inline-block;
+    }
+
+    .open.five,
+    .open.six,
+    .open.seven,
+    .open.eight,
+    .open.nine {
+        overflow: visible;
+    }
+
+    .open.five:hover .descriptions,
+    .open.six:hover .descriptions,
+    .open.seven:hover .descriptions,
+    .open.eight:hover .descriptions,
+    .open.nine:hover .descriptions {
+        position: absolute;
+        left: auto;
+        right: 100%;
+        margin-left: 0;
+        top: 50%;
+        transform: translateY(33%);
+        width: 100px;
+    }
+
+}
 
 @media screen and (max-width: 426px) {}
 
-@media screen and (max-width: 380px) {}
+@media screen and (max-width: 395px) {
 
-@media screen and (max-width: 325px) {}
+    .product-name {
+        font-size: 23px;
+    }
+
+    .color-mod1,
+    .custom,
+    .inform {
+        width: 90%;
+        margin-left: 4%;
+    }
+
+    .specific {
+        width: 80%;
+        margin-left: 8%;
+    }
+
+    .payments {
+        padding-left: 8%;
+    }
+
+    .safeimg {
+        width: 100%;
+    }
+
+    .round {
+        width: 275px;
+        height: 275px;
+    }
+
+    .detail {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+
+    .feature2,
+    .feature,
+    .feature3 {
+        height: 675px;
+    }
+
+    .ivyimg,
+    .motors,
+    .safeimg {
+        height: 350px;
+    }
+
+    .remove,
+    .ivy2 {
+        font-size: 33px;
+    }
+
+    .ivyphoto {
+        height: 245px;
+    }
+
+    .ivy2,
+    .intro,
+    .intro2 {
+        width: 86%;
+    }
+
+    .round {
+        width: 233px;
+        height: 233px;
+    }
+
+    .detail {
+        font-size: 36px;
+    }
+}
