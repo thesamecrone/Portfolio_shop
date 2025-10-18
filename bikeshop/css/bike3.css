@@ -521,11 +521,12 @@ span {
 
 .descriptions {
     display: none;
-    position: relative;
+    position: absolute;
     background-color: #EDEAE8;
     padding: 5px;
     border-radius: 4px;
-    white-space: nowrap;
+    white-space: normal;
+    max-width: 200px;
     transition: all 0.3s ease;
     margin-left: 10px;
     font-family: 'Nuckle', sans-serif;
@@ -533,7 +534,7 @@ span {
 }
 
 .open:hover .descriptions {
-    display: inline-block
+    display: inline-block;
 }
 
 
