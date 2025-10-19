@@ -7,30 +7,70 @@ scroll.addEventListener('click', () => {
 });
 
 window.addEventListener('scroll', () => {
-  if(window.scrollY === 0) {
+  if (window.scrollY === 0) {
     scroll.style.visibility = 'hidden';
   } else {
     scroll.style.visibility = 'visible';
   }
 });
 
-const boxes = document.querySelectorAll('.barbox');
-const third = boxes[2];
 
-let swapped = false;
+// carousel
 
-third.addEventListener('click', () => {
-    if (!swapped) {
-        boxes[1].style.order = 3;
-        third.style.order = 2;
-        swapped = true;
-    } else {
-        boxes[0].style.order = 1;
-        boxes[1].style.order = 2;
-        boxes[2].style.order = 3;
-        swapped = false;
+document.addEventListener('DOMContentLoaded', function () {
+    const carousel = document.querySelector('.barboxes');
+    const arrowLeft = document.querySelector('.arrow1');
+    const arrowRight = document.querySelector('.arrow2');
+    const cards = Array.from(carousel.querySelectorAll('.barbox'));
+
+    if (!carousel || !arrowLeft || !arrowRight || cards.length === 0) {
+        console.error('Elements not found!');
+        return;
     }
+
+    cards.forEach(card => {
+        const clone = card.cloneNode(true);
+        carousel.appendChild(clone);
+    });
+
+    const allCards = Array.from(carousel.querySelectorAll('.barbox'));
+
+    let currentPosition = 0;
+
+    function scrollToCard(index) {
+        const target = allCards[index].offsetLeft;
+        carousel.scrollTo({
+            left: target,
+            behavior: 'smooth'
+        });
+    }
+
+    arrowLeft.addEventListener('click', function () {
+        currentPosition--;
+        if (currentPosition < 0) {
+            currentPosition = cards.length - 1;
+            carousel.scrollLeft = allCards[currentPosition + cards.length].offsetLeft;
+            setTimeout(() => scrollToCard(currentPosition + cards.length - 1), 20);
+        } else {
+            scrollToCard(currentPosition);
+        }
+    });
+
+    arrowRight.addEventListener('click', function () {
+        currentPosition++;
+        if (currentPosition >= cards.length) {
+            currentPosition = 0;
+            carousel.scrollLeft = allCards[currentPosition].offsetLeft - allCards[0].offsetLeft;
+            setTimeout(() => scrollToCard(currentPosition + 1), 20);
+        } else {
+            scrollToCard(currentPosition);
+        }
+    });
+
+    scrollToCard(currentPosition);
 });
+
+
 
 // navbar
 

@@ -113,19 +113,60 @@ li,
     height: 761px;
     background-color: #B6B6B6;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     overflow: hidden;
-    gap: 3%;
-    padding-left: 80px;
     width: 100%;
+}
+
+.arrows {
+    padding-right: 60px;
+    align-self: flex-end;
+    padding-bottom: 3%;
+}
+
+.arrow1 {
+    cursor: pointer;
+    transform: scaleX(-1);
+    transition: all 0.2s ease;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
+
+.arrow2 {
+    padding-left: 25px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
+
+.arrow2:active {
+    transform: translateX(4px);
+    outline: none;
+}
+
+.arrow1:active {
+    transform: translateX(4px) scaleX(-1);
+    outline: none;
+}
+
+.barboxes {
+    display: flex;
+    gap: 70px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
 }
 
 .barbox {
     position: relative;
     transition: order 0.3s ease;
-    flex: 0 0 33.33%;
     cursor: pointer;
+    flex: 0 0 auto;
+    width: 550px;
+    padding-left: 2%;
 }
 
 .bar {

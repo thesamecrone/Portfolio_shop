@@ -878,6 +878,8 @@ label {
     background-color: #fff;
     padding-top: 3px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
 }
 
 .scrollToTop:hover {

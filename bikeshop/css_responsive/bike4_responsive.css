@@ -9,27 +9,162 @@ body {
     overflow-x: hidden;
 }
 
-@media screen and (max-width: 1300px) {}
+@media screen and (max-width: 1300px) {
+    .textbox2 {
+        z-index: 3;
+        bottom: 35%;
+    }
+}
 
 @media screen and (max-width: 1165px) {}
 
-@media screen and (max-width: 1048px) {}
+@media screen and (max-width: 1048px) {
+
+    .foreverfor,
+    .bikesforall {
+        font-size: 100px;
+    }
+
+    .imgbox {
+        height: 1100px;
+    }
+
+    .textbox2 {
+        z-index: 3;
+        bottom: 19%;
+        right: 8%;
+    }
+
+    .texts {
+        left: 11%;
+        bottom: 7%;
+    }
+
+    .imgtwo {
+        left: 22%;
+    }
+
+    .imgthree {
+        right: 5%;
+    }
+}
 
 @media screen and (max-width: 965px) {}
 
 @media screen and (max-width: 920px) {}
 
-@media screen and (max-width: 865px) {}
+@media screen and (max-width: 885px) {
 
-@media screen and (max-width: 808px) {}
+    .citybox {
+        padding-bottom: 38%;
+    }
+}
 
-@media screen and (max-width: 808px) {}
+@media screen and (max-width: 835px) {
+    .citybox {
+        padding-bottom: 48%;
+    }
+
+    .foreverfor,
+    .bikesforall {
+        font-size: 80px;
+    }
+
+    .imgmini {
+        right: 7%;
+        position: absolute;
+        bottom: 6%;
+    }
+
+    .texts {
+        left: 3%;
+        bottom: 12%;
+    }
+
+    .textbox2 {
+        width: 409.88px;
+        height: 498px;
+        padding: 64px 58.88px 33px 61px;
+        font-size: 19px;
+        bottom: 25%;
+    }
+}
 
 @media screen and (max-width: 660px) {}
 
 @media screen and (max-width: 480px) {}
 
-@media screen and (max-width: 426px) {}
+@media screen and (max-width: 426px) {
+    .citybox {
+        padding-bottom: 90%;
+    }
+
+    .foreverfor,
+    .bikesforall {
+        text-align: center;
+        font-size: 75px;
+    }
+
+    .texts {
+        width: 374.87px;
+        height: 388px;
+        padding: 48px 49px 43px 55px;
+        font-size: 21px;
+        left: 6%;
+    }
+
+    .imgbig {
+        right: 0%;
+    }
+
+    .imgmini {
+        bottom: 2%;
+    }
+
+    .sliderbar {
+        height: 655px;
+    }
+
+    .bar,
+    .bar2,
+    .bar3 {
+        height: 415px;
+        width: 405px;
+    }
+
+    .barbox {
+        width: 405px;
+    }
+
+    .arrows {
+        padding-right: 0;
+        align-self: center;
+    }
+
+    .imgone {
+        left: 0%;
+    }
+
+    .imgthree {
+        display: none;
+    }
+
+    .imgtwo {
+        width: 430px;
+        left: 0%;
+    }
+
+    .textbox2 {
+        width: 360.88px;
+        height: 452px;
+        padding: 34px 40.88px 33px 35px;
+        right: 7%;
+    }
+
+    .bikebox {
+        padding-top: 0;
+    }
+}
 
 @media screen and (max-width: 380px) {}
 
