@@ -94,7 +94,7 @@ body {
 
 @media screen and (max-width: 480px) {}
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 429px) {
     .citybox {
         padding-bottom: 90%;
     }
@@ -166,6 +166,139 @@ body {
     }
 }
 
-@media screen and (max-width: 380px) {}
+@media screen and (max-width: 415px) {
 
-@media screen and (max-width: 325px) {}
+    .citybox {
+        padding-left: 35px;
+    }
+
+    .texts {
+        left: 5%;
+    }
+
+    .barbox {
+        padding-left: 1%;
+    }
+
+    .textbox2 {
+        right: 6%;
+    }
+}
+
+@media screen and (max-width: 395px) {
+
+    .citybox {
+        padding-left: 35px;
+    }
+
+    .foreverfor,
+    .bikesforall {
+        font-size: 70px;
+    }
+
+    .texts {
+        width: 338.87px;
+        height: 350px;
+        padding: 31px 39px 43px 43px;
+    }
+
+    .imgmini {
+        bottom: 0%;
+    }
+
+    .bar,
+    .bar2,
+    .bar3 {
+        height: 360px;
+        width: 350px;
+    }
+
+    .barbox {
+        width: 350px;
+        padding-left: 5%;
+    }
+
+    .textbox2 {
+        width: 318px;
+        font-size: 16px;
+        right: 8%;
+    }
+}
+
+@media screen and (max-width: 377px) {
+
+    .citybox {
+        padding-left: 25px;
+    }
+
+    .barbox {
+        padding-left: 3%;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .texts {
+        left: 3%;
+    }
+
+    .barbox {
+        padding-left: 2%;
+    }
+
+    .textbox2 {
+        right: 6%;
+    }
+}
+
+@media screen and (max-width: 325px) {
+
+    .citybox {
+        padding-bottom: 100%;
+    }
+
+    .foreverfor,
+    .bikesforall {
+        font-size: 62px;
+    }
+
+    .texts {
+        width: 288px;
+        font-size: 17px;
+    }
+
+    .imgmini {
+        width: 328px;
+        right: -1%;
+        bottom: -1%;
+        height: 362px;
+    }
+
+    .bar,
+    .bar2,
+    .bar3 {
+        height: 305px;
+        width: 300px;
+    }
+
+    .barbox {
+        width: 300px;
+    }
+
+    .textbox2 {
+        font-size: 15px;
+        padding: 29px 29.88px 33px 29px;
+        width: 285px;
+        height: 440px;
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .texts {
+        left: 5%;
+    }
+
+    .barbox {
+        padding-left: 3%;
+    }
+}
