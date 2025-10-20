@@ -1,19 +1,36 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@media screen and (max-width: 2570px) {
 
-html,
-body {
-    overflow-x: hidden;
+    .citybox {
+        padding-bottom: 15%;
+    }
 }
-
-@media screen and (max-width: 1300px) {}
 
 @media screen and (max-width: 1165px) {}
 
-@media screen and (max-width: 1048px) {}
+@media screen and (max-width: 1048px) {
+
+    .imgman {
+        width: 500px;
+        height: 500px;
+    }
+
+    .forforward,
+    .minitexting {
+        width: 80%;
+    }
+
+    .forwardbox {
+        height: 500px;
+    }
+
+    .forwards {
+        height: 650px;
+    }
+
+    .designed {
+        font-size: 100px;
+    }
+}
 
 @media screen and (max-width: 965px) {}
 
@@ -21,16 +38,189 @@ body {
 
 @media screen and (max-width: 865px) {}
 
-@media screen and (max-width: 808px) {}
+@media screen and (max-width: 835px) {
 
-@media screen and (max-width: 808px) {}
+    .citybox {
+        padding-bottom: 40%;
+    }
+
+    .forwards {
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        height: 100%;
+        padding: 91px 42.34px 30px 42.34px;
+    }
+
+    .forwardbox {
+        height: 300px;
+    }
+
+
+    .forforward,
+    .minitexting {
+        width: 65%;
+    }
+
+    .designed {
+        line-height: 105px;
+        font-size: 73px;
+    }
+}
 
 @media screen and (max-width: 660px) {}
 
 @media screen and (max-width: 480px) {}
 
-@media screen and (max-width: 426px) {}
+@media screen and (max-width: 430px) {
+    .citybox {
+        padding-bottom: 88%;
+    }
 
-@media screen and (max-width: 380px) {}
+    .forforward,
+    .minitexting {
+        width: 90%;
+    }
 
-@media screen and (max-width: 325px) {}
+    .forwardbox {
+        padding-bottom: 10%;
+        height: 445px;
+    }
+
+    .forwards {
+        padding: 15px 42.34px 30px 42.34px;
+    }
+
+    .imgman {
+        margin-bottom: 12%;
+    }
+
+    .designed {
+        line-height: 94px;
+        font-size: 51px;
+        padding: 50px 0 40px 0;
+        height: 750px;
+    }
+
+    .madefor {
+        align-items: center;
+    }
+
+    .made,
+    .madeforu {
+        margin-right: 0;
+    }
+
+    .album {
+        margin-left: 31px;
+    }
+
+    .card {
+        width: 365px;
+        height: 465px;
+    }
+
+    .pics {
+        width: 305px;
+        height: 230px;
+    }
+
+    .variant {
+        font-size: 24px;
+    }
+
+    .learnmore {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 395px) {
+
+    .smallbox {
+        padding-left: 39px;
+        width: 95%;
+    }
+
+    .arrows {
+        padding-right: 25px;
+    }
+
+    .arrow2 {
+        padding-left: 13px;
+    }
+
+    .album {
+        margin-left: 28px;
+    }
+
+    .card {
+        width: 330px;
+        height: 445px;
+    }
+
+    .pics {
+        width: 275px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 378px) {
+
+    .citybox {
+        padding-left: 28px;
+        padding-bottom: 95%;
+    }
+
+    .album {
+        margin-left: 25px;
+    }
+
+}
+
+@media screen and (max-width: 365px) {
+    .citybox {
+        padding-left: 30px;
+    }
+
+    .album {
+        margin-left: 16px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+
+    .designed {
+        line-height: 79px;
+        font-size: 45px;
+        height: 650px;
+    }
+
+    .made,
+    .madeforu {
+        width: 80%;
+    }
+
+    .explore {
+        height: 700px;
+    }
+
+    .smallbox {
+        padding-left: 26px;
+    }
+
+    .exploreit {
+        font-size: 22px;
+    }
+
+    .card {
+        width: 305px;
+    }
+
+    .pics {
+        width: 245px;
+        height: 180px;
+    }
+
+    .album {
+        margin-left: 8px;
+    }
+}
