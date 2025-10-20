@@ -1,6 +1,6 @@
 # Portfolio Shop Projects
 
-This repository contains my personal frontend projects, showcasing my skills in HTML, CSS, JavaScript, and Node.js.
+This repository contains my personal projects, showcasing my skills in HTML, CSS, JavaScript, and Node.js.
 
 All projects are fully responsive, structured, and include real JS logic such as sorting, filtering, carousels, search functionality, and form validation. GitHub is active daily, with commits showing continuous development and systematic approach.
 
@@ -10,4 +10,4 @@ All projects are fully responsive, structured, and include real JS logic such as
 2. [BikeShop](./bikeshop/README.md) – E-commerce frontend with product catalog, carousels, dynamic variants, filters, and Node.js/Express backend for authentication and data handling (in progress).
 
 ## Tech Stack
-HTML | CSS | JavaScript | Node.js | Express.js 
+HTML | CSS | JavaScript | Node.js | Express.js | PostgreSQL
