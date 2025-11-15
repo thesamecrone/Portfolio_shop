@@ -49,7 +49,7 @@ const modal = document.getElementById("loginModal");
 const closeModal = document.getElementById("closeModal");
 
 loginBtn.addEventListener("click", () => {
-    modal.style.display = "block";
+    modal.style.display = "flex";
 });
 
 closeModal.addEventListener("click", () => {
