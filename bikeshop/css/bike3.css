@@ -360,6 +360,11 @@ span {
     width: 384px;
 }
 
+.ivyimg {
+    background-image: url('../images/ivy2jpg.jpg');
+    background-size: cover;
+}
+
 .ivyimg,
 .motors {
     width: 50%;
