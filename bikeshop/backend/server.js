@@ -101,6 +101,35 @@ app.post('/register', async (req, res) => {
     }
 });
 
+app.post('/api/subscribe', async (req, res) => {
+    const { email } = req.body;
+
+    if (!email) {
+        return res.status(400).json({ error: "Email is required" });
+    }
+
+    try {
+        const existing = await pool.query(
+            "SELECT * FROM subscriptions WHERE email = $1",
+            [email]
+        );
+
+        if (existing.rows.length > 0) {
+            return res.status(400).json({ error: "Email already subscribed" });
+        }
+
+        await pool.query(
+            "INSERT INTO subscriptions(email) VALUES($1)",
+            [email]
+        );
+
+        res.json({ message: "Subscribed successfully" });
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ error: "Server error" });
+    }
+});
+
 const PORT = 5000;
 
 app.listen(PORT, () => {

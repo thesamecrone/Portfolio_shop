@@ -6,8 +6,8 @@ All projects are fully responsive, structured, and include real JS logic such as
 
 ## Projects
 
-1. [Agriculture Portfolio](./portfolio/README.md) – Multi-page responsive site with interactive features: scroll-to-top button, product sorting (price ascending/descending and range), search, and callback form.
-2. [BikeShop](./bikeshop/README.md) – E-commerce frontend with product catalog, carousels, dynamic variants, filters, and Node.js/Express backend for authentication and data handling (in progress).
+1. [Agriculture Portfolio](./portfolio/README.md) – Multi-page responsive site with interactive features, including a scroll-to-top button, product sorting (price ascending/descending and range), search functionality, and callback form. All pages are validated according to W3C standards.
+2. [BikeShop](./bikeshop/README.md) – E-commerce project with frontend product catalog, carousels, dynamic variants, modifications, and Node.js/Express backend for authentication (Google OAuth) and data handling. Features include page translation, subscription form, complex JS logic for product modifications, and full responsiveness. API tested with Postman. All pages are validated and fully functional.
 
 ## Tech Stack
 HTML | CSS | JavaScript | Node.js | Express.js | PostgreSQL

@@ -34,6 +34,7 @@
         </ul>
 
         <div class="signbox">
+            <div id="google_translate_element" style="display:none;"></div>
             <div class="lang">
                 <button class="en">
                     <p style="color: black;">EN</p>
@@ -42,11 +43,19 @@
                 </button>
             </div>
 
-            <div class="log">
+            <div class="log" id="loginBtn">
                 <img src="https://thesamecrone.github.io/Portfolio_shop/bikeshop/images/Vector.png" alt="login"
                     class="dot">
                 <img src="https://thesamecrone.github.io/Portfolio_shop/bikeshop/images/Vector (1).png" alt="login"
                     class="dot2">
+            </div>
+
+            <div id="loginModal" class="modal">
+                <div class="modal-content">
+                    <span id="closeModal" class="close">&times;</span>
+                    <h2>Login</h2>
+                    <a href="/auth/google" class="google-btn">Login with Google</a>
+                </div>
             </div>
 
             <img src="https://thesamecrone.github.io/Portfolio_shop/bikeshop/images/shopping-cart-1901584_640.png"
@@ -404,7 +413,8 @@
             once: true
         });
     </script>
-
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="../js/common.js"></script>
     <script src="../js/bike.js"></script>
 </body>
 
