@@ -518,6 +518,7 @@ h1 {
     margin-top: 5%;
     align-items: center;
     width: 45%;
+    gap: 45px;
 }
 
 .case {
