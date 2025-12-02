@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 260px;
+    border-radius: 16px;
+    padding: 30px 25px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.level1 {
+    background-color: #3cde95;
+    color: white;
+}
+
+.cage {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 60px;
+}
+
+.level2 {
+    background: white;
+    color: #828282;
+}
+
+.wrap {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1012143d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconbox {
+    width: 25px;
+    height: 25px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.title .white {
+    color: #fff;
+}
+
+.title .gray {
+    color: #838383;
+}
+
+.minititle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: end;
+}
+
+.minibox {
+    font-size: 14px;
+    line-height: 1.8em;
+    height: 80px;
+}
+
+.bin {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: end;
+}
+
+.check {
+    color: white;
+    border: solid 2px #fff;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    position: relative;
+}
+
+.check::before {
+    content: "";
+    position: absolute;
+    right: 3px;
+    top: -2px;
+    width: 5px;
+    height: 10px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(40deg);
+    z-index: 3;
+}
+
+.check::after {
+    content: "";
+    position: absolute;
+    left: 9px;
+    bottom: 7px;
+    width: 26px;
+    height: 10px;  
+    border-radius: 0 0 14px 14px;
+    background: #3cde95;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.circle {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 2px solid #7f8387;
+}
+
+.turnover {
+    margin-top: 20px;
+    font-size: 13px;
+}

@@ -1,0 +1,334 @@
+@media screen and (max-width: 1048px) {
+
+    header,
+    article,
+    .divider {
+        width: 80%;
+    }
+
+    .bigimg {
+        width: 280px;
+    }
+
+    article {
+        gap: 50px;
+        margin-bottom: 40px;
+
+    }
+
+    .description {
+        width: 510px;
+        font-size: 47px;
+    }
+
+    .bigbox {
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 82%;
+    }
+
+    .card {
+        width: 265px;
+    }
+
+    .descr {
+        font-size: 18px;
+    }
+
+    .two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    h1 {
+        width: 500px;
+    }
+
+    .cage,
+    footer {
+        width: 80%;
+    }
+
+    .info {
+        margin-left: 0;
+        margin-right: 15%;
+    }
+
+    .bigkit {
+        gap: 80px;
+    }
+}
+
+@media screen and (max-width: 835px) {
+
+    .heading {
+        width: 100%;
+    }
+
+    .description {
+        width: 330px;
+        font-size: 41px;
+        line-height: 50px;
+    }
+
+    .bigimg {
+        width: 260px;
+    }
+
+    .bigbox {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .bigkit {
+        gap: 40px;
+    }
+
+    .bigbox {
+        gap: 46px;
+        width: 75%;
+    }
+
+    .words {
+        width: 80%;
+        font-size: 35px;
+    }
+
+    .round {
+        width: 80vh;
+        height: 1293px;
+    }
+
+    .mail {
+        width: 320px;
+    }
+
+    .bin {
+        width: 80%;
+    }
+
+    .info {
+        margin-right: 10%;
+    }
+
+    .bigkit {
+        gap: 30px;
+    }
+
+    footer {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    header {
+        margin: 26px 0px 0px 0px;
+        width: 95%;
+    }
+
+    .logos {
+        width: 100px;
+    }
+
+    .heading {
+        height: 125px;
+        padding-top: 25%;
+    }
+
+    article {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .divider {
+        margin-top: 10%;
+    }
+
+    .name {
+        margin-right: 20px;
+        font-size: 23px;
+        margin-left: 5px;
+    }
+
+    .login {
+        width: 85px;
+    }
+
+    h4 {
+        line-height: 0px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h1 {
+        width: 70%;
+        margin: 40px 70px 40px 70px;
+    }
+
+    .bigbox {
+        justify-content: center;
+    }
+
+    .description {
+        font-size: 37px;
+    }
+
+    .mini {
+        flex-wrap: wrap;
+    }
+
+    nav {
+        gap: 13px;
+    }
+
+    .bin {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 145px;
+    }
+
+    .words {
+        font-size: 25px;
+        line-height: 52px;
+    }
+
+    .round {
+        width: 67vh;
+        height: 67vh;
+        top: -193px;
+        left: 111px;
+    }
+
+    .load {
+        margin-bottom: 65px;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        padding-top: 0;
+    }
+
+    .write {
+        margin-top: 5px;
+    }
+
+    .kit {
+        gap: 10px;
+    }
+
+    .hat {
+        margin-bottom: 0px;
+    }
+
+    .item {
+        line-height: 28px;
+        font-size: 18px;
+    }
+
+    .info {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 395px) {
+
+    header {
+        width: 97%;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .nav {
+        font-size: 15px;
+    }
+
+    .login {
+        width: 65px;
+        font-size: 15px;
+    }
+
+    .divider {
+        margin-top: 25%;
+    }
+
+    h2 {
+        font-size: 37px;
+    }
+
+    .description {
+        width: 290px;
+        font-size: 35px;
+    }
+
+    h1 {
+        margin: 40px 55px 40px 55px;
+    }
+
+    .words {
+        line-height: 40px;
+    }
+
+    .bigkit {
+        gap: 20px;
+    }
+
+    .hat {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+
+    .nav {
+        gap: 8px;
+        font-size: 13px;
+    }
+
+    .name {
+        font-size: 17px;
+        margin-right: 9px;
+    }
+
+    .login {
+        width: 50px;
+        font-size: 13px;
+    }
+
+    h2 {
+        line-height: 47px;
+    }
+
+    .description {
+        width: 254px;
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 39px;
+        margin: 30px 55px 30px 55px;
+    }
+
+    .load {
+        margin-top: 0px;
+    }
+
+    .mail {
+        width: 235px;
+    }
+
+    .hat {
+        font-size: 15px;
+    }
+
+    footer {
+        margin-bottom: 20px;
+    }
+}
