@@ -103,7 +103,7 @@ form.addEventListener('submit', async (e) => {
     }
 
     try {
-        const res = await fetch('/api/subscribe', {
+        const res = await fetch('https://velorettibackend-production.up.railway.app/api/subscribe', {
             method: 'POST',
             headers: {
                 "Content-Type" : "application/json",
