@@ -127,3 +127,25 @@ form.addEventListener('submit', async (e) => {
         alert("Something went wrong");
     }
 });
+
+// user check
+
+async function checkUser() {
+    try {
+        const res = await fetch('https://velorettibackend-production.up.railway.app/api/me', {
+            credentials: 'include'
+        });
+        if(res.ok) {
+            const data = await res.json();
+            console.log('Logged in user:', data.user);
+            const userDisplay = document.querySelector('.user-display');
+            if(userDisplay) {
+                userDisplay.textContent = `Hello, ${data.user.name}`;
+            }
+        }
+    } catch (err) {
+        console.error('Error fetching user:', err);
+    }
+}
+
+checkUser();
