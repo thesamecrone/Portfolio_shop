@@ -149,3 +149,18 @@ async function checkUser() {
 }
 
 checkUser();
+
+// popup
+
+function loginWithGoogle() {
+  const width = 500;
+  const height = 600;
+  const left = (window.screen.width - width) / 2;
+  const top = (window.screen.height - height) / 2;
+
+  window.open(
+    "https://velorettibackend-production.up.railway.app/auth/google",
+    "googleAuth",
+    `width=${width},height=${height},left=${left},top=${top}`
+  );
+}
