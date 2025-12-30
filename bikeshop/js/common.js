@@ -164,3 +164,27 @@ function loginWithGoogle() {
     `width=${width},height=${height},left=${left},top=${top}`
   );
 }
+
+function showToast(message) {
+  const toast = document.getElementById('toast');
+
+  toast.textContent = message;
+  toast.classList.remove('hidden');
+
+  setTimeout(() => {
+    toast.classList.add('show');
+  }, 10);
+
+  setTimeout(() => {
+    toast.classList.remove('show');
+    setTimeout(() => toast.classList.add('hidden'), 300);
+  }, 3000);
+}
+
+window.addEventListener('message', (event) => {
+  if (event.data?.type === 'GOOGLE_AUTH_SUCCESS') {
+    const user = event.data.user;
+
+    showToast(`Authenticated as ${user.name}`);
+  }
+});
