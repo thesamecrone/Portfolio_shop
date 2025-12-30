@@ -153,12 +153,14 @@ li:hover, .li:hover {
 .google-btn {
     display: inline-block;
     background-color: #111;
+    font-family: 'Nuckle', sans-serif;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 3px;
     font-weight: 600;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .google-btn:hover {
