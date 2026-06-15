@@ -60,6 +60,48 @@ window.addEventListener("click", (e) => {
   if (e.target === modal) modal.style.display = "none";
 });
 
+const registerBtn = document.querySelector('.btn-register');
+
+registerBtn.addEventListener('click', async () => {
+  const email = document.querySelector('.modal-content .email').value;
+  const password = document.querySelector('.modal-content .password').value;
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  if (!emailRegex.test(email)) {
+    alert("Please enter a valid email address");
+    return;
+  }
+
+  if (!email || !password) {
+    alert("Please fill in all fields");
+    return;
+  }
+
+  if (password.length < 8) {
+    alert("Password must be at least 8 characters long");
+    return;
+  }
+
+  try {
+    const response = await fetch('/api/register', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, password })
+    });
+
+    const data = await response.json();
+
+    if (response.ok) {
+      window.location.href = '/dashboard';
+    } else {
+      alert(data.message);
+    }
+  } catch (err) {
+    console.error("Request error:", err);
+    alert("Something went wrong, please try again later");
+  }
+});
+
 // scrollToTop
 
 const scroll = document.querySelector('.scrollToTop');

@@ -19,34 +19,43 @@
         <a href="bike.html"><img class="logo" src="../images/Frame.png" alt="Veloretti"></a>
         <button class="menu-toggle" aria-label="Toggle menu">☰</button>
         <ul class="nav-menu">
-            <li><a href="bike3.html" class="li">Electric </a><img src="../icons/Vector.svg" alt="pic" style="padding-left: 5px;" class="arrowss"></li>
-            <li><a href="bike4.html" class="li">City </a><img src="../icons/Vector.svg" alt="pic" style="padding-left: 5px;" class="arrowss"></li>
-            <li><a href="bike2.html#kids" class="li">Kids </a><img src="../icons/Vector.svg" alt="pic" style="padding-left: 5px;" class="arrowss"></li>
-            <li><a href="bike2.html#kids" class="li">Accessories </a><img src="../icons/Vector.svg" alt="pic" style="padding-left: 5px;" class="arrowss"></li>
-            <li><a href="bike5.html" class="li">Stores </a><img src="../icons/Vector.svg" alt="pic" style="padding-left: 5px;" class="arrowss"></li>
-            <li><a href="bike2.html#leasing" class="li">Leasing </a><img src="../icons/Vector.svg" alt="pic" style="padding-left: 5px;" class="arrowss"></li>
+            <li><a href="bike3.html" class="li">Electric </a><img src="../icons/Vector.svg" alt="pic"
+                    style="padding-left: 5px;" class="arrowss"></li>
+            <li><a href="bike4.html" class="li">City </a><img src="../icons/Vector.svg" alt="pic"
+                    style="padding-left: 5px;" class="arrowss"></li>
+            <li><a href="bike2.html#kids" class="li">Kids </a><img src="../icons/Vector.svg" alt="pic"
+                    style="padding-left: 5px;" class="arrowss"></li>
+            <li><a href="bike2.html#kids" class="li">Accessories </a><img src="../icons/Vector.svg" alt="pic"
+                    style="padding-left: 5px;" class="arrowss"></li>
+            <li><a href="bike5.html" class="li">Stores </a><img src="../icons/Vector.svg" alt="pic"
+                    style="padding-left: 5px;" class="arrowss"></li>
+            <li><a href="bike2.html#leasing" class="li">Leasing </a><img src="../icons/Vector.svg" alt="pic"
+                    style="padding-left: 5px;" class="arrowss"></li>
         </ul>
 
         <div class="signbox">
             <div id="google_translate_element" style="display:none;"></div>
             <div class="lang">
                 <button class="en">EN
-                        <img src="../images/Maskgroup(1).png" alt="flag">
-                    </button>
+                    <img src="../images/Maskgroup(1).png" alt="flag">
+                </button>
             </div>
 
             <div class="log" id="loginBtn">
                 <img src="https://thesamecrone.github.io/Portfolio_shop/bikeshop/images/Vector.png" alt="login"
                     class="dot">
-                <img src="../images/Vector(1).png" alt="login"
-                    class="dot2">
+                <img src="../images/Vector(1).png" alt="login" class="dot2">
             </div>
 
             <div id="loginModal" class="modal">
                 <div class="modal-content">
                     <span id="closeModal" class="close">&times;</span>
-                    <h2>Login</h2>
-                    <button type="button" class="google-btn" onclick="loginWithGoogle()">Login with Google</button>
+                    <h2>Sign up</h2>
+                    <input type="email" placeholder="Email" class="email" required>
+                    <input type="password" placeholder="Password" class="password" required>
+                    <button class="btn-register">Sign up</button>
+                    <div class="divider">or</div>
+                    <button type="button" class="google-btn" onclick="loginWithGoogle()">Sign up with Google</button>
                 </div>
             </div>
 
@@ -138,7 +147,7 @@
         </div>
     </div>
 
-    <section class="explore"  id="kids" data-aos="fade-up">
+    <section class="explore" id="kids" data-aos="fade-up">
         <div class="smallbox">
             <h4 class="exploreit">Explore our bikes</h4>
             <div class="arrows">
@@ -378,7 +387,7 @@
     <script>
         AOS.init({
             duration: 1000,
-            once: true   
+            once: true
         });
     </script>
     <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>

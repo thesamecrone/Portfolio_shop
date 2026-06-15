@@ -5,7 +5,8 @@
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    font-family: 'Nuckle', sans-serif;
 }
 
 html,
@@ -37,10 +38,10 @@ ul {
     gap: 14px;
 }
 
-li, .li {
+li,
+.li {
     color: #141615;
     text-align: center;
-    font-family: 'Nuckle', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 591;
@@ -56,7 +57,8 @@ li, .li {
     text-decoration: none;
 }
 
-li:hover, .li:hover {
+li:hover,
+.li:hover {
     color: #606160;
 }
 
@@ -78,7 +80,6 @@ li:hover, .li:hover {
     justify-content: center;
     border: none;
     background-color: white;
-    font-family: 'Nuckle', sans-serif;
     font-size: 12px;
     font-weight: 591;
     cursor: pointer;
@@ -102,6 +103,27 @@ li:hover, .li:hover {
     height: 5.748px;
 }
 
+.divider {
+    font-weight: 600;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.email,
+.password {
+    margin-bottom: 5%;
+    height: 30px;
+}
+
+.btn-register {
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    width: 60%;
+    height: 30px;
+    border-radius: 5%;
+}
+
 .modal {
     display: none;
     position: fixed;
@@ -110,20 +132,19 @@ li:hover, .li:hover {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     justify-content: center;
     align-items: center;
 }
 
 .modal-content {
-    font-family: 'Nuckle', sans-serif;
     background-color: #fff;
     padding: 30px 40px;
     border-radius: 3px;
     width: 320px;
     max-width: 90%;
     text-align: center;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     color: #111;
     position: relative;
 }
@@ -151,7 +172,6 @@ li:hover, .li:hover {
 .google-btn {
     display: inline-block;
     background-color: #111;
-    font-family: 'Nuckle', sans-serif;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -172,28 +192,28 @@ li:hover, .li:hover {
 }
 
 .toast {
-  position: fixed;
-  top: 24px;
-  right: 24px;
-  background: #111;
-  color: #fff;
-  padding: 14px 22px;
-  border-radius: 10px;
-  font-size: 14px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  transform: translateY(-10px);
-  transition: all 0.3s ease;
-  z-index: 9999;
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    background: #111;
+    color: #fff;
+    padding: 14px 22px;
+    border-radius: 10px;
+    font-size: 14px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    z-index: 9999;
 }
 
 .toast.show {
-  opacity: 1;
-  transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .toast.hidden {
-  display: none;
+    display: none;
 }
 
 .hero {
@@ -211,7 +231,6 @@ li:hover, .li:hover {
 
 .velo {
     color: #FFF;
-    font-family: 'Nuckle', sans-serif;
     font-size: 14px;
     font-style: normal;
     line-height: 15px;
@@ -222,7 +241,6 @@ li:hover, .li:hover {
 
 .bikelease {
     color: #FFF;
-    font-family: 'Nuckle', sans-serif;
     font-size: 70px;
     font-style: normal;
     letter-spacing: 0.6px;
@@ -252,7 +270,6 @@ li:hover, .li:hover {
 
 .heading {
     color: black;
-    font-family: 'Nuckle', sans-serif;
     font-size: 50px;
     font-style: normal;
     line-height: 50px;
@@ -263,7 +280,6 @@ li:hover, .li:hover {
 
 .description {
     color: black;
-    font-family: 'Nuckle', sans-serif;
     font-size: 14px;
     font-style: normal;
     line-height: 21px;
@@ -274,7 +290,6 @@ li:hover, .li:hover {
 
 .discover {
     color: black;
-    font-family: 'Nuckle', sans-serif;
     font-size: 15px;
     font-style: normal;
     line-height: 15px;
@@ -303,7 +318,6 @@ li:hover, .li:hover {
 
 .heading2 {
     color: white;
-    font-family: 'Nuckle', sans-serif;
     font-style: normal;
     font-size: 50px;
     width: 432px;
@@ -314,7 +328,6 @@ li:hover, .li:hover {
 .description2 {
     margin: 40px 0 0 127.05px;
     color: white;
-    font-family: 'Nuckle', sans-serif;
     font-size: 14px;
     width: 301px;
     height: 105px;
@@ -325,7 +338,6 @@ li:hover, .li:hover {
 
 .heading3 {
     color: black;
-    font-family: 'Nuckle', sans-serif;
     font-size: 50px;
     font-style: normal;
     line-height: 50px;
@@ -334,7 +346,6 @@ li:hover, .li:hover {
 
 .descr {
     color: black;
-    font-family: 'Nuckle', sans-serif;
     font-size: 14px;
     font-style: normal;
     line-height: 21px;
@@ -377,7 +388,6 @@ li:hover, .li:hover {
 
 .minihead {
     color: rgba(20, 22, 21, 0.90);
-    font-family: 'Nuckle', sans-serif;
     font-size: 20px;
     font-style: normal;
     line-height: 24px;
@@ -387,7 +397,6 @@ li:hover, .li:hover {
 
 .minidescr {
     color: rgba(20, 22, 21, 0.40);
-    font-family: 'Nuckle', sans-serif;
     font-size: 14px;
     font-style: normal;
     line-height: 17px;
@@ -420,7 +429,6 @@ li:hover, .li:hover {
 
 .model {
     color: #000;
-    font-family: 'Nuckle', sans-serif;
     font-size: 30px;
     font-style: normal;
     line-height: 30px;
@@ -429,7 +437,6 @@ li:hover, .li:hover {
 
 span {
     color: #000;
-    font-family: 'Nuckle', sans-serif;
     font-size: 10px;
     font-style: normal;
     line-height: 10px;
@@ -439,7 +446,6 @@ span {
 
 .price {
     color: #141615;
-    font-family: 'Nuckle', sans-serif;
     font-size: 20px;
     font-style: normal;
     line-height: 26px;
@@ -571,7 +577,6 @@ span {
     margin-top: 250px;
     margin-bottom: 57px;
     color: #333;
-    font-family: 'Nuckle', sans-serif;
     font-size: 50px;
 }
 
@@ -589,7 +594,6 @@ span {
     border: 1px solid #EBEBEB;
     box-sizing: border-box;
     color: #4a504de5;
-    font-family: 'Nuckle', sans-serif;
     font-size: 12px;
     font-style: normal;
     margin-bottom: 10px;
@@ -609,7 +613,6 @@ span {
 .form-group input::placeholder,
 .form-group textarea::placeholder {
     color: #4a504de5;
-    font-family: 'Nuckle', sans-serif;
     font-size: 12px;
     font-style: normal;
     letter-spacing: 2px;
@@ -617,7 +620,6 @@ span {
 
 .form-group select {
     color: #4a504de5;
-    font-family: 'Nuckle', sans-serif;
     font-size: 12px;
     font-style: normal;
     letter-spacing: 2px;
@@ -636,7 +638,6 @@ span {
     color: white;
     border: none;
     cursor: pointer;
-    font-family: 'Nuckle', sans-serif;
     font-size: 12px;
     border-radius: 30px;
     letter-spacing: 2px;
@@ -655,7 +656,6 @@ span {
 }
 
 .questions {
-    font-family: 'Nuckle', sans-serif;
     font-size: 120px;
     font-style: normal;
     margin-bottom: 28px;
@@ -663,7 +663,6 @@ span {
 }
 
 .titles {
-    font-family: 'Nuckle', sans-serif;
     font-size: 25px;
     color: #141615;
     font-weight: 500;
@@ -709,7 +708,6 @@ span {
     display: none;
     background-color: #fff;
     border-top: 1px solid #ddd;
-    font-family: 'Nuckle', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #898A8A;
@@ -743,7 +741,6 @@ span {
 }
 
 .plaintext {
-    font-family: 'Nuckle', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -759,7 +756,6 @@ span {
     height: 50px;
     border-radius: 60px;
     text-align: center;
-    font-family: 'Nuckle', sans-serif;
     font-size: 14px;
     color: #000;
     font-weight: 500;
@@ -799,7 +795,6 @@ footer {
 }
 
 .topic {
-    font-family: 'Nuckle', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 591;
@@ -809,7 +804,6 @@ footer {
 
 .topics {
     color: rgba(255, 255, 255, 0.60);
-    font-family: 'Nuckle', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -838,7 +832,6 @@ footer {
 
 .minitext {
     color: #fff;
-    font-family: 'Nuckle', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 200;
@@ -859,7 +852,6 @@ footer {
     border: none;
     width: 70%;
     text-align: center;
-    font-family: 'Nuckle', sans-serif;
     font-size: 12px;
     color: #fff;
 }
@@ -881,7 +873,6 @@ footer {
     background-color: #fff;
     border-radius: 80px;
     text-align: center;
-    font-family: 'Nuckle', sans-serif;
     font-size: 14px;
     font-style: normal;
     color: #000;
@@ -932,13 +923,11 @@ input[type="checkbox"]:checked::after {
 label {
     color: #fff;
     font-size: 14px;
-    font-family: 'Nuckle', sans-serif;
 }
 
 .polic {
     color: #fff;
     font-size: 14px;
-    font-family: 'Nuckle', sans-serif;
 }
 
 .polic:hover {
