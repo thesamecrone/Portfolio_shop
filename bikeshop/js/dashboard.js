@@ -22,7 +22,7 @@ async function loadUsers() {
         `).join('');
     } catch (err) {
         console.error("Error loading users:", err);
-        window.location.href = '/login.html';
+        alert("Failed.");
     }
 }
 
