@@ -61,6 +61,7 @@ window.addEventListener("click", (e) => {
 });
 
 const registerBtn = document.querySelector('.btn-register');
+const API_URL = 'https://velorettibackend-production.up.railway.app';
 
 registerBtn.addEventListener('click', async () => {
   const email = document.querySelector('.modal-content .email').value;
@@ -83,10 +84,10 @@ registerBtn.addEventListener('click', async () => {
   }
 
   try {
-    const response = await fetch('/api/register', {
+    const response = await fetch(`${API_URL}/api/register`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email, password })
+      body: JSON.stringify({ name: 'User', email, password })
     });
 
     const data = await response.json();
