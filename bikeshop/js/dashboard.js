@@ -86,6 +86,11 @@ async function sendUserAction(actionEndpoint) {
             credentials: 'include'
         });
 
+        if (response.status === 401) {
+            window.location.href = 'bike.html#login';
+            return;
+        }
+
         // nota bene: no browser alerts allowed, showing message in app instead
         if (response.ok) {
             showStatusMessage("Operation completed successfully!");
@@ -105,7 +110,6 @@ selectAllCheckbox.addEventListener('change', () => {
     updateToolbarState();
 });
 
-btnBlock.addEventListener('click', () => sendUserAction('block'));
 btnBlock.addEventListener('click', () => sendUserAction('block'));
 btnUnblock.addEventListener('click', () => sendUserAction('unblock'));
 btnDelete.addEventListener('click', () => sendUserAction('delete'));
