@@ -103,7 +103,7 @@ loginSubmitBtn.addEventListener('click', async (e) => {
     const data = await response.json();
 
     if (response.ok) {
-      window.location.href = '/dashboard.html';
+      window.location.href = '/Portfolio_shop/bikeshop/html/dashboard.html';
     } else {
       alert(data.message || "Login failed");
     }
@@ -144,7 +144,7 @@ registerBtn.addEventListener('click', async (e) => {
     const data = await response.json();
 
     if (response.ok) {
-      window.location.href = '/dashboard';
+      window.location.href = '/Portfolio_shop/bikeshop/html/dashboard.html';
     } else {
       alert(data.message);
     }
