@@ -54,16 +54,67 @@ loginBtn.addEventListener("click", () => {
 
 closeModal.addEventListener("click", () => {
   modal.style.display = "none";
+  modalTitle.textContent = "Sign In";
+  accText.style.display = "block";
+  loginSubmitBtn.style.display = "block";
+  registerBtn.style.display = "none";
 });
 
 window.addEventListener("click", (e) => {
   if (e.target === modal) modal.style.display = "none";
 });
 
-const registerBtn = document.querySelector('.btn-register');
+const loginSubmitBtn = document.querySelector('.btn-signin');
+const registerBtn = document.getElementById('register-btn');
 const API_URL = 'https://velorettibackend-production.up.railway.app';
 
-registerBtn.addEventListener('click', async () => {
+const registerLink = document.querySelector('#register');
+const modalTitle = document.querySelector('.modal-content h2');
+const accText = document.querySelector('.acc');
+
+registerLink.addEventListener('click', (e) => {
+  e.preventDefault();
+
+  modalTitle.textContent = "Sign Up";
+  accText.style.display = "none";
+
+  loginSubmitBtn.style.display = "none";
+  registerBtn.style.display = "block";
+});
+
+loginSubmitBtn.addEventListener('click', async (e) => {
+  e.preventDefault();
+  const email = document.querySelector('.modal-content .email').value;
+  const password = document.querySelector('.modal-content .password').value;
+
+  if (!email || !password) {
+    alert("Please fill in all fields");
+    return;
+  }
+
+  try {
+    const response = await fetch(`${API_URL}/api/login`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, password }),
+      credentials: 'include'
+    });
+
+    const data = await response.json();
+
+    if (response.ok) {
+      window.location.href = '/dashboard.html';
+    } else {
+      alert(data.message || "Login failed");
+    }
+  } catch (err) {
+    console.error("Login error:", err);
+    alert("Something went wrong");
+  }
+});
+
+registerBtn.addEventListener('click', async (e) => {
+  e.preventDefault();
   const email = document.querySelector('.modal-content .email').value;
   const password = document.querySelector('.modal-content .password').value;
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;

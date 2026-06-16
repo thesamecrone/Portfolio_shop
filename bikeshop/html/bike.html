@@ -50,12 +50,31 @@
             <div id="loginModal" class="modal">
                 <div class="modal-content">
                     <span id="closeModal" class="close">&times;</span>
-                    <h2>Sign up</h2>
-                    <input type="email" placeholder="Email" class="email" required>
-                    <input type="password" placeholder="Password" class="password" required>
-                    <button class="btn-register">Sign up</button>
+
+                    <h2>Sign In</h2>
+
+                    <form>
+                        <input type="email" placeholder="Email" class="email" required>
+                        <input type="password" placeholder="Password" class="password" required>
+
+                        <label style="color: black; display: flex; padding-bottom: 10px;">
+                            <input type="checkbox" style="appearance: auto; border: 2px solid black; font-size: 10px;"> Remember me
+                        </label>
+
+                        <button class="btn-signin">Sign In</button>
+                        <button id="register-btn" class="btn-register" style="display: none;">Sign Up</button>
+                    </form>
+
+                    <div class="footer-links">
+                        <p class="acc">Don't have an account? <a href="#" id="register">Sign up</a></p>
+                        <a href="#" class="forgot">Forgot password?</a>
+                    </div>
+
                     <div class="divider">or</div>
-                    <button type="button" class="google-btn" onclick="loginWithGoogle()">Sign up with Google</button>
+
+                    <button type="button" class="google-btn" onclick="loginWithGoogle()">
+                        Sign in with Google
+                    </button>
                 </div>
             </div>
 

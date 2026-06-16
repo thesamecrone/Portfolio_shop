@@ -103,6 +103,25 @@ li:hover,
     height: 5.748px;
 }
 
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.acc {
+    justify-content: space-between;
+    font-size: 13px;
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    flex-direction: column;
+}
+
+.forgot {
+    font-size: 12px;
+}
+
 .divider {
     font-weight: 600;
     padding-top: 5%;
@@ -115,7 +134,7 @@ li:hover,
     height: 30px;
 }
 
-.btn-register {
+.btn-signin, .btn-register {
     font-size: 18px;
     background-color: black;
     color: white;
@@ -125,8 +144,8 @@ li:hover,
     cursor: pointer;
 }
 
-.btn-register:hover {
-   background-color: #222;
+.btn-signin:hover, .btn-register:hover {
+    background-color: #222;
 }
 
 .modal {
