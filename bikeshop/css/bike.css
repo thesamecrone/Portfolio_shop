@@ -126,7 +126,7 @@ li:hover,
 }
 
 .btn-register:hover {
-    box-shadow: 3px 3px rgb(52, 24, 78);
+   background-color: #222;
 }
 
 .modal {
