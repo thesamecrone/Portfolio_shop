@@ -6,14 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
     <div class="d-flex mb-3 gap-2">
-        <button class="btn btn-outline-primary" id="btnBlock">Block</button>
-        <button class="btn btn-outline-secondary" id="btnUnblock">Unblock</button>
-        <button class="btn btn-outline-danger" id="btnDelete">Delete</button>
-        <button class="btn btn-outline-warning" id="btnDeleteUnverified">Delete unverified</button>
+        <button class="btn btn-outline-primary" id="btnBlock" data-bs-toggle="tooltip"
+            title="Block users">Block</button>
+
+        <button class="btn btn-outline-secondary" id="btnUnblock" data-bs-toggle="tooltip" title="Unblock users">
+            <i class="bi bi-unlock"></i>
+        </button>
+
+        <button class="btn btn-outline-danger" id="btnDelete" data-bs-toggle="tooltip" title="Delete users">
+            <i class="bi bi-trash"></i>
+        </button>
+
+        <button class="btn btn-outline-warning" id="btnDeleteUnverified" data-bs-toggle="tooltip"
+            title="Delete unverified">
+            <i class="bi bi-person-x"></i>
+        </button>
     </div>
 
     <table class="table table-bordered table-hover">
