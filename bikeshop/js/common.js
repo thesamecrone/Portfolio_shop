@@ -89,7 +89,7 @@ loginSubmitBtn.addEventListener('click', async (e) => {
   const password = document.querySelector('.modal-content .password').value;
 
   if (!email || !password) {
-   // important: browser alerts are forbidden by task rules, using title text instead
+    // important: browser alerts are forbidden by task rules, using title text instead
     modalTitle.textContent = "Please fill in all fields";
     modalTitle.style.color = "red";
     return;
@@ -148,9 +148,20 @@ registerBtn.addEventListener('click', async (e) => {
     const data = await response.json();
 
     if (response.ok) {
-      localStorage.setItem('myId', data.userId);
-      await new Promise(resolve => setTimeout(resolve, 500));
-      window.location.href = '/Portfolio_shop/bikeshop/html/dashboard.html';
+      const loginResponse = await fetch(`${API_URL}/api/login`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, password }),
+        credentials: 'include'
+      });
+
+      if (loginResponse.ok) {
+        const loginData = await loginResponse.json();
+        localStorage.setItem('myId', loginData.userId);
+        window.location.href = '/Portfolio_shop/bikeshop/html/dashboard.html';
+      } else {
+        modalTitle.textContent = "Registration successful, please sign in.";
+      }
     } else {
       modalTitle.textContent = data.message;
       modalTitle.style.color = "red";
@@ -168,38 +179,38 @@ function getUniqIdValue() {
 }
 
 if (window.location.hash === '#login') {
-    const loginBtn = document.getElementById('loginBtn');
-    if (loginBtn) {
-        loginBtn.click();
-    }
-    window.history.replaceState(null, null, window.location.pathname);
+  const loginBtn = document.getElementById('loginBtn');
+  if (loginBtn) {
+    loginBtn.click();
+  }
+  window.history.replaceState(null, null, window.location.pathname);
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const modal = document.getElementById("loginModal"); 
-    
-    if (urlParams.get('openLogin') === 'true' && modal) {
-        modal.style.display = "flex";
-        
-        if (urlParams.get('reason') === 'blocked') {
-            const modalTitle = document.querySelector('.modal-content h2');
-            if (modalTitle) {
-                modalTitle.textContent = "Your account has been blocked";
-                modalTitle.style.color = "red";
-                modalTitle.style.fontSize = "18px";
-            }
-        }
-    }
+  const urlParams = new URLSearchParams(window.location.search);
+  const modal = document.getElementById("loginModal");
 
-    if (urlParams.get('openRegister') === 'true' && modal) {
-        modal.style.display = "flex";
-        
-        const registerLink = document.querySelector('#register');
-        if (registerLink) {
-            registerLink.click();
-        }
+  if (urlParams.get('openLogin') === 'true' && modal) {
+    modal.style.display = "flex";
+
+    if (urlParams.get('reason') === 'blocked') {
+      const modalTitle = document.querySelector('.modal-content h2');
+      if (modalTitle) {
+        modalTitle.textContent = "Your account has been blocked";
+        modalTitle.style.color = "red";
+        modalTitle.style.fontSize = "18px";
+      }
     }
+  }
+
+  if (urlParams.get('openRegister') === 'true' && modal) {
+    modal.style.display = "flex";
+
+    const registerLink = document.querySelector('#register');
+    if (registerLink) {
+      registerLink.click();
+    }
+  }
 });
 
 // scrollToTop

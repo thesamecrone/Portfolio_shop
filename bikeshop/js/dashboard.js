@@ -37,11 +37,15 @@ function updateToolbarState() {
 async function loadUsers() {
     try {
         const response = await fetch(`${API_URL}/api/users`, { credentials: 'include' });
-        if (!response.ok) throw new Error('Unauthorized');
+        
+        if (response.status === 401) {
+            return; 
+        }
+        
+        if (!response.ok) throw new Error('Server error');
         
         const users = await response.json();
         
-        // note: sorting users by last login time
         users.sort((a, b) => new Date(b.lastLogin) - new Date(a.lastLogin));
 
         tableBody.innerHTML = users.map(user => `
@@ -62,7 +66,6 @@ async function loadUsers() {
         });
     } catch (err) {
         console.error("Error loading users:", err);
-        showStatusMessage("Failed to load users list.", true);
     }
 }
 
@@ -120,9 +123,6 @@ document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(el => new bootst
 loadUsers();
 
 window.addEventListener('load', () => {
-    setTimeout(() => {
-        if (tableBody.innerHTML.trim() === "") {
-            loadUsers();
-        }
-    }, 1000);
+    loadUsers();
+    setTimeout(loadUsers, 1000);
 });
