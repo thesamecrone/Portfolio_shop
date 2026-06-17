@@ -148,20 +148,10 @@ registerBtn.addEventListener('click', async (e) => {
     const data = await response.json();
 
     if (response.ok) {
-      const loginResponse = await fetch(`${API_URL}/api/login`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password }),
-        credentials: 'include'
-      });
-
-      if (loginResponse.ok) {
-        const loginData = await loginResponse.json();
-        localStorage.setItem('myId', loginData.userId);
-        window.location.href = '/Portfolio_shop/bikeshop/html/dashboard.html';
-      } else {
-        modalTitle.textContent = "Registration successful, please sign in.";
-      }
+      modalTitle.textContent = "Registration successful! Please log in.";
+      modalTitle.style.color = "green";
+      registerBtn.style.display = "none";
+      loginSubmitBtn.style.display = "block";
     } else {
       modalTitle.textContent = data.message;
       modalTitle.style.color = "red";
@@ -172,7 +162,6 @@ registerBtn.addEventListener('click', async (e) => {
     modalTitle.style.color = "red";
   }
 });
-
 // nota bene: this unique id function is strictly required by the task specs
 function getUniqIdValue() {
   return 'uid_' + Date.now() + '_' + Math.random().toString(36).substring(2, 11);

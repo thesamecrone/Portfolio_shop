@@ -121,8 +121,3 @@ btnDeleteUnverified.addEventListener('click', () => sendUserAction('delete-unver
 document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(el => new bootstrap.Tooltip(el));
 
 loadUsers();
-
-window.addEventListener('load', () => {
-    loadUsers();
-    setTimeout(loadUsers, 1000);
-});
