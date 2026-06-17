@@ -171,6 +171,16 @@ if (window.location.hash === '#login') {
     window.history.replaceState(null, null, window.location.pathname);
 }
 
+window.addEventListener('DOMContentLoaded', () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const modal = document.getElementById("loginModal"); 
+    
+    // Если в ссылке есть ?openLogin=true, открываем окно
+    if (urlParams.get('openLogin') === 'true' && modal) {
+        modal.style.display = "flex";
+    }
+});
+
 // scrollToTop
 
 const scroll = document.querySelector('.scrollToTop');

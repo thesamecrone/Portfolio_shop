@@ -86,8 +86,8 @@ async function sendUserAction(actionEndpoint) {
             credentials: 'include'
         });
 
-        if (response.status === 401) {
-            window.location.href = 'bike.html#login';
+       if (response.status === 401) {
+            window.location.href = 'bike.html?openLogin=true';
             return;
         }
 
