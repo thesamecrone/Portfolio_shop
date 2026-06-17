@@ -106,6 +106,7 @@ loginSubmitBtn.addEventListener('click', async (e) => {
     const data = await response.json();
 
     if (response.ok) {
+      localStorage.setItem('myId', data.userId);
       window.location.href = '/Portfolio_shop/bikeshop/html/dashboard.html';
     } else {
       modalTitle.textContent = data.message || "Login failed";
@@ -146,6 +147,7 @@ registerBtn.addEventListener('click', async (e) => {
     const data = await response.json();
 
     if (response.ok) {
+      localStorage.setItem('myId', data.userId);
       window.location.href = '/Portfolio_shop/bikeshop/html/dashboard.html';
     } else {
       modalTitle.textContent = data.message;
