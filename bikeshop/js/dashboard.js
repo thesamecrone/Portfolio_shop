@@ -87,7 +87,7 @@ async function sendUserAction(actionEndpoint) {
         });
 
        if (response.status === 401) {
-            window.location.href = 'bike.html?openLogin=true';
+            window.location.href = 'bike.html?openLogin=true&reason=blocked';
             return;
         }
 

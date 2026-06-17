@@ -175,9 +175,17 @@ window.addEventListener('DOMContentLoaded', () => {
     const urlParams = new URLSearchParams(window.location.search);
     const modal = document.getElementById("loginModal"); 
     
-    // Если в ссылке есть ?openLogin=true, открываем окно
     if (urlParams.get('openLogin') === 'true' && modal) {
         modal.style.display = "flex";
+        
+        if (urlParams.get('reason') === 'blocked') {
+            const modalTitle = document.querySelector('.modal-content h2');
+            if (modalTitle) {
+                modalTitle.textContent = "Your account has been blocked";
+                modalTitle.style.color = "red";
+                modalTitle.style.fontSize = "18px";
+            }
+        }
     }
 });
 
