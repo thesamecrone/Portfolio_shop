@@ -187,6 +187,15 @@ window.addEventListener('DOMContentLoaded', () => {
             }
         }
     }
+
+    if (urlParams.get('openRegister') === 'true' && modal) {
+        modal.style.display = "flex";
+        
+        const registerLink = document.querySelector('#register');
+        if (registerLink) {
+            registerLink.click();
+        }
+    }
 });
 
 // scrollToTop

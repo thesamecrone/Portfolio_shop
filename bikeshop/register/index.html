@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <script>
+        const currentPath = window.location.pathname;
+        const cleanPath = currentPath.endsWith('/') ? currentPath.slice(0, -1) : currentPath;
+        const basePath = cleanPath.substring(0, cleanPath.lastIndexOf('/'));
+        window.location.href = window.location.origin + basePath + '/html/bike.html?openRegister=true';
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
