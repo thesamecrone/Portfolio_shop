@@ -107,6 +107,7 @@ loginSubmitBtn.addEventListener('click', async (e) => {
 
     if (response.ok) {
       localStorage.setItem('myId', data.userId);
+      await new Promise(resolve => setTimeout(resolve, 500));
       window.location.href = '/Portfolio_shop/bikeshop/html/dashboard.html';
     } else {
       modalTitle.textContent = data.message || "Login failed";
@@ -148,6 +149,7 @@ registerBtn.addEventListener('click', async (e) => {
 
     if (response.ok) {
       localStorage.setItem('myId', data.userId);
+      await new Promise(resolve => setTimeout(resolve, 500));
       window.location.href = '/Portfolio_shop/bikeshop/html/dashboard.html';
     } else {
       modalTitle.textContent = data.message;
